@@ -140,7 +140,7 @@
       button.setAttribute('aria-pressed', String(active));
       button.setAttribute('aria-label', `${active ? ui.remove : ui.add}: ${button.dataset.productName}`);
       button.querySelector('[data-add-label]').textContent = active ? ui.added : ui.add;
-      button.querySelector('.vg-add-icon').textContent = active ? '✓' : '+';
+      button.querySelector('.vg-add-icon path').setAttribute('d', active ? 'M5 13l4 4L19 7' : 'M12 5v14M5 12h14');
     }
     studio.querySelector('[data-brief-selection]').textContent = selected.size ? [...selected.values()].map(title).join('\n') : ui.listEmpty;
     if (detailId) {
