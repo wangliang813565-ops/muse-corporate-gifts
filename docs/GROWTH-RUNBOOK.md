@@ -23,6 +23,18 @@ Use the question map and the latest report. Read actual buyer answers, not only 
 
 Search indexing, impressions, clicks, AI citations and enquiries require actual Search Console/analytics/search-answer evidence. If unavailable they remain unknown. llms.txt, valid schema, crawlable HTML or a checklist score is not proof of citation, ranking or revenue. Do not invent statistics or promise inclusion in AI answers. Search crawlers and training crawlers are different; wildcard Allow already permits search bots.
 
+## Actual Search Console baseline and follow-up
+
+Read the current GEO skill and its references/google-search-console.md before interpreting reports. The verified URL-prefix property is https://gifts.aimuse.ae/ (added 2026-10-16). The toys property is a different site. Keep static/google30d7c935c23d8f9a.html intact; the release checker verifies the exact public verification file.
+
+Actual onboarding findings on 2026-10-16: ownership verification succeeded; Search performance and indexing reports are processing, so queries, page impressions, clicks and rankings are unavailable, not zero. Google AI inclusion inherits aimuse.ae and is currently Include; no policy change is needed. Absence of a separate AI performance report is not evidence of zero AI impressions.
+
+Google's live inspection of the HTTPS homepage at 21:34 Dubai failed with an invalid server SSL certificate and a site-level indexing issue. Fix and verify the production certificate before requesting indexing. An accepted verification file or sitemap submission is not proof that HTTPS pages can be fetched or indexed. Check the sitemap's actual processing/discovery status after certificate recovery, and re-submit only if needed; don't repeatedly submit while the same transport failure remains.
+
+First recovery checks: / and /ar/, then both languages of /guides/uae-corporate-gifting-calendar/, /guides/premium-technology-gifts/ and /blog/eid-al-etihad-2026-october-gift-plan/. These are business-priority entry points, not a performance ranking inferred from missing data. Use live inspection on a representative page after recovery, request indexing only when eligible, then accept sitemap discovery and later indexed status separately.
+
+In the existing daily run, read fresh GSC data when available and retain the last real state if access or processing prevents it. Start with 28 complete PT report days and country/device/page/query filters appropriate to UAE corporate buyers; a new property may not yet support a comparable period. Preserve report range, filters, latest final/preliminary day and original evidence in the existing output folder. Google AI impressions overlap Web totals, and neither report proves qualified enquiries. Use observed page/query mismatches to select specific edits; use business research explicitly when observations are insufficient. No extra scheduler, account, permission or analytics service is required.
+
 ## One useful theme each Dubai day
 
 Check every existing topic_key, id, slug and date first. At most one new blog theme per local date, with English and Arabic released together. The builder rejects duplicate themes and duplicate blog dates. It does not generate articles. Near-duplicate questions require editorial review even when the keys differ. Stable guides are updated in place; do not turn minor updates into a new article or change old dates just for freshness.
