@@ -111,6 +111,8 @@ result = {"time_utc": datetime.now(timezone.utc).isoformat(), "mode": "live" if 
           "search_indexing": "unknown", "ai_citations": "unknown", "search_referrals": "unknown", "qualified_enquiries": "unknown"}
 try:
     robots = get("robots.txt").decode()
+    verification = get("google30d7c935c23d8f9a.html").decode("utf-8").strip()
+    require(verification == "google-site-verification: google30d7c935c23d8f9a.html", "Search Console ownership file missing or changed")
     require("Disallow: /\n" not in robots, "robots blocks all crawling")
     require(CANONICAL + "sitemap.xml" in robots, "sitemap missing from robots")
     paths = []
