@@ -1,0 +1,22 @@
+{{ define "pagehead" }}
+<link rel="stylesheet" href="{{ "css/gift-atelier.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/gift-knowledge.css" | relURL }}">
+{{ end }}
+{{ define "main" }}
+{{ $lang := .Lang }}{{ $home := "/" | relLangURL }}
+<article class="gk-wrap gk-article">
+  <nav class="gk-breadcrumb" aria-label="{{ if eq $lang "ar" }}مسار الصفحة{{ else }}Breadcrumb{{ end }}"><a href="{{ $home }}">MUSE</a><span>/</span><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></nav>
+  <header class="gk-article-head"><p class="gk-kicker">MUSE / {{ if eq .Section "blog" }}{{ if eq $lang "ar" }}مجلة الهدايا{{ else }}The gift journal{{ end }}{{ else }}{{ if eq $lang "ar" }}دليل الشراء{{ else }}Buying guide{{ end }}{{ end }}</p><h1>{{ .Title }}</h1><p class="gk-byline">{{ if eq $lang "ar" }}فريق هدايا ميوز · دبي{{ else }}MUSE Gift Team · Dubai{{ end }}{{ if eq .Section "blog" }} · <time datetime="{{ .Date.Format "2006-01-02" }}">{{ if eq $lang "ar" }}{{ .Date.Format "2006/01/02" }}{{ else }}{{ .Date.Format "02 January 2006" }}{{ end }}</time>{{ end }}</p><p class="gk-answer">{{ .Params.answer }}</p></header>
+  <figure class="gk-hero"><img src="{{ .Params.image }}" alt="{{ .Description }}" width="1536" height="1024" fetchpriority="high"><figcaption>{{ if eq $lang "ar" }}تصوّر لتنسيق المنتج والتغليف. نؤكد تفاصيل مشروعك في المقترح.{{ else }}Styled product and presentation imagery. We agree your project details in the proposal.{{ end }}</figcaption></figure>
+  <div class="gk-reading"><aside class="gk-toc"><p>{{ if eq $lang "ar" }}في هذا الدليل{{ else }}In this guide{{ end }}</p>{{ .TableOfContents }}</aside><div class="gk-body">{{ .Content }}</div></div>
+  <section class="gk-products"><h2>{{ if eq $lang "ar" }}هدايا ترتبط بهذه الفكرة{{ else }}Gifts for this direction{{ end }}</h2><div class="gk-product-grid">{{ range .Params.products }}{{ $pid := . }}{{ range where hugo.Data.corporate_gifts_v2.products "id" $pid }}
+  <article><a href="{{ $home }}#gift-{{ .id }}"><img src="{{ printf "/images/corporate-gifts/v2/%s" .image }}" alt="{{ .brand }} — {{ index .title $lang }}" width="1200" height="1200" loading="lazy"><bdi>{{ .brand }}</bdi><h3>{{ index .title $lang }}</h3></a><p>{{ index .text $lang }}</p><p class="gk-scene">{{ index .scene $lang }}</p><p>{{ $ui := index hugo.Data.corporate_gifts_v2.ui $lang }}{{ with index .personalise $lang }}{{ . }}{{ else }}{{ if .custom }}{{ $ui.originalCustom }}{{ else }}{{ $ui.brandCustom }}{{ end }}{{ end }}</p>{{ with index .notice $lang }}<p>{{ . }}</p>{{ end }}</article>
+  {{ end }}{{ end }}</div></section>
+  <section class="gk-faq"><h2>{{ if eq $lang "ar" }}أسئلة الشراء{{ else }}Buyer questions{{ end }}</h2>{{ range .Params.faq }}<details open><summary>{{ .q }}</summary><p>{{ .a }}</p></details>{{ end }}</section>
+  {{ with .Params.sources }}<section class="gk-sources"><h2>{{ if eq $lang "ar" }}مراجع مفيدة{{ else }}Useful references{{ end }}</h2><ul>{{ range . }}<li><a href="{{ .url }}">{{ .title }}</a></li>{{ end }}</ul></section>{{ end }}
+  <aside class="gk-contact"><h2>{{ if eq $lang "ar" }}لنعمل على هديتك التالية{{ else }}Let’s shape your next gift.{{ end }}</h2><p>{{ if eq $lang "ar" }}أرسل المناسبة والمستلمين والكمية وتاريخ التسليم، مع اختيارك من الهدايا.{{ else }}Send us your occasion, recipients, quantity, required date and the gifts you have in mind.{{ end }}</p><a href="{{ $home }}#gift-brief">{{ if eq $lang "ar" }}جهّز موجز المشروع{{ else }}Create your gift brief{{ end }} ↗</a><a class="gk-chat" href="https://wa.me/{{ .Site.Params.whatsapp }}?text={{ printf "Hello MUSE, I am planning a corporate gift project. I read: %s" .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></aside>
+  <section class="gk-related"><h2>{{ if eq $lang "ar" }}تابع القراءة{{ else }}Keep exploring{{ end }}</h2><div class="gk-grid">{{ range first 3 (where .Site.RegularPages "Params.knowledgeId" "ne" .Params.knowledgeId) }}{{ partial "knowledge-card.html" . }}{{ end }}</div></section>
+</article>
+{{ $faq := slice }}{{ range .Params.faq }}{{ $faq = $faq | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faq | jsonify | safeJS }}</script>
+{{ end }}

@@ -2,7 +2,8 @@ baseURL = 'https://gifts.aimuse.ae/'
 title = 'MUSE Corporate Gifts Dubai'
 defaultContentLanguage = 'en'
 enableRobotsTXT = true
-disableKinds = ['taxonomy', 'term', 'RSS']
+disableKinds = ['taxonomy', 'term']
+enableGitInfo = false
 [params]
   description = 'Corporate gifts for Ramadan, Eid, UAE occasions and business milestones.'
   brand = 'MUSE'
@@ -21,7 +22,8 @@ disableKinds = ['taxonomy', 'term', 'RSS']
     languageDirection = 'rtl'
     contentDir = 'content/ar'
 [outputs]
-  home = ['HTML']
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
 [markup.goldmark.renderer]
   unsafe = true
 [sitemap]

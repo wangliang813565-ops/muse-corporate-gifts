@@ -1,6 +1,6 @@
 ---
-title: "Corporate Gifts Dubai | Ramadan, Eid & UAE Occasions | MUSE"
-description: "Choose corporate gifts by occasion: Ramadan, Eid, UAE National Day and employee awards. Explore Laifen, Shokz, DJI and original MUSE gifts with bespoke presentation."
+title: "Custom Corporate Gifts Dubai | UAE Business Gifting | MUSE"
+description: "Choose corporate gifts, branded packaging and bespoke gift projects for UAE clients, employees and VIPs. Explore premium technology, original designs and occasion-led ideas."
 layout: "atelier"
 type: "corporate-gifts"
 translationKey: "corporate-gifts"

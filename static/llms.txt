@@ -1,22 +1,32 @@
 # MUSE Corporate Gifts Dubai
 
-> Gifts chosen for the recipient and the UAE occasion. Technology, desk and play objects, coffee, leather and original manufactured gifts.
+> Corporate gift selection, branded presentation and original gift projects for the UAE.
 
-- [English gift collection](https://gifts.aimuse.ae/)
+- [English collection](https://gifts.aimuse.ae/)
 - [هدايا الشركات](https://gifts.aimuse.ae/ar/)
 
-## UAE occasion gift guides
-- [Ramadan](https://gifts.aimuse.ae/#occasion-ramadan) — رمضان
-- [Eid Al Fitr](https://gifts.aimuse.ae/#occasion-eid-al-fitr) — عيد الفطر
-- [Eid Al Adha](https://gifts.aimuse.ae/#occasion-eid-al-adha) — عيد الأضحى
-- [Hag Al Leila](https://gifts.aimuse.ae/#occasion-haq-al-laila) — حق الليلة
-- [Emirati Women's Day](https://gifts.aimuse.ae/#occasion-emirati-womens-day) — يوم المرأة الإماراتية
-- [UAE Flag Day](https://gifts.aimuse.ae/#occasion-uae-flag-day) — يوم العلم الإماراتي
-- [Eid Al Etihad · UAE National Day](https://gifts.aimuse.ae/#occasion-uae-national-day) — عيد الاتحاد
-- [Year-end & employee recognition](https://gifts.aimuse.ae/#occasion-year-end-recognition) — نهاية العام وتكريم الموظفين
-- [Launches, exhibitions & handovers](https://gifts.aimuse.ae/#occasion-business-milestones) — الإطلاقات والمعارض والتسليم
+## Buying guides and gift journal
+- [Corporate gift customisation: packaging, personalisation or original manufacturing?](https://gifts.aimuse.ae/guides/corporate-gift-customisation/)
+- [تخصيص هدايا الشركات: تغليف بالهوية أم إضافة الأسماء أم تصنيع خاص؟](https://gifts.aimuse.ae/ar/guides/corporate-gift-customisation/)
+- [Premium technology corporate gifts: choose by use, not the specification list](https://gifts.aimuse.ae/guides/premium-technology-gifts/)
+- [الهدايا التقنية الراقية للشركات: اختر حسب الاستخدام](https://gifts.aimuse.ae/ar/guides/premium-technology-gifts/)
+- [The UAE corporate gifting calendar: occasions, recipients and buying windows](https://gifts.aimuse.ae/guides/uae-corporate-gifting-calendar/)
+- [تقويم هدايا الشركات في الإمارات: المناسبات وفترات بدء الشراء](https://gifts.aimuse.ae/ar/guides/uae-corporate-gifting-calendar/)
+- [Eid Al Etihad 2026 corporate gifts: what to decide from 16 October](https://gifts.aimuse.ae/blog/eid-al-etihad-2026-october-gift-plan/)
+- [هدايا عيد الاتحاد ٢٠٢٦ للشركات: قرارات تبدأ من ١٦ أكتوبر](https://gifts.aimuse.ae/ar/blog/eid-al-etihad-2026-october-gift-plan/)
 
-- [Complete gift guide](https://gifts.aimuse.ae/llms-full.txt)
-- [Structured occasion and product guide](https://gifts.aimuse.ae/gift-guide.json)
+## UAE occasions
+- [Ramadan](https://gifts.aimuse.ae/#occasion-ramadan)
+- [Eid Al Fitr](https://gifts.aimuse.ae/#occasion-eid-al-fitr)
+- [Eid Al Adha](https://gifts.aimuse.ae/#occasion-eid-al-adha)
+- [Hag Al Leila](https://gifts.aimuse.ae/#occasion-haq-al-laila)
+- [Emirati Women's Day](https://gifts.aimuse.ae/#occasion-emirati-womens-day)
+- [UAE Flag Day](https://gifts.aimuse.ae/#occasion-uae-flag-day)
+- [Eid Al Etihad · UAE National Day](https://gifts.aimuse.ae/#occasion-uae-national-day)
+- [Year-end & employee recognition](https://gifts.aimuse.ae/#occasion-year-end-recognition)
+- [Launches, exhibitions & handovers](https://gifts.aimuse.ae/#occasion-business-milestones)
+
+- [Full bilingual buying answers](https://gifts.aimuse.ae/llms-full.txt)
+- [Structured content](https://gifts.aimuse.ae/gift-guide.json)
 
 WhatsApp: +971 52 568 2660. Email: musetrendytoy@gmail.com.

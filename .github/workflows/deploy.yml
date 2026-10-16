@@ -18,11 +18,21 @@ jobs:
           wget -q -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.159.2/hugo_extended_0.159.2_linux-amd64.deb
           sudo dpkg -i /tmp/hugo.deb
       - uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Synchronise bilingual content
+        run: |
+          python -m pip install -r requirements.txt
+          python -m unittest discover -s tests
+          python scripts/sync_content.py
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
           TZ: Asia/Dubai
-        run: hugo --gc --minify
+        run: |
+          hugo --gc --minify
+          python scripts/check_site.py --build public --output /tmp/gift-build-audit.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

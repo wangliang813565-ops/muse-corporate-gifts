@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/webp" href="/images/brand/muse-logo-96.webp">
-  <title>{{ .Title }}</title>
+  <title>{{ .Params.seoTitle | default .Title }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  {{/* GEO: article time signals for AI freshness ranking */}}
+  {{/* Real publication dates belong to articles, not arbitrary site pages. */}}
   {{ if .IsPage }}
   {{ with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
   {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
@@ -19,13 +19,14 @@
     {{ end }}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
-  {{ if eq .Layout "atelier" }}{{ range .AllTranslations }}{{ if eq .Lang "en" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}{{ else }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}
-  {{/* W3: OG image fallback */}}
-  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ else }}<meta property="og:image" content="{{ "images/brand/muse-logo.png" | absURL }}">{{ end }}
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{/* QW2 override Hugo defaults: og:locale en_US not en, twitter:card summary_large_image not summary, og:image:width/height/alt */}}
-<meta property="og:locale" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_US{{ end }}">
+  {{ range .AllTranslations }}{{ if eq .Lang "en" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="MUSE Corporate Gifts Dubai">
+  <meta property="og:type" content="{{ if and .IsPage (eq .Section "blog") }}article{{ else }}website{{ end }}">
+  <meta property="og:image" content="{{ .Params.image | default "/images/corporate-gifts/v2/hero-v2.webp" | absURL }}">
+  <meta property="og:locale" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_AE{{ end }}">
   {{ range .Translations }}<meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_US{{ end }}">
   {{ end }}
   {{/* QW2: og:image dimensions + alt + twitter:card=summary_large_image */}}
@@ -502,28 +503,15 @@
 </head>
 <body class="page-corporate-gifts">
   <header>
-    <a href="{{ .Site.BaseURL }}" class="brand"><img src="{{ if eq .Layout "atelier" }}{{ "images/brand/muse-logo-96.webp" | relURL }}{{ else }}{{ "images/brand/muse-logo.png" | relURL }}{{ end }}" alt="" class="brand-logo">MUSE</a>
+    <a href="{{ "/" | relLangURL }}" class="brand"><img src="{{ "images/brand/muse-logo-96.webp" | relURL }}" width="36" height="36" alt="" class="brand-logo">MUSE</a>
     <button class="menu-toggle" onclick="this.setAttribute('aria-expanded', String(this.nextElementSibling.classList.toggle('open')))" aria-label="{{ if eq .Lang "ar" }}القائمة{{ else }}Menu{{ end }}" aria-expanded="false" aria-controls="site-navigation">&#9776;</button>
     <nav id="site-navigation">
-      {{ if eq .Layout "atelier" }}
-      <a href="#gift-selection">{{ if eq .Lang "ar" }}الهدايا{{ else }}The gifts{{ end }}</a>
-      <a href="#gift-occasion-guide">{{ if eq .Lang "ar" }}حسب المناسبة{{ else }}By occasion{{ end }}</a>
-      <a href="#gift-customisation">{{ if eq .Lang "ar" }}التخصيص{{ else }}Make it yours{{ end }}</a>
-      <a href="#gift-brief">{{ if eq .Lang "ar" }}خطّط لمشروعك{{ else }}Plan a project{{ end }}</a>
-      {{ else }}
-      <a href="{{ "hala/" | relLangURL }}">Hala IP</a>
-      <a href="{{ "collaboration/" | relLangURL }}">Collaboration</a>
-      <a href="{{ "corporate-gifts/" | relLangURL }}"{{ if eq .Layout "atelier" }} aria-current="page"{{ end }}>{{ if eq .Lang "ar" }}هدايا الشركات{{ else }}Corporate Gifts{{ end }}</a>
-      <a href="{{ "custom/" | relLangURL }}">Custom</a>
-      <a href="{{ "products/" | relLangURL }}">Products</a>
-      <a href="{{ "blog/" | relLangURL }}">Blog</a>
-      <a href="{{ "about/" | relLangURL }}">About</a>
-      {{ with .Site.GetPage "/locations" }}
-        <a href="{{ .RelPermalink }}">Locations</a>
-      {{ else }}
-        <a href="{{ "locations/" | relURL }}" lang="en">Locations (English)</a>
-      {{ end }}
-      {{ end }}
+      {{ $home := "/" | relLangURL }}
+      <a href="{{ $home }}#gift-selection">{{ if eq .Lang "ar" }}الهدايا{{ else }}The gifts{{ end }}</a>
+      <a href="{{ $home }}#gift-occasion-guide">{{ if eq .Lang "ar" }}حسب المناسبة{{ else }}By occasion{{ end }}</a>
+      <a href="{{ "guides/" | relLangURL }}">{{ if eq .Lang "ar" }}دليل الشراء{{ else }}Buying guides{{ end }}</a>
+      <a href="{{ "blog/" | relLangURL }}">{{ if eq .Lang "ar" }}المجلة{{ else }}Journal{{ end }}</a>
+      <a href="{{ $home }}#gift-brief">{{ if eq .Lang "ar" }}خطّط لمشروعك{{ else }}Plan a project{{ end }}</a>
       {{ if eq .Lang "en" }}
         {{ if .IsTranslated }}{{ range .Translations }}<a href="{{ .RelPermalink }}" lang="ar">العربية</a>{{ end }}{{ else }}<a href="{{ .Site.BaseURL }}ar/">العربية</a>{{ end }}
       {{ else }}
