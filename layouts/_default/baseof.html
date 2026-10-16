@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang | default "en" }}" {{ if eq .Lang "ar" }}dir="rtl"{{ end }}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/webp" href="/images/brand/muse-logo-96.webp">
+  <title>{{ .Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{/* GEO: article time signals for AI freshness ranking */}}
+  {{ if .IsPage }}
+  {{ with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{ end }}
+  {{/* C5: hreflang tags for multilingual SEO */}}
+  {{ if .IsTranslated }}
+    {{ range .Translations }}
+    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ if eq .Layout "atelier" }}{{ range .AllTranslations }}{{ if eq .Lang "en" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}{{ else }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}
+  {{/* W3: OG image fallback */}}
+  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ else }}<meta property="og:image" content="{{ "images/brand/muse-logo.png" | absURL }}">{{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{/* QW2 override Hugo defaults: og:locale en_US not en, twitter:card summary_large_image not summary, og:image:width/height/alt */}}
+<meta property="og:locale" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_US{{ end }}">
+  {{ range .Translations }}<meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_US{{ end }}">
+  {{ end }}
+  {{/* QW2: og:image dimensions + alt + twitter:card=summary_large_image */}}
+  <meta property="og:image:width" content="{{ .Params.imageWidth | default 1200 }}">
+  <meta property="og:image:height" content="{{ .Params.imageHeight | default 630 }}">
+  <meta property="og:image:alt" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  {{ partial "schema-org.html" . }}
+  <style>
+    :root {
+      /* Tier 1: Quiet Luxury Palette — design_mideast_luxury_aesthetic.md v2.1 */
+      --sand: #C2A87D;
+      --ivory: #F5F0E8;
+      --pearl: #FAF7F2;
+      --taupe: #3A3028;
+      --greige: #7A6B5A;
+      --gold-matte: #B8943E;
+      --blush: #E8C8B8;
+      --sage: #9CAF88;
+      --latte: #C4A882;
+      --cream-dark: #F0E8DD;
+      /* Tier 2 accents */
+      --champagne: #F7E7CE;
+      --rose-gold: #B76E79;
+      /* Functional */
+      --white: #FFFFFF;
+      --font-heading: 'Georgia', 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      --max-width: 1200px;
+      --content-width: 760px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-body);
+      color: var(--taupe);
+      background: var(--pearl);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+    a { color: var(--gold-matte); text-decoration: none; }
+    a:hover { color: var(--greige); }
+
+    /* ── Header ── */
+    header {
+      background: var(--taupe);
+      color: var(--ivory);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .brand {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      letter-spacing: 8px;
+      color: var(--sand);
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    header .brand-logo {
+      height: 36px;
+      width: auto;
+      border-radius: 0;
+    }
+    header nav { display: flex; align-items: center; gap: 1.8rem; }
+    header nav a {
+      color: var(--ivory);
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    header nav a:hover { color: var(--sand); }
+
+    /* Mobile hamburger */
+    .menu-toggle { display: none; background: none; border: none; color: var(--sand); font-size: 1.6rem; cursor: pointer; padding: 0.2rem; }
+    .menu-toggle:focus { outline: none; }
+
+    /* ── Hero (shared across all pages) ── */
+    .hero {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+      background: var(--taupe);
+    }
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(to left, rgba(58,48,40,0.78) 0%, rgba(58,48,40,0.4) 45%, transparent 75%);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0 6%;
+    }
+    .hero-text {
+      max-width: 480px;
+      text-align: right;
+      color: var(--pearl);
+    }
+    .hero-text h1 {
+      font-family: var(--font-heading);
+      font-size: 2.6rem;
+      line-height: 1.15;
+      color: var(--pearl);
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+    .hero-text p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: var(--blush);
+      margin-bottom: 1.5rem;
+    }
+    .hero-text .cta {
+      background: var(--sand);
+      color: var(--white);
+      padding: 0.75rem 2.2rem;
+      border-radius: 2px;
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+    .hero-text .cta:hover { background: var(--gold-matte); color: var(--white); }
+
+    /* ── Main ── */
+    main {
+      margin: 0 auto;
+      padding: 0;
+    }
+    /* Pages that need centered content use .content or inline max-width */
+    .content {
+      max-width: var(--content-width);
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    /* ── Section headings ── */
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+      color: var(--taupe);
+      text-align: center;
+      margin: 3rem 0 0.5rem;
+      letter-spacing: 2px;
+    }
+    .section-line {
+      width: 50px;
+      height: 2px;
+      background: var(--sand);
+      margin: 0 auto 2.5rem;
+    }
+
+    /* ── Value Props ── */
+    .values {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      max-width: var(--max-width);
+      margin: 0 auto 3rem;
+      padding: 0 1rem;
+    }
+    .value-card {
+      text-align: center;
+      padding: 2rem 1.5rem;
+    }
+    .value-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    .value-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      color: var(--taupe);
+      margin-bottom: 0.8rem;
+      letter-spacing: 1px;
+    }
+    .value-card p {
+      font-size: 0.92rem;
+      color: var(--greige);
+      line-height: 1.6;
+    }
+
+    /* ── Product grid ── */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: var(--max-width);
+      margin: 0 auto 3rem;
+      padding: 0 1rem;
+    }
+    .product-card {
+      background: var(--white);
+      border-radius: 6px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(58,48,40,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      border-radius: 0;
+    }
+    .product-card .product-name {
+      padding: 0.8rem 1rem;
+      font-size: 0.85rem;
+      color: var(--greige);
+      text-align: center;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── About banner ── */
+    .about-banner {
+      background: var(--taupe);
+      color: var(--ivory);
+      padding: 4rem 2rem;
+      text-align: center;
+      margin: 2rem 0;
+      border-radius: 4px;
+    }
+    .about-banner h2 {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      color: var(--sand);
+      margin-bottom: 1.5rem;
+      letter-spacing: 2px;
+      border: none;
+      padding: 0;
+    }
+    .about-banner p {
+      max-width: 650px;
+      margin: 0 auto 1rem;
+      color: var(--blush);
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    .about-banner .cta {
+      background: var(--sand);
+      color: var(--white);
+      padding: 0.7rem 2rem;
+      border-radius: 2px;
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .about-banner .cta:hover { background: var(--gold-matte); color: var(--white); }
+
+    /* ── Typography ── */
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 2.4rem;
+      color: var(--taupe);
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+    h2 {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      color: var(--taupe);
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--blush);
+    }
+    h3 {
+      font-size: 1.15rem;
+      color: var(--greige);
+      margin: 2rem 0 0.8rem;
+    }
+    p { margin-bottom: 1.2rem; }
+    img { max-width: 100%; height: auto; border-radius: 4px; }
+    ul, ol { margin-bottom: 1.2rem; padding-left: 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    blockquote {
+      border-left: 3px solid var(--sand);
+      padding: 0.8rem 1.2rem;
+      margin: 1.5rem 0;
+      background: var(--cream-dark);
+      font-style: italic;
+    }
+
+    /* ── Blog list ── */
+    .blog-list { max-width: var(--max-width); margin: 0 auto; }
+    .blog-list article {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--cream-dark);
+    }
+    .blog-list article h3 { margin-top: 0; }
+    .blog-list .meta {
+      color: var(--greige);
+      font-size: 0.82rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── CTA button ── */
+    .cta {
+      display: inline-block;
+      background: var(--sand);
+      color: var(--white);
+      padding: 0.8rem 2rem;
+      border-radius: 2px;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 1rem;
+    }
+    .cta:hover { background: var(--gold-matte); color: var(--white); }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--taupe);
+      color: var(--greige);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      font-size: 0.85rem;
+      margin-top: 4rem;
+    }
+    footer a { color: var(--blush); }
+    footer a:hover { color: var(--sand); }
+    .gold-line {
+      width: 50px;
+      height: 2px;
+      background: var(--sand);
+      margin: 0.8rem auto;
+    }
+
+    /* ── RTL (Arabic) ── */
+    [dir="rtl"] { direction: rtl; text-align: right; }
+    [dir="rtl"] body { font-family: 'Segoe UI', 'SF Pro Arabic', -apple-system, 'Noto Sans Arabic', sans-serif; }
+    [dir="rtl"] header { flex-direction: row-reverse; }
+    [dir="rtl"] header nav { flex-direction: row-reverse; }
+    [dir="rtl"] header nav a { margin-left: 0; margin-right: 0; }
+    [dir="rtl"] blockquote { border-left: none; border-right: 3px solid var(--sand); padding-left: 0; padding-right: 1.2rem; }
+    [dir="rtl"] ul, [dir="rtl"] ol { padding-left: 0; padding-right: 1.5rem; }
+    [dir="rtl"] .hero-overlay {
+      justify-content: flex-start;
+      background: linear-gradient(to left, rgba(58,48,40,0.78) 0%, rgba(58,48,40,0.4) 45%, transparent 75%);
+    }
+    [dir="rtl"] .hero-text { text-align: right; }
+    [dir="rtl"] .value-card, [dir="rtl"] .product-name { text-align: center; }
+    [dir="rtl"] .content { text-align: right; }
+    [dir="rtl"] .blog-list .meta { text-align: right; }
+    [dir="rtl"] .about-banner { text-align: center; }
+    /* RTL: flip all hero overlays that use left-to-right gradient */
+    [dir="rtl"] .collab-hero-overlay,
+    [dir="rtl"] .blog-hero-overlay,
+    [dir="rtl"] .ip-hero-overlay {
+      background: linear-gradient(to left, rgba(58,48,40,0.78) 0%, rgba(58,48,40,0.4) 45%, transparent 75%) !important;
+      justify-content: flex-end !important;
+    }
+    [dir="rtl"] .custom-hero-overlay {
+      background: linear-gradient(to right, rgba(42,36,32,0.78) 0%, rgba(42,36,32,0.4) 45%, transparent 75%) !important;
+      justify-content: flex-start !important;
+    }
+    [dir="rtl"] .collab-hero-text,
+    [dir="rtl"] .blog-hero-text,
+    [dir="rtl"] .ip-hero-text,
+    [dir="rtl"] .custom-hero-text,
+    [dir="rtl"] .products-hero-text { text-align: right; }
+    /* RTL: flip grids and cards */
+    [dir="rtl"] .char-grid, [dir="rtl"] .merch-showcase,
+    [dir="rtl"] .use-cases, [dir="rtl"] .process-flow { direction: rtl; }
+    [dir="rtl"] .case-intro { direction: rtl; }
+    [dir="rtl"] .case-intro-text { text-align: right; }
+    [dir="rtl"] .spec-table th, [dir="rtl"] .spec-table td { text-align: right; }
+
+    /* ── Responsive: Tablet ── */
+    @media (max-width: 900px) {
+      .values { grid-template-columns: 1fr; gap: 1.5rem; }
+      .product-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ── Responsive: Mobile ── */
+    @media (max-width: 768px) {
+      body { font-size: 15px; }
+
+      /* Header → hamburger menu */
+      header { padding: 0.8rem 1.2rem; position: relative; }
+      .menu-toggle { display: block; }
+      header nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0; right: 0;
+        background: var(--taupe);
+        padding: 1rem 1.2rem;
+        gap: 0;
+        z-index: 100;
+        border-top: 1px solid rgba(194,168,125,0.2);
+      }
+      header nav.open { display: flex; }
+      header nav a {
+        padding: 0.8rem 0;
+        border-bottom: 1px solid rgba(194,168,125,0.1);
+        font-size: 0.9rem;
+      }
+      header nav a:last-child { border-bottom: none; }
+
+      /* Hero → taller on mobile so image breathes */
+      .hero { aspect-ratio: 4/3; }
+      .hero-overlay {
+        padding: 0 1.2rem;
+        background: linear-gradient(to top, rgba(58,48,40,0.85) 0%, rgba(58,48,40,0.4) 50%, transparent 80%);
+      }
+      .hero-text { max-width: 100%; text-align: left; }
+      .hero-text h1 { font-size: 1.6rem; }
+      .hero-text p { font-size: 0.88rem; margin-bottom: 1rem; }
+      .hero-text .cta { padding: 0.65rem 1.6rem; font-size: 0.8rem; }
+
+      /* Section titles */
+      .section-title { font-size: 1.4rem; margin: 2rem 0 0.5rem; }
+
+      /* Grids */
+      .product-grid { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; padding: 0 0.8rem; }
+      .values { padding: 0 1rem; }
+
+      /* Content */
+      .content { padding: 2rem 1.2rem; }
+      h1 { font-size: 1.6rem; }
+      h2 { font-size: 1.3rem; }
+
+      /* About banner */
+      .about-banner { padding: 2.5rem 1.2rem; }
+      .about-banner h2 { font-size: 1.3rem; }
+      .about-banner p { font-size: 0.9rem; }
+
+      /* Blog list */
+      .blog-list { padding: 0 1rem; }
+
+      /* Footer */
+      footer { padding: 2rem 1rem; margin-top: 2rem; }
+
+      /* Mobile RTL overrides */
+      [dir="rtl"] header { flex-direction: row-reverse; }
+      [dir="rtl"] header nav { text-align: right; }
+      [dir="rtl"] header nav a { text-align: right; }
+      [dir="rtl"] .hero-text { text-align: right; }
+    }
+
+    /* ── Responsive: Small phone ── */
+    @media (max-width: 480px) {
+      .hero { aspect-ratio: 3/2; }
+      .hero-text h1 { font-size: 1.35rem; }
+      .product-grid { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+      .product-card .product-name { font-size: 0.75rem; padding: 0.5rem; }
+    }
+  </style>
+  {{ block "pagehead" . }}{{ end }}
+</head>
+<body class="page-corporate-gifts">
+  <header>
+    <a href="{{ .Site.BaseURL }}" class="brand"><img src="{{ if eq .Layout "atelier" }}{{ "images/brand/muse-logo-96.webp" | relURL }}{{ else }}{{ "images/brand/muse-logo.png" | relURL }}{{ end }}" alt="" class="brand-logo">MUSE</a>
+    <button class="menu-toggle" onclick="this.setAttribute('aria-expanded', String(this.nextElementSibling.classList.toggle('open')))" aria-label="{{ if eq .Lang "ar" }}القائمة{{ else }}Menu{{ end }}" aria-expanded="false" aria-controls="site-navigation">&#9776;</button>
+    <nav id="site-navigation">
+      {{ if eq .Layout "atelier" }}
+      <a href="#gift-selection">{{ if eq .Lang "ar" }}الهدايا{{ else }}The gifts{{ end }}</a>
+      <a href="#gift-occasion-guide">{{ if eq .Lang "ar" }}حسب المناسبة{{ else }}By occasion{{ end }}</a>
+      <a href="#gift-customisation">{{ if eq .Lang "ar" }}التخصيص{{ else }}Make it yours{{ end }}</a>
+      <a href="#gift-brief">{{ if eq .Lang "ar" }}خطّط لمشروعك{{ else }}Plan a project{{ end }}</a>
+      {{ else }}
+      <a href="{{ "hala/" | relLangURL }}">Hala IP</a>
+      <a href="{{ "collaboration/" | relLangURL }}">Collaboration</a>
+      <a href="{{ "corporate-gifts/" | relLangURL }}"{{ if eq .Layout "atelier" }} aria-current="page"{{ end }}>{{ if eq .Lang "ar" }}هدايا الشركات{{ else }}Corporate Gifts{{ end }}</a>
+      <a href="{{ "custom/" | relLangURL }}">Custom</a>
+      <a href="{{ "products/" | relLangURL }}">Products</a>
+      <a href="{{ "blog/" | relLangURL }}">Blog</a>
+      <a href="{{ "about/" | relLangURL }}">About</a>
+      {{ with .Site.GetPage "/locations" }}
+        <a href="{{ .RelPermalink }}">Locations</a>
+      {{ else }}
+        <a href="{{ "locations/" | relURL }}" lang="en">Locations (English)</a>
+      {{ end }}
+      {{ end }}
+      {{ if eq .Lang "en" }}
+        {{ if .IsTranslated }}{{ range .Translations }}<a href="{{ .RelPermalink }}" lang="ar">العربية</a>{{ end }}{{ else }}<a href="{{ .Site.BaseURL }}ar/">العربية</a>{{ end }}
+      {{ else }}
+        {{ if .IsTranslated }}{{ range .Translations }}<a href="{{ .RelPermalink }}" lang="en">English</a>{{ end }}{{ else }}<a href="{{ .Site.BaseURL }}">English</a>{{ end }}
+      {{ end }}
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <div class="gold-line"></div>
+    <p>&copy; {{ now.Year }} {{ .Site.Params.company }}. Dubai, UAE.</p>
+    <p>
+      <a href="https://wa.me/{{ .Site.Params.whatsapp }}">WhatsApp</a> &middot;
+      <a href="https://instagram.com/musetrendytoy">Instagram</a> &middot;
+      <a href="mailto:{{ .Site.Params.email }}">Email</a>
+    </p>
+    <p style="font-size:.78rem;margin-top:.5rem;">
+      <a href="https://toys.aimuse.ae/{{ if eq .Lang "ar" }}ar/{{ end }}privacy/">{{ if eq .Lang "ar" }}سياسة الخصوصية{{ else }}Privacy{{ end }}</a> &middot;
+      <a href="https://toys.aimuse.ae/{{ if eq .Lang "ar" }}ar/{{ end }}terms/">{{ if eq .Lang "ar" }}شروط الخدمة{{ else }}Terms{{ end }}</a> &middot;
+      <a href="https://toys.aimuse.ae/{{ if eq .Lang "ar" }}ar/{{ end }}refund-policy/">{{ if eq .Lang "ar" }}الاسترجاع{{ else }}Refund Policy{{ end }}</a>
+    </p>
+  </footer>
+</body>
+</html>

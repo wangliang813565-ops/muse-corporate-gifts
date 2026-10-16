@@ -1,0 +1,37 @@
+name: Deploy gifting site
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: gift-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hugo
+        run: |
+          wget -q -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.159.2/hugo_extended_0.159.2_linux-amd64.deb
+          sudo dpkg -i /tmp/hugo.deb
+      - uses: actions/configure-pages@v5
+      - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+          TZ: Asia/Dubai
+        run: hugo --gc --minify
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

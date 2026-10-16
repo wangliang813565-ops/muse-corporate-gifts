@@ -1,0 +1,14 @@
+{{ $lang := .Lang }}{{ $seasons := hugo.Data.gift_occasions }}{{ $s := index $seasons.ui $lang }}{{ $products := hugo.Data.corporate_gifts_v2.products }}
+<section class="vg-section vg-wrap vg-occasion-guides" id="gift-occasion-guide" aria-labelledby="occasion-guide-heading">
+  <div class="vg-section-heading"><div><p class="vg-kicker">{{ $s.kicker }}</p><h2 id="occasion-guide-heading">{{ $s.title }}</h2></div><p>{{ $s.intro }}</p></div>
+  <div class="vg-occasion-accordion">
+  {{ range $seasons.guides }}{{ $guide := . }}
+    <details class="vg-occasion-guide" name="gift-occasion" id="occasion-{{ .id }}"{{ if eq .id "ramadan" }} open{{ end }}>
+      <summary><span><strong>{{ index .title $lang }}</strong><small>{{ index .when $lang }}</small></span><span class="vg-occasion-toggle" aria-hidden="true">+</span></summary>
+      <div class="vg-occasion-body"><div><h3>{{ index .question $lang }}</h3><p>{{ index .answer $lang }}</p><div class="vg-occasion-plan"><b>{{ $s.plan }}</b><p>{{ index .plan $lang }}</p></div></div>
+        <div class="vg-occasion-products">{{ range .products }}{{ $id := . }}{{ range where $products "id" $id }}<button type="button" class="vg-occasion-product" data-view="{{ .id }}"><img src="{{ printf "images/corporate-gifts/v2/%s-card.webp" .id | relURL }}" width="100" height="100" loading="lazy" alt=""><span><bdi>{{ .brand }}</bdi><strong>{{ index .title $lang }}</strong></span><span aria-hidden="true">↗</span></button>{{ end }}{{ end }}<a class="vg-link" data-gift-occasion="{{ .id }}" href="#gift-selection">{{ $s.see }} <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </details>
+  {{ end }}
+  </div><p class="vg-calendar-note">{{ $s.note }}</p>
+</section>

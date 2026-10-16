@@ -1,0 +1,1093 @@
+{
+  "site": "https://gifs.aimuse.ae/",
+  "languages": [
+    "en",
+    "ar"
+  ],
+  "company": "MUSE Information Services L.L.C-FZ",
+  "whatsapp": "+971525682660",
+  "occasions": [
+    {
+      "id": "ramadan",
+      "occasion": "ramadan",
+      "products": [
+        "ceramic-qahwa",
+        "oud-majlis",
+        "leather-folio"
+      ],
+      "title": {
+        "en": "Ramadan",
+        "ar": "رمضان"
+      },
+      "when": {
+        "en": "Before the first gathering",
+        "ar": "قبل أول لقاء"
+      },
+      "question": {
+        "en": "What corporate gifts work for Ramadan in the UAE?",
+        "ar": "ما هدايا الشركات المناسبة لرمضان في الإمارات؟"
+      },
+      "answer": {
+        "en": "Choose gifts for welcoming and hosting: a contemporary qahwa service, a MUSE architectural oud burner, or a personal leather folio for a business host. Match an Arabic greeting and a considered presentation case to the recipient.",
+        "ar": "اختر هدايا للترحيب والضيافة: طقم قهوة عربية معاصر، أو مبخرة العود المعمارية من ميوز، أو حافظة جلدية شخصية لمضيف من شركاء الأعمال. نسّق التهنئة العربية وعلبة التقديم مع هوية المتلقي."
+      },
+      "plan": {
+        "en": "Begin 8–12 weeks before gifting. Confirm artwork and packaging early, allowing for Chinese factory holiday schedules and shipping. Present client hospitality gifts before the first planned gathering.",
+        "ar": "ابدأ قبل الإهداء بـ٨–١٢ أسبوعاً. أكّد التصميم والتغليف مبكراً مع مراعاة عطلات المصانع الصينية والشحن، وسلّم هدايا الضيافة قبل أول لقاء مخطّط."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "eid-al-fitr",
+      "occasion": "ramadan",
+      "products": [
+        "laifen-wave",
+        "giiker-four",
+        "eketop",
+        "shokz-openfit"
+      ],
+      "title": {
+        "en": "Eid Al Fitr",
+        "ar": "عيد الفطر"
+      },
+      "when": {
+        "en": "After Ramadan · moon-sighting calendar",
+        "ar": "بعد رمضان · حسب إعلان العيد"
+      },
+      "question": {
+        "en": "What should a company give employees and families for Eid Al Fitr?",
+        "ar": "ماذا تقدّم الشركة للموظفين والعائلات في عيد الفطر؟"
+      },
+      "answer": {
+        "en": "Make Eid personal and enjoyable. Laifen Wave suits an employee wellbeing gift; GiiKER Smart Four brings people together; an EKETOP kinetic top adds a playful desk moment. For client appreciation, consider Shokz OpenFit 2 with an individual greeting.",
+        "ar": "اجعل هدية العيد شخصية وممتعة. تناسب فرشاة لافين Wave العناية بالموظفين، وتجمع GiiKER Smart Four أفراد العائلة، ويضيف بلبل EKETOP لحظة مرح للمكتب. ولتقدير العملاء، يمكن اختيار Shokz OpenFit 2 مع تهنئة باسم المتلقي."
+      },
+      "plan": {
+        "en": "Start selection 6–8 weeks before Eid, earlier for original manufacturing. Complete recipient lists and greetings before the final Ramadan rush; plan handover before the holiday break.",
+        "ar": "ابدأ الاختيار قبل العيد بـ٦–٨ أسابيع، وأبكر للتصنيع الأصلي. أكمل قائمة المستلمين والتهنئات قبل ازدحام نهاية رمضان، وخطّط للتسليم قبل إجازة العيد."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "eid-al-adha",
+      "occasion": "ramadan",
+      "products": [
+        "oud-majlis",
+        "leather-weekender",
+        "wacaco-pico"
+      ],
+      "title": {
+        "en": "Eid Al Adha",
+        "ar": "عيد الأضحى"
+      },
+      "when": {
+        "en": "A separate Eid gifting moment",
+        "ar": "مناسبة إهداء مستقلة"
+      },
+      "question": {
+        "en": "Which gifts suit Eid Al Adha clients and partners?",
+        "ar": "ما الهدايا المناسبة للعملاء والشركاء في عيد الأضحى؟"
+      },
+      "answer": {
+        "en": "Choose around the person's interests and family visits: an architectural oud burner for a host, a leather weekender for a traveller, or Wacaco Picopresso for a coffee enthusiast. Use an Eid Al Adha greeting rather than reusing Ramadan messaging.",
+        "ar": "اختر بحسب اهتمامات المتلقي والزيارات العائلية: مبخرة معمارية للمضيف، أو حقيبة جلدية لمحبي السفر، أو Wacaco Picopresso لعشاق القهوة. استخدم تهنئة خاصة بعيد الأضحى بدلاً من إعادة رسالة رمضان."
+      },
+      "plan": {
+        "en": "Begin 6–8 weeks ahead and agree a delivery date before the holiday. Confirm travel plans and recipient availability; Islamic holiday dates follow the UAE's official announcements.",
+        "ar": "ابدأ قبل المناسبة بـ٦–٨ أسابيع واتفق على التسليم قبل الإجازة. تأكد من مواعيد السفر وتوافر المستلمين، مع اعتماد إعلان الإمارات الرسمي لموعد العيد."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "haq-al-laila",
+      "occasion": "events",
+      "products": [
+        "giiker-slide",
+        "giiker-four",
+        "woven-hospitality"
+      ],
+      "title": {
+        "en": "Hag Al Leila",
+        "ar": "حق الليلة"
+      },
+      "when": {
+        "en": "Ahead of Ramadan",
+        "ar": "قبل رمضان"
+      },
+      "question": {
+        "en": "What can businesses choose for Hag Al Leila family activities?",
+        "ar": "ماذا تختار الشركات لفعاليات حق الليلة العائلية؟"
+      },
+      "answer": {
+        "en": "For a family activity or community event, pair a reusable presentation bag with an age-appropriate puzzle or shared game. GiiKER Super Slide and Smart Four are non-food options for family participation. Agree the age group and event format before choosing quantities.",
+        "ar": "لفعالية عائلية أو مجتمعية، نسّق حقيبة تقديم قابلة لإعادة الاستخدام مع لعبة ألغاز أو لعبة جماعية تناسب الفئة العمرية. تقدّم Super Slide وSmart Four من GiiKER خيارات للمشاركة العائلية. حدّد الأعمار وطبيعة الفعالية قبل اختيار الكميات."
+      },
+      "plan": {
+        "en": "Plan 6–8 weeks ahead. Confirm the local event date and age suitability first, then prepare the bags, Arabic artwork and activity quantities together.",
+        "ar": "خطّط قبل الفعالية بـ٦–٨ أسابيع. أكّد الموعد المحلي وملاءمة الأعمار أولاً، ثم جهّز الحقائب والتصميم العربي وكميات الأنشطة معاً."
+      },
+      "source": "https://www.visitdubai.com/en/festivals-and-events/hag-al-leila"
+    },
+    {
+      "id": "emirati-womens-day",
+      "occasion": "women",
+      "products": [
+        "huawei-freeclip",
+        "leather-folio",
+        "huawei-watch"
+      ],
+      "title": {
+        "en": "Emirati Women's Day",
+        "ar": "يوم المرأة الإماراتية"
+      },
+      "when": {
+        "en": "28 August",
+        "ar": "٢٨ أغسطس"
+      },
+      "question": {
+        "en": "What makes a thoughtful Emirati Women's Day corporate gift?",
+        "ar": "ما الهدية المدروسة ليوم المرأة الإماراتية؟"
+      },
+      "answer": {
+        "en": "Recognise achievement through the recipient's interests. Consider Huawei FreeClip 2 for everyday listening, a personal leather folio for work, or Watch GT 6 for someone who wants that watch format. Add a named message of appreciation and select the fit and finish with care.",
+        "ar": "قدّر الإنجاز بهدية تراعي اهتمام المتلقية: Huawei FreeClip 2 للاستماع اليومي، أو حافظة جلدية شخصية للعمل، أو WATCH GT 6 لمن تفضّل هذا الشكل من الساعات. أضف رسالة تقدير بالاسم، واختر المقاس والتشطيب بعناية."
+      },
+      "plan": {
+        "en": "Start in June or early July for an August presentation. Set the recipient tiers and personal messages before approving the final sample and packaging.",
+        "ar": "ابدأ في يونيو أو مطلع يوليو للإهداء في أغسطس. حدّد فئات المستلمات ورسائل التقدير قبل اعتماد العينة والتغليف."
+      },
+      "source": "https://www.wam.ae/en/article/hszrhrli-uae-celebrate-emirati-womens-day-monday"
+    },
+    {
+      "id": "uae-flag-day",
+      "occasion": "national",
+      "products": [
+        "leather-folio",
+        "executive-desk",
+        "cnc-sculpture"
+      ],
+      "title": {
+        "en": "UAE Flag Day",
+        "ar": "يوم العلم الإماراتي"
+      },
+      "when": {
+        "en": "3 November",
+        "ar": "٣ نوفمبر"
+      },
+      "question": {
+        "en": "Which corporate gifts suit UAE Flag Day?",
+        "ar": "ما هدايا الشركات المناسبة ليوم العلم الإماراتي؟"
+      },
+      "answer": {
+        "en": "Choose a restrained workplace gift: a personal folio, a leather-and-stone desk set, or an original metal keepsake. Coordinate the company's identity with a considered national colour detail. Treat Flag Day as its own occasion, with its own greeting and presentation.",
+        "ar": "اختر هدية للعمل بتفاصيل متزنة: حافظة شخصية، أو طقم مكتب من الجلد والحجر، أو تذكار معدني أصلي. نسّق هوية الشركة مع لمسة لونية وطنية مدروسة، وخصّص ليوم العلم تهنئته وطريقة تقديمه."
+      },
+      "plan": {
+        "en": "Start planning in September. For a late brief, choose a product and decoration route whose availability can be confirmed quickly; do not begin a new tooling project for a near-term handover.",
+        "ar": "ابدأ التخطيط في سبتمبر. وللطلبات المتأخرة، اختر منتجاً وطريقة تخصيص يمكن تأكيد توافرهما سريعاً، وتجنّب مشروع قوالب جديداً لموعد قريب."
+      },
+      "source": "https://www.nma.gov.ae/en/media-center/events/flag-day"
+    },
+    {
+      "id": "uae-national-day",
+      "occasion": "national",
+      "products": [
+        "oud-majlis",
+        "cnc-sculpture",
+        "executive-desk",
+        "leather-folio"
+      ],
+      "title": {
+        "en": "Eid Al Etihad · UAE National Day",
+        "ar": "عيد الاتحاد"
+      },
+      "when": {
+        "en": "2 December",
+        "ar": "٢ ديسمبر"
+      },
+      "question": {
+        "en": "What should we choose for UAE National Day corporate gifting?",
+        "ar": "ماذا نختار لهدايا الشركات في عيد الاتحاد؟"
+      },
+      "answer": {
+        "en": "Build a coordinated gift family: MUSE's architectural oud burner for VIP hospitality, an original metal piece for a milestone, and a personal folio or desk set for colleagues and partners. Carry the same identity across products while changing the level of presentation.",
+        "ar": "كوّن مجموعة هدايا مترابطة: مبخرة ميوز المعمارية لضيافة كبار الضيوف، وقطعة معدنية أصلية لتوثيق إنجاز، وحافظة شخصية أو طقم مكتب للزملاء والشركاء. وحّد الهوية بين المنتجات مع تنويع مستوى التقديم."
+      },
+      "plan": {
+        "en": "Define the campaign in August or September. Allow 3–4 months for original product development; begin established-product and packaging selections 6–8 weeks before your company's event.",
+        "ar": "حدّد الحملة في أغسطس أو سبتمبر. خصّص ٣–٤ أشهر لتطوير منتج أصلي، وابدأ اختيار المنتجات القائمة والتغليف قبل فعالية شركتك بـ٦–٨ أسابيع."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "year-end-recognition",
+      "occasion": "employees",
+      "products": [
+        "laifen-p3",
+        "shokz-openfit",
+        "anker-powerbank"
+      ],
+      "title": {
+        "en": "Year-end & employee recognition",
+        "ar": "نهاية العام وتكريم الموظفين"
+      },
+      "when": {
+        "en": "Your awards & appreciation calendar",
+        "ar": "حسب تقويم التكريم في شركتك"
+      },
+      "question": {
+        "en": "What technology gifts suit employee awards and client appreciation?",
+        "ar": "ما الهدايا التقنية المناسبة لتكريم الموظفين وتقدير العملاء؟"
+      },
+      "answer": {
+        "en": "Choose a product with a clear everyday role: Laifen P3 Pro for personal care, Shokz OpenFit 2 for open-ear listening, or Anker Prime for a colleague who travels with a laptop. Match the model to the person and use the presentation to carry the company message.",
+        "ar": "اختر منتجاً بوظيفة يومية واضحة: Laifen P3 Pro للعناية الشخصية، أو Shokz OpenFit 2 للاستماع المفتوح، أو Anker Prime لزميل يسافر بحاسوبه. طابق الطراز مع الشخص، واجعل التقديم يحمل رسالة الشركة."
+      },
+      "plan": {
+        "en": "Build the shortlist 6–8 weeks before the awards or handover date. Confirm quantities, regional model, included accessories and names before the presentation sample is approved.",
+        "ar": "جهّز القائمة المختصرة قبل التكريم أو التسليم بـ٦–٨ أسابيع. أكّد الكميات والطراز الإقليمي والملحقات والأسماء قبل اعتماد عينة التقديم."
+      },
+      "source": ""
+    },
+    {
+      "id": "business-milestones",
+      "occasion": "events",
+      "products": [
+        "hoto-kit",
+        "dji-mobile",
+        "eketop",
+        "glass-hospitality"
+      ],
+      "title": {
+        "en": "Launches, exhibitions & handovers",
+        "ar": "الإطلاقات والمعارض والتسليم"
+      },
+      "when": {
+        "en": "Your business milestones",
+        "ar": "محطات أعمالك"
+      },
+      "question": {
+        "en": "How do we choose gifts for a launch, exhibition or property handover?",
+        "ar": "كيف نختار هدايا الإطلاقات والمعارض وتسليم العقارات؟"
+      },
+      "answer": {
+        "en": "Connect the gift to what the recipient will do next. HOTO's precision tool kit suits a new-home brief; DJI Osmo Mobile 8 suits a creator or travel partner; EKETOP suits an innovation event; glass hospitality pieces suit a new space. Choose by the audience and purpose of the event.",
+        "ar": "اربط الهدية بما سيستخدمه المتلقي لاحقاً. يناسب طقم HOTO الدقيق فكرة المنزل الجديد، وDJI Osmo Mobile 8 صانع محتوى أو شريك سفر، وEKETOP فعالية ابتكار، وأدوات الضيافة الزجاجية مساحة جديدة. اختر بحسب الجمهور وهدف الفعالية."
+      },
+      "plan": {
+        "en": "Work backwards from the event or key-handover date. Establish product quantities, branding permissions, packaging dimensions and delivery destinations before approving production.",
+        "ar": "خطّط عكسياً من موعد الفعالية أو تسليم المفاتيح. حدّد الكميات وخيارات إضافة الهوية وأبعاد التغليف ووجهات التسليم قبل اعتماد الإنتاج."
+      },
+      "source": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "laifen-wave",
+      "brand": "LAIFEN",
+      "title": {
+        "en": "Wave electric toothbrush",
+        "ar": "فرشاة الأسنان Wave"
+      },
+      "category": "personal",
+      "text": {
+        "en": "A better everyday ritual.",
+        "ar": "عناية يومية بتفاصيل أفضل."
+      },
+      "scene": {
+        "en": "Employee wellbeing · Eid appreciation",
+        "ar": "العناية بالموظفين · تقدير في العيد"
+      },
+      "reference": "laifen-toothbrush",
+      "source": "https://www.laifentech.com/products/laifen-wave-electric-toothbrush",
+      "recipients": [
+        "employees",
+        "clients"
+      ],
+      "image": "laifen-wave.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "laifen-p3",
+      "brand": "LAIFEN",
+      "title": {
+        "en": "P3 Pro electric shaver",
+        "ar": "ماكينة الحلاقة P3 Pro"
+      },
+      "category": "personal",
+      "text": {
+        "en": "A precise, beautifully resolved personal gift.",
+        "ar": "هدية شخصية بتصميم متقن."
+      },
+      "scene": {
+        "en": "Business travel · Personal recognition",
+        "ar": "السفر للعمل · التقدير الشخصي"
+      },
+      "reference": "laifen-shaver",
+      "source": "https://www.laifentech.com/products/laifen-p3-pro-3-blade-electric-shaver-with-linear-motor",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "laifen-p3.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "shokz-openfit",
+      "brand": "SHOKZ",
+      "title": {
+        "en": "OpenFit 2 open-ear audio",
+        "ar": "سماعات OpenFit 2"
+      },
+      "category": "audio",
+      "text": {
+        "en": "For workdays that keep moving.",
+        "ar": "لأيام عمل مليئة بالحركة."
+      },
+      "scene": {
+        "en": "Client appreciation · Service anniversaries",
+        "ar": "تقدير العملاء · سنوات الخدمة"
+      },
+      "reference": "shokz",
+      "source": "https://shokz.ae/",
+      "recipients": [
+        "clients",
+        "employees",
+        "vip"
+      ],
+      "image": "shokz-openfit.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "huawei-freeclip",
+      "brand": "HUAWEI",
+      "title": {
+        "en": "FreeClip 2",
+        "ar": "سماعات FreeClip 2"
+      },
+      "category": "audio",
+      "text": {
+        "en": "Sculptural design, everyday listening.",
+        "ar": "تصميم مميز للاستماع اليومي."
+      },
+      "scene": {
+        "en": "Emirati Women’s Day · Leadership recognition",
+        "ar": "يوم المرأة الإماراتية · تكريم القيادات"
+      },
+      "reference": "huawei-freeclip",
+      "source": "https://consumer.huawei.com/ae-en/headphones/freeclip2/",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "huawei-freeclip.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "eketop",
+      "brand": "EKETOP",
+      "title": {
+        "en": "Kinetic metal spinning top",
+        "ar": "بلبل معدني متحرك"
+      },
+      "category": "play",
+      "text": {
+        "en": "A small object with a remarkable presence.",
+        "ar": "قطعة صغيرة بحضور لافت."
+      },
+      "scene": {
+        "en": "Founder gifts · Innovation events",
+        "ar": "هدايا المؤسسين · فعاليات الابتكار"
+      },
+      "reference": "eketop",
+      "source": "https://www.eketop.com/",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "eketop.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "hoto-kit",
+      "brand": "HOTO",
+      "title": {
+        "en": "3.6V precision screwdriver kit",
+        "ar": "طقم مفك كهربائي دقيق 3.6V"
+      },
+      "category": "crafted",
+      "text": {
+        "en": "Industrial design you can put to work.",
+        "ar": "تصميم صناعي عملي ومتقن."
+      },
+      "scene": {
+        "en": "Engineering clients · New-home handovers",
+        "ar": "عملاء الهندسة · تسليم المنازل"
+      },
+      "reference": "hoto",
+      "source": "https://as2.ae/hoto-3-6v-screwdriver-kit/",
+      "recipients": [
+        "clients",
+        "employees"
+      ],
+      "image": "hoto-kit.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "dji-mobile",
+      "brand": "DJI",
+      "title": {
+        "en": "Osmo Mobile 8",
+        "ar": "مثبّت الهاتف Osmo Mobile 8"
+      },
+      "category": "travel",
+      "text": {
+        "en": "Turn the next journey into a story.",
+        "ar": "حوّل الرحلة القادمة إلى حكاية."
+      },
+      "scene": {
+        "en": "Travel clients · Automotive launches",
+        "ar": "عملاء السفر · إطلاق السيارات"
+      },
+      "reference": "dji-mobile",
+      "source": "https://www.dji.com/osmo-mobile-8",
+      "recipients": [
+        "clients",
+        "vip",
+        "employees"
+      ],
+      "image": "dji-mobile.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "lofree",
+      "brand": "LOFREE",
+      "title": {
+        "en": "1% transparent keyboard",
+        "ar": "لوحة مفاتيح 1% الشفافة"
+      },
+      "category": "play",
+      "text": {
+        "en": "A desk piece with a point of view.",
+        "ar": "قطعة مكتبية تعبّر عن ذوق صاحبها."
+      },
+      "scene": {
+        "en": "Creative teams · Design-led businesses",
+        "ar": "الفرق الإبداعية · شركات التصميم"
+      },
+      "reference": "lofree",
+      "source": "https://www.lofree.co/products/lofree-1-transparent-mechanical-keyboard",
+      "recipients": [
+        "clients",
+        "employees",
+        "vip"
+      ],
+      "image": "lofree.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "ceramic-qahwa",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "Contemporary Qahwa service",
+        "ar": "طقم قهوة عربية معاصر"
+      },
+      "category": "hospitality",
+      "text": {
+        "en": "Hospitality, shaped in ceramic and brass.",
+        "ar": "ضيافة تتجسد في السيراميك والنحاس."
+      },
+      "scene": {
+        "en": "Ramadan majlis · Hospitality partners",
+        "ar": "مجالس رمضان · شركاء الضيافة"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "clients",
+        "vip",
+        "families"
+      ],
+      "image": "ceramic-qahwa.webp",
+      "custom": true,
+      "featured": true
+    },
+    {
+      "id": "leather-folio",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "Personalised leather folio",
+        "ar": "حافظة جلدية شخصية"
+      },
+      "category": "crafted",
+      "text": {
+        "en": "A thoughtful companion for important work.",
+        "ar": "رفيق أنيق للأعمال المهمة."
+      },
+      "scene": {
+        "en": "VIP clients · Boardroom milestones",
+        "ar": "كبار العملاء · إنجازات الأعمال"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "leather-folio.webp",
+      "custom": true,
+      "featured": true
+    },
+    {
+      "id": "wacaco-pico",
+      "brand": "WACACO",
+      "title": {
+        "en": "Picopresso",
+        "ar": "آلة القهوة Picopresso"
+      },
+      "category": "coffee",
+      "text": {
+        "en": "For the person who loves the coffee ritual.",
+        "ar": "لمن يستمتع بطقوس تحضير القهوة."
+      },
+      "scene": {
+        "en": "Coffee enthusiasts · Travel gifting",
+        "ar": "محبو القهوة · هدايا السفر"
+      },
+      "reference": "wacaco-pico",
+      "source": "https://wacaco.ae/collections/picopresso",
+      "recipients": [
+        "clients",
+        "vip"
+      ],
+      "image": "wacaco-pico.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "giiker-four",
+      "brand": "GiiKER",
+      "title": {
+        "en": "Smart Four",
+        "ar": "لعبة Smart Four"
+      },
+      "category": "play",
+      "text": {
+        "en": "A gift made to be played together.",
+        "ar": "هدية تدعو إلى اللعب معاً."
+      },
+      "scene": {
+        "en": "Eid family gifts · Company family days",
+        "ar": "هدايا العيد للعائلة · أيام العائلة"
+      },
+      "reference": "giiker",
+      "source": "https://www.giiker.ae/products/giiker-smart-four-board-games",
+      "recipients": [
+        "families",
+        "employees",
+        "clients"
+      ],
+      "image": "giiker-four.webp",
+      "custom": false,
+      "featured": true
+    },
+    {
+      "id": "shokz-openrun",
+      "brand": "SHOKZ",
+      "title": {
+        "en": "OpenRun Pro 2",
+        "ar": "سماعات OpenRun Pro 2"
+      },
+      "category": "audio",
+      "text": {
+        "en": "Reward the people who go the extra mile.",
+        "ar": "للأشخاص الذين يحبون تجاوز التحديات."
+      },
+      "scene": {
+        "en": "Corporate running · Active lifestyles",
+        "ar": "أنشطة الجري للشركات · الحياة النشطة"
+      },
+      "reference": "shokz-openrun",
+      "source": "https://shokz.ae/",
+      "recipients": [
+        "employees",
+        "clients"
+      ],
+      "image": "shokz-openrun.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "soundcore-space",
+      "brand": "SOUNDCORE",
+      "title": {
+        "en": "Space One Pro",
+        "ar": "سماعات Space One Pro"
+      },
+      "category": "audio",
+      "text": {
+        "en": "A considered choice for frequent flyers.",
+        "ar": "اختيار مدروس لكثيري السفر."
+      },
+      "scene": {
+        "en": "Business travel · Employee awards",
+        "ar": "سفر الأعمال · جوائز الموظفين"
+      },
+      "reference": "soundcore-space",
+      "source": "https://us.soundcore.com/products/a3062-noise-cancelling-headphones",
+      "recipients": [
+        "vip",
+        "employees",
+        "clients"
+      ],
+      "image": "soundcore-space.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "huawei-watch",
+      "brand": "HUAWEI",
+      "title": {
+        "en": "WATCH GT 6 · 46 mm",
+        "ar": "ساعة WATCH GT 6 · ٤٦ مم"
+      },
+      "category": "audio",
+      "text": {
+        "en": "A milestone they can wear every day.",
+        "ar": "ذكرى إنجاز ترافقهم كل يوم."
+      },
+      "scene": {
+        "en": "Annual recognition · Sales incentives",
+        "ar": "التكريم السنوي · حوافز المبيعات"
+      },
+      "reference": "huawei-watch",
+      "source": "https://consumer.huawei.com/ae-en/wearables/watch-gt6/",
+      "recipients": [
+        "vip",
+        "employees",
+        "clients"
+      ],
+      "image": "huawei-watch.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "anker-powerbank",
+      "brand": "ANKER",
+      "title": {
+        "en": "Prime 27,650 mAh · 250W",
+        "ar": "باور بنك Prime · 250W"
+      },
+      "category": "travel",
+      "text": {
+        "en": "Serious portable power for serious work.",
+        "ar": "طاقة متنقلة للأعمال المهمة."
+      },
+      "scene": {
+        "en": "Laptop users · Frequent business travellers",
+        "ar": "مستخدمو الحاسوب · مسافرو الأعمال"
+      },
+      "reference": "anker-powerbank",
+      "source": "https://www.anker.com/products/a1340-250w-power-bank",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "anker-powerbank.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "anker-desktop",
+      "brand": "ANKER",
+      "title": {
+        "en": "Prime 250W desktop charger",
+        "ar": "شاحن مكتبي Prime 250W"
+      },
+      "category": "travel",
+      "text": {
+        "en": "A more capable working setup.",
+        "ar": "إضافة عملية لمساحة العمل."
+      },
+      "scene": {
+        "en": "Executive desks · Office openings",
+        "ar": "مكاتب الإدارة · افتتاح المكاتب"
+      },
+      "reference": "anker-desktop",
+      "source": "https://www.anker.com/products/a2345-anker-prime-charger-250w-6-ports-ganprime",
+      "recipients": [
+        "vip",
+        "employees",
+        "clients"
+      ],
+      "image": "anker-desktop.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "dji-pocket",
+      "brand": "DJI",
+      "title": {
+        "en": "Osmo Pocket 3 Creator Combo",
+        "ar": "Osmo Pocket 3 Creator Combo"
+      },
+      "category": "travel",
+      "text": {
+        "en": "For the client who sees stories everywhere.",
+        "ar": "لمن يجد حكاية في كل مكان."
+      },
+      "scene": {
+        "en": "Content partners · Exceptional rewards",
+        "ar": "شركاء المحتوى · مكافآت مميزة"
+      },
+      "reference": "dji-pocket",
+      "source": "https://www.dji.com/osmo-pocket-3",
+      "recipients": [
+        "vip",
+        "clients"
+      ],
+      "image": "dji-pocket.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "insta360-go",
+      "brand": "INSTA360",
+      "title": {
+        "en": "GO Ultra",
+        "ar": "كاميرا GO Ultra"
+      },
+      "category": "travel",
+      "text": {
+        "en": "A distinctive gift for the next adventure.",
+        "ar": "هدية مميزة للمغامرة القادمة."
+      },
+      "scene": {
+        "en": "Outdoor clients · Travel and automotive",
+        "ar": "محبو المغامرات · السفر والسيارات"
+      },
+      "reference": "insta360-go",
+      "source": "https://insta360.ae/products/insta360-go-ultra",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "insta360-go.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "xiaomi-air",
+      "brand": "XIAOMI",
+      "title": {
+        "en": "Portable Air Compressor 2",
+        "ar": "منفاخ الهواء المحمول 2"
+      },
+      "category": "travel",
+      "text": {
+        "en": "Practical engineering for the road ahead.",
+        "ar": "هندسة عملية للطريق القادم."
+      },
+      "scene": {
+        "en": "Car handovers · Cycling communities",
+        "ar": "تسليم السيارات · مجتمعات الدراجات"
+      },
+      "reference": "xiaomi-air",
+      "source": "https://www.mi.com/global/product/xiaomi-portable-electric-air-compressor-2/",
+      "recipients": [
+        "clients",
+        "employees"
+      ],
+      "image": "xiaomi-air.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "timemore-s3",
+      "brand": "TIMEMORE",
+      "title": {
+        "en": "Chestnut S3 hand grinder",
+        "ar": "مطحنة Chestnut S3 اليدوية"
+      },
+      "category": "coffee",
+      "text": {
+        "en": "Precision you can feel in your hands.",
+        "ar": "دقة تلمسها في كل استخدام."
+      },
+      "scene": {
+        "en": "Specialty-coffee clients · Hotel partners",
+        "ar": "محبو القهوة المختصة · شركاء الفنادق"
+      },
+      "reference": "timemore-s3",
+      "source": "https://www.timemore.com/products/timemore-manual-coffee-grinder-chestnut-s3",
+      "recipients": [
+        "vip",
+        "clients"
+      ],
+      "image": "timemore-s3.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "rokr-spaceport",
+      "brand": "ROKR",
+      "title": {
+        "en": "Marble Spaceport · LGC01",
+        "ar": "النموذج الميكانيكي Marble Spaceport"
+      },
+      "category": "play",
+      "text": {
+        "en": "An engineering project worth displaying.",
+        "ar": "مشروع هندسي يستحق العرض."
+      },
+      "scene": {
+        "en": "Engineering clients · Company family days",
+        "ar": "عملاء الهندسة · أيام العائلة"
+      },
+      "reference": "rokr-spaceport",
+      "source": "https://www.robotimeonline.com/products/rokr-marble-spaceport-marble-run-3d-wooden-puzzle-lgc01",
+      "recipients": [
+        "families",
+        "clients",
+        "employees"
+      ],
+      "image": "rokr-spaceport.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "giiker-slide",
+      "brand": "GiiKER",
+      "title": {
+        "en": "Super Slide",
+        "ar": "لعبة Super Slide"
+      },
+      "category": "play",
+      "text": {
+        "en": "A clever challenge, ready for another round.",
+        "ar": "تحدٍّ ذكي يدعوك إلى جولة أخرى."
+      },
+      "scene": {
+        "en": "Eid gifts · Travel and team activities",
+        "ar": "هدايا العيد · السفر وأنشطة الفرق"
+      },
+      "reference": "giiker-slide",
+      "source": "https://www.giiker.ae/products/super-slide",
+      "recipients": [
+        "families",
+        "employees",
+        "clients"
+      ],
+      "image": "giiker-slide.webp",
+      "custom": false,
+      "featured": false
+    },
+    {
+      "id": "oud-majlis",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "Architectural oud burners",
+        "ar": "مباخر العود بطابع معماري"
+      },
+      "category": "hospitality",
+      "text": {
+        "en": "Our tower, curved-wall and courtyard designs.",
+        "ar": "تصاميمنا المستوحاة من البرج والسور والفناء."
+      },
+      "scene": {
+        "en": "Ramadan & Eid · VIP gifts · UAE heritage occasions",
+        "ar": "رمضان والعيد · هدايا كبار الضيوف · مناسبات التراث الإماراتي"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "vip",
+        "clients",
+        "families"
+      ],
+      "image": "oud-majlis.webp",
+      "gallery": [
+        {
+          "image": "oud-majlis.webp",
+          "label": {
+            "en": "Wind Crown",
+            "ar": "تاج البرج"
+          }
+        },
+        {
+          "image": "oud-parapet.webp",
+          "label": {
+            "en": "Parapet Ribbon",
+            "ar": "شريط السور"
+          }
+        },
+        {
+          "image": "oud-courtyard.webp",
+          "label": {
+            "en": "Courtyard Keep",
+            "ar": "قلعة الفناء"
+          }
+        }
+      ],
+      "personalise": {
+        "en": "Choose an architectural form, metal finish and leather colour. Develop the presentation case and personal dedication around your brand. Champagne and teal, silver and navy, lilac, or rose and burgundy design directions are available to explore.",
+        "ar": "اختر الشكل المعماري وتشطيب المعدن ولون الجلد، مع تطوير علبة التقديم والإهداء لعلامتك. يمكن استكشاف الشامبين والفيروزي، أو الفضي والكحلي، أو الليلكي، أو الوردي والعنابي."
+      },
+      "notice": {
+        "en": "Custom design visualisations. Final specifications, sample and production plan are agreed for your project.",
+        "ar": "تصورات لتصميم مخصص؛ تُعتمد المواصفات والعينة وخطة الإنتاج حسب مشروعك."
+      },
+      "custom": true,
+      "featured": false
+    },
+    {
+      "id": "cnc-sculpture",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "Sculpted metal, made for you",
+        "ar": "قطعة معدنية مصممة لك"
+      },
+      "category": "crafted",
+      "text": {
+        "en": "Turn an idea into a lasting desk object.",
+        "ar": "حوّل الفكرة إلى قطعة مكتبية باقية."
+      },
+      "scene": {
+        "en": "Eid Al Etihad · Company anniversaries",
+        "ar": "عيد الاتحاد · ذكرى تأسيس الشركة"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "cnc-sculpture.webp",
+      "custom": true,
+      "featured": false
+    },
+    {
+      "id": "executive-desk",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "Stone & leather desk ensemble",
+        "ar": "مجموعة مكتب من الحجر والجلد"
+      },
+      "category": "crafted",
+      "text": {
+        "en": "Materials that make the everyday feel special.",
+        "ar": "خامات تضيف تميزاً إلى كل يوم."
+      },
+      "scene": {
+        "en": "Executive recognition · New offices",
+        "ar": "تكريم القيادات · المكاتب الجديدة"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "executive-desk.webp",
+      "custom": true,
+      "featured": false
+    },
+    {
+      "id": "woven-hospitality",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "The woven hospitality case",
+        "ar": "حقيبة الضيافة المنسوجة"
+      },
+      "category": "hospitality",
+      "text": {
+        "en": "A presentation case with a second life.",
+        "ar": "علبة تقديم تستمر فائدتها بعد الهدية."
+      },
+      "scene": {
+        "en": "Family gifting · Hospitality handovers",
+        "ar": "هدايا العائلة · مشاريع الضيافة"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "families",
+        "clients",
+        "vip"
+      ],
+      "image": "woven-hospitality.webp",
+      "custom": true,
+      "featured": false
+    },
+    {
+      "id": "glass-hospitality",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "Contemporary glass hospitality",
+        "ar": "ضيافة زجاجية معاصرة"
+      },
+      "category": "hospitality",
+      "text": {
+        "en": "A water service with quiet presence.",
+        "ar": "طقم تقديم مياه بحضور أنيق."
+      },
+      "scene": {
+        "en": "New homes · Hotel and design clients",
+        "ar": "المنازل الجديدة · الفنادق والتصميم"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "clients",
+        "vip",
+        "families"
+      ],
+      "image": "glass-hospitality.webp",
+      "custom": true,
+      "featured": false
+    },
+    {
+      "id": "leather-weekender",
+      "brand": "MUSE ATELIER",
+      "title": {
+        "en": "The leather weekender",
+        "ar": "حقيبة سفر جلدية"
+      },
+      "category": "crafted",
+      "text": {
+        "en": "Make a meaningful departure from the ordinary.",
+        "ar": "هدية سفر تتجاوز المألوف."
+      },
+      "scene": {
+        "en": "Leadership milestones · Exceptional clients",
+        "ar": "إنجازات القيادات · العملاء المميزون"
+      },
+      "reference": "",
+      "source": "",
+      "recipients": [
+        "vip",
+        "clients",
+        "employees"
+      ],
+      "image": "leather-weekender.webp",
+      "custom": true,
+      "featured": false
+    }
+  ]
+}

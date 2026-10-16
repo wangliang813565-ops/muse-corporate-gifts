@@ -1,0 +1,29 @@
+baseURL = 'https://gifs.aimuse.ae/'
+title = 'MUSE Corporate Gifts Dubai'
+defaultContentLanguage = 'en'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'RSS']
+[params]
+  description = 'Corporate gifts for Ramadan, Eid, UAE occasions and business milestones.'
+  brand = 'MUSE'
+  company = 'MUSE Information Services L.L.C-FZ'
+  email = 'musetrendytoy@gmail.com'
+  phone = '+971 52 568 2660'
+  whatsapp = '971525682660'
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = 'English'
+    contentDir = 'content/en'
+  [languages.ar]
+    weight = 2
+    languageName = 'العربية'
+    languageDirection = 'rtl'
+    contentDir = 'content/ar'
+[outputs]
+  home = ['HTML']
+[markup.goldmark.renderer]
+  unsafe = true
+[sitemap]
+  changeFreq = 'monthly'
+  priority = 1.0

@@ -1,0 +1,305 @@
+{
+  "ui": {
+    "en": {
+      "label": "Choose an occasion",
+      "all": "Any occasion",
+      "kicker": "GIVE FOR THE OCCASION",
+      "title": "The occasion comes first.",
+      "intro": "Choose the celebration or business moment. We will help you match the people, products and presentation.",
+      "plan": "When to start",
+      "see": "Explore these gifts",
+      "focus": "Recommended for",
+      "allLabel": "Showing the full gift collection.",
+      "guide": "Find gifts by occasion",
+      "note": "These are planning starting points. We agree the actual sample, production and shipping schedule for your project. Ramadan and Eid follow UAE announcements."
+    },
+    "ar": {
+      "label": "اختر المناسبة",
+      "all": "جميع المناسبات",
+      "kicker": "هدية تناسب المناسبة",
+      "title": "ابدأ بالمناسبة.",
+      "intro": "اختر الاحتفال أو محطة العمل، لننسّق الأشخاص والمنتجات وطريقة التقديم.",
+      "plan": "متى تبدأ؟",
+      "see": "استكشف هذه الهدايا",
+      "focus": "خيارات تناسب",
+      "allLabel": "تُعرض مجموعة الهدايا كاملة.",
+      "guide": "اختر الهدايا حسب المناسبة",
+      "note": "هذه نقاط بداية للتخطيط؛ نتفق على جدول العينة والإنتاج والشحن حسب مشروعك. تتبع مواعيد رمضان والعيد إعلانات الإمارات."
+    }
+  },
+  "guides": [
+    {
+      "id": "ramadan",
+      "occasion": "ramadan",
+      "products": [
+        "ceramic-qahwa",
+        "oud-majlis",
+        "leather-folio"
+      ],
+      "title": {
+        "en": "Ramadan",
+        "ar": "رمضان"
+      },
+      "when": {
+        "en": "Before the first gathering",
+        "ar": "قبل أول لقاء"
+      },
+      "question": {
+        "en": "What corporate gifts work for Ramadan in the UAE?",
+        "ar": "ما هدايا الشركات المناسبة لرمضان في الإمارات؟"
+      },
+      "answer": {
+        "en": "Choose gifts for welcoming and hosting: a contemporary qahwa service, a MUSE architectural oud burner, or a personal leather folio for a business host. Match an Arabic greeting and a considered presentation case to the recipient.",
+        "ar": "اختر هدايا للترحيب والضيافة: طقم قهوة عربية معاصر، أو مبخرة العود المعمارية من ميوز، أو حافظة جلدية شخصية لمضيف من شركاء الأعمال. نسّق التهنئة العربية وعلبة التقديم مع هوية المتلقي."
+      },
+      "plan": {
+        "en": "Begin 8–12 weeks before gifting. Confirm artwork and packaging early, allowing for Chinese factory holiday schedules and shipping. Present client hospitality gifts before the first planned gathering.",
+        "ar": "ابدأ قبل الإهداء بـ٨–١٢ أسبوعاً. أكّد التصميم والتغليف مبكراً مع مراعاة عطلات المصانع الصينية والشحن، وسلّم هدايا الضيافة قبل أول لقاء مخطّط."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "eid-al-fitr",
+      "occasion": "ramadan",
+      "products": [
+        "laifen-wave",
+        "giiker-four",
+        "eketop",
+        "shokz-openfit"
+      ],
+      "title": {
+        "en": "Eid Al Fitr",
+        "ar": "عيد الفطر"
+      },
+      "when": {
+        "en": "After Ramadan · moon-sighting calendar",
+        "ar": "بعد رمضان · حسب إعلان العيد"
+      },
+      "question": {
+        "en": "What should a company give employees and families for Eid Al Fitr?",
+        "ar": "ماذا تقدّم الشركة للموظفين والعائلات في عيد الفطر؟"
+      },
+      "answer": {
+        "en": "Make Eid personal and enjoyable. Laifen Wave suits an employee wellbeing gift; GiiKER Smart Four brings people together; an EKETOP kinetic top adds a playful desk moment. For client appreciation, consider Shokz OpenFit 2 with an individual greeting.",
+        "ar": "اجعل هدية العيد شخصية وممتعة. تناسب فرشاة لافين Wave العناية بالموظفين، وتجمع GiiKER Smart Four أفراد العائلة، ويضيف بلبل EKETOP لحظة مرح للمكتب. ولتقدير العملاء، يمكن اختيار Shokz OpenFit 2 مع تهنئة باسم المتلقي."
+      },
+      "plan": {
+        "en": "Start selection 6–8 weeks before Eid, earlier for original manufacturing. Complete recipient lists and greetings before the final Ramadan rush; plan handover before the holiday break.",
+        "ar": "ابدأ الاختيار قبل العيد بـ٦–٨ أسابيع، وأبكر للتصنيع الأصلي. أكمل قائمة المستلمين والتهنئات قبل ازدحام نهاية رمضان، وخطّط للتسليم قبل إجازة العيد."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "eid-al-adha",
+      "occasion": "ramadan",
+      "products": [
+        "oud-majlis",
+        "leather-weekender",
+        "wacaco-pico"
+      ],
+      "title": {
+        "en": "Eid Al Adha",
+        "ar": "عيد الأضحى"
+      },
+      "when": {
+        "en": "A separate Eid gifting moment",
+        "ar": "مناسبة إهداء مستقلة"
+      },
+      "question": {
+        "en": "Which gifts suit Eid Al Adha clients and partners?",
+        "ar": "ما الهدايا المناسبة للعملاء والشركاء في عيد الأضحى؟"
+      },
+      "answer": {
+        "en": "Choose around the person's interests and family visits: an architectural oud burner for a host, a leather weekender for a traveller, or Wacaco Picopresso for a coffee enthusiast. Use an Eid Al Adha greeting rather than reusing Ramadan messaging.",
+        "ar": "اختر بحسب اهتمامات المتلقي والزيارات العائلية: مبخرة معمارية للمضيف، أو حقيبة جلدية لمحبي السفر، أو Wacaco Picopresso لعشاق القهوة. استخدم تهنئة خاصة بعيد الأضحى بدلاً من إعادة رسالة رمضان."
+      },
+      "plan": {
+        "en": "Begin 6–8 weeks ahead and agree a delivery date before the holiday. Confirm travel plans and recipient availability; Islamic holiday dates follow the UAE's official announcements.",
+        "ar": "ابدأ قبل المناسبة بـ٦–٨ أسابيع واتفق على التسليم قبل الإجازة. تأكد من مواعيد السفر وتوافر المستلمين، مع اعتماد إعلان الإمارات الرسمي لموعد العيد."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "haq-al-laila",
+      "occasion": "events",
+      "products": [
+        "giiker-slide",
+        "giiker-four",
+        "woven-hospitality"
+      ],
+      "title": {
+        "en": "Hag Al Leila",
+        "ar": "حق الليلة"
+      },
+      "when": {
+        "en": "Ahead of Ramadan",
+        "ar": "قبل رمضان"
+      },
+      "question": {
+        "en": "What can businesses choose for Hag Al Leila family activities?",
+        "ar": "ماذا تختار الشركات لفعاليات حق الليلة العائلية؟"
+      },
+      "answer": {
+        "en": "For a family activity or community event, pair a reusable presentation bag with an age-appropriate puzzle or shared game. GiiKER Super Slide and Smart Four are non-food options for family participation. Agree the age group and event format before choosing quantities.",
+        "ar": "لفعالية عائلية أو مجتمعية، نسّق حقيبة تقديم قابلة لإعادة الاستخدام مع لعبة ألغاز أو لعبة جماعية تناسب الفئة العمرية. تقدّم Super Slide وSmart Four من GiiKER خيارات للمشاركة العائلية. حدّد الأعمار وطبيعة الفعالية قبل اختيار الكميات."
+      },
+      "plan": {
+        "en": "Plan 6–8 weeks ahead. Confirm the local event date and age suitability first, then prepare the bags, Arabic artwork and activity quantities together.",
+        "ar": "خطّط قبل الفعالية بـ٦–٨ أسابيع. أكّد الموعد المحلي وملاءمة الأعمار أولاً، ثم جهّز الحقائب والتصميم العربي وكميات الأنشطة معاً."
+      },
+      "source": "https://www.visitdubai.com/en/festivals-and-events/hag-al-leila"
+    },
+    {
+      "id": "emirati-womens-day",
+      "occasion": "women",
+      "products": [
+        "huawei-freeclip",
+        "leather-folio",
+        "huawei-watch"
+      ],
+      "title": {
+        "en": "Emirati Women's Day",
+        "ar": "يوم المرأة الإماراتية"
+      },
+      "when": {
+        "en": "28 August",
+        "ar": "٢٨ أغسطس"
+      },
+      "question": {
+        "en": "What makes a thoughtful Emirati Women's Day corporate gift?",
+        "ar": "ما الهدية المدروسة ليوم المرأة الإماراتية؟"
+      },
+      "answer": {
+        "en": "Recognise achievement through the recipient's interests. Consider Huawei FreeClip 2 for everyday listening, a personal leather folio for work, or Watch GT 6 for someone who wants that watch format. Add a named message of appreciation and select the fit and finish with care.",
+        "ar": "قدّر الإنجاز بهدية تراعي اهتمام المتلقية: Huawei FreeClip 2 للاستماع اليومي، أو حافظة جلدية شخصية للعمل، أو WATCH GT 6 لمن تفضّل هذا الشكل من الساعات. أضف رسالة تقدير بالاسم، واختر المقاس والتشطيب بعناية."
+      },
+      "plan": {
+        "en": "Start in June or early July for an August presentation. Set the recipient tiers and personal messages before approving the final sample and packaging.",
+        "ar": "ابدأ في يونيو أو مطلع يوليو للإهداء في أغسطس. حدّد فئات المستلمات ورسائل التقدير قبل اعتماد العينة والتغليف."
+      },
+      "source": "https://www.wam.ae/en/article/hszrhrli-uae-celebrate-emirati-womens-day-monday"
+    },
+    {
+      "id": "uae-flag-day",
+      "occasion": "national",
+      "products": [
+        "leather-folio",
+        "executive-desk",
+        "cnc-sculpture"
+      ],
+      "title": {
+        "en": "UAE Flag Day",
+        "ar": "يوم العلم الإماراتي"
+      },
+      "when": {
+        "en": "3 November",
+        "ar": "٣ نوفمبر"
+      },
+      "question": {
+        "en": "Which corporate gifts suit UAE Flag Day?",
+        "ar": "ما هدايا الشركات المناسبة ليوم العلم الإماراتي؟"
+      },
+      "answer": {
+        "en": "Choose a restrained workplace gift: a personal folio, a leather-and-stone desk set, or an original metal keepsake. Coordinate the company's identity with a considered national colour detail. Treat Flag Day as its own occasion, with its own greeting and presentation.",
+        "ar": "اختر هدية للعمل بتفاصيل متزنة: حافظة شخصية، أو طقم مكتب من الجلد والحجر، أو تذكار معدني أصلي. نسّق هوية الشركة مع لمسة لونية وطنية مدروسة، وخصّص ليوم العلم تهنئته وطريقة تقديمه."
+      },
+      "plan": {
+        "en": "Start planning in September. For a late brief, choose a product and decoration route whose availability can be confirmed quickly; do not begin a new tooling project for a near-term handover.",
+        "ar": "ابدأ التخطيط في سبتمبر. وللطلبات المتأخرة، اختر منتجاً وطريقة تخصيص يمكن تأكيد توافرهما سريعاً، وتجنّب مشروع قوالب جديداً لموعد قريب."
+      },
+      "source": "https://www.nma.gov.ae/en/media-center/events/flag-day"
+    },
+    {
+      "id": "uae-national-day",
+      "occasion": "national",
+      "products": [
+        "oud-majlis",
+        "cnc-sculpture",
+        "executive-desk",
+        "leather-folio"
+      ],
+      "title": {
+        "en": "Eid Al Etihad · UAE National Day",
+        "ar": "عيد الاتحاد"
+      },
+      "when": {
+        "en": "2 December",
+        "ar": "٢ ديسمبر"
+      },
+      "question": {
+        "en": "What should we choose for UAE National Day corporate gifting?",
+        "ar": "ماذا نختار لهدايا الشركات في عيد الاتحاد؟"
+      },
+      "answer": {
+        "en": "Build a coordinated gift family: MUSE's architectural oud burner for VIP hospitality, an original metal piece for a milestone, and a personal folio or desk set for colleagues and partners. Carry the same identity across products while changing the level of presentation.",
+        "ar": "كوّن مجموعة هدايا مترابطة: مبخرة ميوز المعمارية لضيافة كبار الضيوف، وقطعة معدنية أصلية لتوثيق إنجاز، وحافظة شخصية أو طقم مكتب للزملاء والشركاء. وحّد الهوية بين المنتجات مع تنويع مستوى التقديم."
+      },
+      "plan": {
+        "en": "Define the campaign in August or September. Allow 3–4 months for original product development; begin established-product and packaging selections 6–8 weeks before your company's event.",
+        "ar": "حدّد الحملة في أغسطس أو سبتمبر. خصّص ٣–٤ أشهر لتطوير منتج أصلي، وابدأ اختيار المنتجات القائمة والتغليف قبل فعالية شركتك بـ٦–٨ أسابيع."
+      },
+      "source": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+    },
+    {
+      "id": "year-end-recognition",
+      "occasion": "employees",
+      "products": [
+        "laifen-p3",
+        "shokz-openfit",
+        "anker-powerbank"
+      ],
+      "title": {
+        "en": "Year-end & employee recognition",
+        "ar": "نهاية العام وتكريم الموظفين"
+      },
+      "when": {
+        "en": "Your awards & appreciation calendar",
+        "ar": "حسب تقويم التكريم في شركتك"
+      },
+      "question": {
+        "en": "What technology gifts suit employee awards and client appreciation?",
+        "ar": "ما الهدايا التقنية المناسبة لتكريم الموظفين وتقدير العملاء؟"
+      },
+      "answer": {
+        "en": "Choose a product with a clear everyday role: Laifen P3 Pro for personal care, Shokz OpenFit 2 for open-ear listening, or Anker Prime for a colleague who travels with a laptop. Match the model to the person and use the presentation to carry the company message.",
+        "ar": "اختر منتجاً بوظيفة يومية واضحة: Laifen P3 Pro للعناية الشخصية، أو Shokz OpenFit 2 للاستماع المفتوح، أو Anker Prime لزميل يسافر بحاسوبه. طابق الطراز مع الشخص، واجعل التقديم يحمل رسالة الشركة."
+      },
+      "plan": {
+        "en": "Build the shortlist 6–8 weeks before the awards or handover date. Confirm quantities, regional model, included accessories and names before the presentation sample is approved.",
+        "ar": "جهّز القائمة المختصرة قبل التكريم أو التسليم بـ٦–٨ أسابيع. أكّد الكميات والطراز الإقليمي والملحقات والأسماء قبل اعتماد عينة التقديم."
+      },
+      "source": ""
+    },
+    {
+      "id": "business-milestones",
+      "occasion": "events",
+      "products": [
+        "hoto-kit",
+        "dji-mobile",
+        "eketop",
+        "glass-hospitality"
+      ],
+      "title": {
+        "en": "Launches, exhibitions & handovers",
+        "ar": "الإطلاقات والمعارض والتسليم"
+      },
+      "when": {
+        "en": "Your business milestones",
+        "ar": "محطات أعمالك"
+      },
+      "question": {
+        "en": "How do we choose gifts for a launch, exhibition or property handover?",
+        "ar": "كيف نختار هدايا الإطلاقات والمعارض وتسليم العقارات؟"
+      },
+      "answer": {
+        "en": "Connect the gift to what the recipient will do next. HOTO's precision tool kit suits a new-home brief; DJI Osmo Mobile 8 suits a creator or travel partner; EKETOP suits an innovation event; glass hospitality pieces suit a new space. Choose by the audience and purpose of the event.",
+        "ar": "اربط الهدية بما سيستخدمه المتلقي لاحقاً. يناسب طقم HOTO الدقيق فكرة المنزل الجديد، وDJI Osmo Mobile 8 صانع محتوى أو شريك سفر، وEKETOP فعالية ابتكار، وأدوات الضيافة الزجاجية مساحة جديدة. اختر بحسب الجمهور وهدف الفعالية."
+      },
+      "plan": {
+        "en": "Work backwards from the event or key-handover date. Establish product quantities, branding permissions, packaging dimensions and delivery destinations before approving production.",
+        "ar": "خطّط عكسياً من موعد الفعالية أو تسليم المفاتيح. حدّد الكميات وخيارات إضافة الهوية وأبعاد التغليف ووجهات التسليم قبل اعتماد الإنتاج."
+      },
+      "source": ""
+    }
+  ]
+}

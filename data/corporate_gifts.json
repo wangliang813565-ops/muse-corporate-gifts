@@ -1,0 +1,302 @@
+{
+  "ui": {
+    "en": {
+      "eyebrow": "MUSE GIFT STUDIO · DUBAI",
+      "heroOne": "Good gifts.",
+      "heroTwo": "Great impressions.",
+      "heroText": "Well-made technology, unexpected desk objects and personal details. Gifts for your clients, your people and the moments that matter.",
+      "browse": "Explore the collection",
+      "start": "Plan your gifting",
+      "heroAlt": "A styled gift composition with personal technology, a metal spinning top and forest-green presentation packaging",
+      "heroNote": "A little thought. A lasting impression.",
+      "heroTags": [
+        "Selected products",
+        "Personal details",
+        "UAE occasions"
+      ],
+      "occasionJump": "A gift for every kind of moment",
+      "occasionLinks": [
+        "Client appreciation",
+        "Employee gifting",
+        "Ramadan & Eid",
+        "National celebrations"
+      ],
+      "collectionEyebrow": "THE ART OF CHOOSING WELL",
+      "collectionTitle": "Useful. Unexpected.\nUnmistakably thoughtful.",
+      "collectionText": "Start with what they will enjoy. Then make the presentation feel like you.",
+      "explore": "Explore this direction",
+      "selectionEyebrow": "A FEW GOOD STARTING POINTS",
+      "selectionTitle": "Considered products.\nRoom for your personality.",
+      "selectionText": "Discover a direction for your brief. We match the model, quantity, presentation and delivery plan to your project.",
+      "all": "All directions",
+      "performance": "Technology & wellbeing",
+      "playful": "Playful by design",
+      "crafted": "Materials & making",
+      "results": "gift directions",
+      "add": "Add to brief",
+      "added": "Added to brief",
+      "remove": "Remove",
+      "shortlist": "Your selection",
+      "empty": "Choose a few favourites, or let us recommend a direction.",
+      "styling": "Images show styled gift presentations. Product models and packaging are agreed with your project proposal.",
+      "routesEyebrow": "YOUR BRAND, IN THE DETAILS",
+      "routesTitle": "A good product.\nA more personal gesture.",
+      "calendarEyebrow": "PLANNED AROUND YOUR WORLD",
+      "calendarTitle": "The right gift.\nAt the right moment.",
+      "calendarText": "Bring us your occasion date early. Begin planning 6–8 weeks ahead for selected products with branded packaging, and 3–4 months ahead for custom-made pieces.",
+      "calendarCta": "Plan for your occasion",
+      "lunarNote": "Ramadan and Eid dates follow the UAE's annual announcements.",
+      "processEyebrow": "FROM AN IDEA TO A GIFT",
+      "processTitle": "Thought through,\nfrom start to finish.",
+      "briefEyebrow": "LET’S CREATE SOMETHING WORTH KEEPING",
+      "briefTitle": "Tell us about\nyour next occasion.",
+      "briefText": "A few details help us bring you a more considered shortlist.",
+      "briefContact": "Prefer a conversation?",
+      "whatsapp": "Chat on WhatsApp",
+      "occasionLabel": "Occasion",
+      "recipientLabel": "Who is it for?",
+      "quantityLabel": "Approximate quantity",
+      "dateLabel": "Required delivery date",
+      "companyLabel": "Company (optional)",
+      "notesLabel": "Anything you have in mind? (optional)",
+      "notesPlaceholder": "Brand colours, a favourite product, packaging or delivery locations…",
+      "choose": "Please select",
+      "companyPlaceholder": "Your company name",
+      "submit": "Prepare my WhatsApp brief",
+      "reviewTitle": "Your brief, ready to share",
+      "reviewText": "Review your details, then send them to our team on WhatsApp.",
+      "send": "Continue on WhatsApp",
+      "edit": "Edit details",
+      "noscript": "Send your occasion, recipients, quantity, budget and date to our team on WhatsApp.",
+      "requiredNote": "Fields marked * help us shape your proposal.",
+      "faqTitle": "A few things you may be wondering.",
+      "faqEyebrow": "BEFORE WE BEGIN",
+      "goToBrief": "Go to project brief",
+      "selectedText": "Selected products",
+      "sourceText": "Enquiry page",
+      "messageIntro": "Hello MUSE, I would like to discuss a corporate gifting project.",
+      "noProducts": "Please recommend products for my occasion.",
+      "notesText": "Notes",
+      "phoneDisplay": "+971 52 568 2660"
+    },
+    "ar": {
+      "eyebrow": "استوديو هدايا ميوز · دبي",
+      "heroOne": "هدايا جميلة.",
+      "heroTwo": "أثر يبقى.",
+      "heroText": "تقنية متقنة وقطع مكتبية مميزة وتفاصيل شخصية. هدايا لعملائك وفريقك وللمناسبات التي تستحق الاهتمام.",
+      "browse": "استكشف المجموعة",
+      "start": "خطّط لهداياك",
+      "heroAlt": "تنسيق هدايا يجمع منتجات تقنية وبلبلاً معدنياً وعلبة هدايا خضراء داكنة",
+      "heroNote": "عناية بالتفاصيل. وأثر يدوم.",
+      "heroTags": [
+        "منتجات مختارة",
+        "تفاصيل شخصية",
+        "مناسبات الإمارات"
+      ],
+      "occasionJump": "هدية لكل مناسبة تستحق",
+      "occasionLinks": [
+        "تقدير العملاء",
+        "هدايا الموظفين",
+        "رمضان والعيد",
+        "المناسبات الوطنية"
+      ],
+      "collectionEyebrow": "فن الاختيار بعناية",
+      "collectionTitle": "عملية. مميزة.\nومختارة باهتمام.",
+      "collectionText": "ابدأ بما يسعدهم، ثم أضف لمستك إلى طريقة تقديمه.",
+      "explore": "استكشف هذا الاتجاه",
+      "selectionEyebrow": "نقاط بداية مختارة",
+      "selectionTitle": "منتجات مدروسة.\nومساحة لبصمتك.",
+      "selectionText": "اختر اتجاه مشروعك. نحدد معك الطراز والكمية والتغليف وخطة التسليم المناسبة.",
+      "all": "جميع الاتجاهات",
+      "performance": "التقنية والعناية الشخصية",
+      "playful": "تصميم يدعو للتجربة",
+      "crafted": "الخامات والتصنيع",
+      "results": "اتجاهات للهدايا",
+      "add": "أضف إلى طلبك",
+      "added": "تمت الإضافة",
+      "remove": "إزالة",
+      "shortlist": "اختياراتك",
+      "empty": "اختر ما يعجبك، أو دعنا نقترح الاتجاه المناسب.",
+      "styling": "الصور تصوّر تنسيقات مقترحة للهدايا. تُحدد الطرازات والتغليف ضمن عرض مشروعك.",
+      "routesEyebrow": "هوية علامتك في التفاصيل",
+      "routesTitle": "منتج تختاره بعناية.\nولمسة تعبّر عنك.",
+      "calendarEyebrow": "نخطّط حول مناسباتك",
+      "calendarTitle": "الهدية المناسبة.\nفي الوقت المناسب.",
+      "calendarText": "شاركنا موعد مناسبتك مبكراً. ابدأ التخطيط قبل ٦–٨ أسابيع للمنتجات المختارة مع تغليف يحمل هويتك، وقبل ٣–٤ أشهر للقطع المصنّعة حسب الطلب.",
+      "calendarCta": "خطّط لمناسبتك",
+      "lunarNote": "تُحدد مواعيد رمضان والعيد وفق الإعلانات السنوية في دولة الإمارات.",
+      "processEyebrow": "من الفكرة إلى الهدية",
+      "processTitle": "عناية بكل خطوة،\nمن البداية إلى التسليم.",
+      "briefEyebrow": "لنبتكر هدية تستحق الاحتفاظ بها",
+      "briefTitle": "حدّثنا عن\nمناسبتك القادمة.",
+      "briefText": "بعض التفاصيل تساعدنا على اقتراح اختيارات أقرب إلى ما تتطلع إليه.",
+      "briefContact": "تفضّل التحدث مباشرة؟",
+      "whatsapp": "تواصل عبر واتساب",
+      "occasionLabel": "المناسبة",
+      "recipientLabel": "لمن الهدية؟",
+      "quantityLabel": "الكمية التقريبية",
+      "dateLabel": "تاريخ التسليم المطلوب",
+      "companyLabel": "اسم الشركة (اختياري)",
+      "notesLabel": "هل لديك أفكار محددة؟ (اختياري)",
+      "notesPlaceholder": "ألوان العلامة، منتج مفضل، التغليف أو مواقع التسليم…",
+      "choose": "اختر من القائمة",
+      "companyPlaceholder": "اسم شركتك",
+      "submit": "جهّز تفاصيل طلبي لواتساب",
+      "reviewTitle": "تفاصيل طلبك جاهزة للمشاركة",
+      "reviewText": "راجع التفاصيل، ثم أرسلها إلى فريقنا عبر واتساب.",
+      "send": "المتابعة عبر واتساب",
+      "edit": "تعديل التفاصيل",
+      "noscript": "أرسل المناسبة والمستلمين والكمية والميزانية والتاريخ إلى فريقنا عبر واتساب.",
+      "requiredNote": "الحقول التي تحمل * تساعدنا على إعداد مقترحك.",
+      "faqTitle": "إجابات تساعدك على البدء.",
+      "faqEyebrow": "قبل أن نبدأ",
+      "goToBrief": "انتقل إلى تفاصيل الطلب",
+      "selectedText": "المنتجات المختارة",
+      "sourceText": "صفحة الاستفسار",
+      "messageIntro": "مرحباً ميوز، أرغب في مناقشة مشروع هدايا للشركة.",
+      "noProducts": "أرجو اقتراح منتجات مناسبة لمناسبتنا.",
+      "notesText": "ملاحظات",
+      "phoneDisplay": "+971 52 568 2660"
+    }
+  },
+  "options": {
+    "occasions": [
+      {
+        "value": "clients",
+        "en": "Client appreciation",
+        "ar": "تقدير العملاء"
+      },
+      {
+        "value": "employees",
+        "en": "Employee gifting & recognition",
+        "ar": "هدايا الموظفين وتكريمهم"
+      },
+      {
+        "value": "ramadan",
+        "en": "Ramadan / Eid",
+        "ar": "رمضان / العيد"
+      },
+      {
+        "value": "women",
+        "en": "Emirati Women’s Day",
+        "ar": "يوم المرأة الإماراتية"
+      },
+      {
+        "value": "national",
+        "en": "Flag Day / Eid Al Etihad",
+        "ar": "يوم العلم / عيد الاتحاد"
+      },
+      {
+        "value": "events",
+        "en": "Event, launch or exhibition",
+        "ar": "فعالية أو إطلاق أو معرض"
+      },
+      {
+        "value": "handover",
+        "en": "Property / hospitality handover",
+        "ar": "تسليم عقاري / ضيافة"
+      },
+      {
+        "value": "business",
+        "en": "Company milestone / other",
+        "ar": "مناسبة للشركة / غير ذلك"
+      }
+    ],
+    "recipients": [
+      {
+        "value": "clients",
+        "en": "Clients & partners",
+        "ar": "العملاء والشركاء"
+      },
+      {
+        "value": "vip",
+        "en": "VIPs & leadership",
+        "ar": "كبار الضيوف والإدارة"
+      },
+      {
+        "value": "employees",
+        "en": "Employees & teams",
+        "ar": "الموظفون والفرق"
+      },
+      {
+        "value": "guests",
+        "en": "Event guests",
+        "ar": "ضيوف الفعاليات"
+      },
+      {
+        "value": "families",
+        "en": "Families",
+        "ar": "العائلات"
+      }
+    ],
+    "quantities": [
+      {
+        "value": "under25",
+        "en": "Fewer than 25",
+        "ar": "أقل من ٢٥"
+      },
+      {
+        "value": "25-99",
+        "en": "25–99",
+        "ar": "٢٥–٩٩"
+      },
+      {
+        "value": "100-249",
+        "en": "100–249",
+        "ar": "١٠٠–٢٤٩"
+      },
+      {
+        "value": "250-999",
+        "en": "250–999",
+        "ar": "٢٥٠–٩٩٩"
+      },
+      {
+        "value": "1000+",
+        "en": "1,000+",
+        "ar": "١٬٠٠٠ فأكثر"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": {
+        "en": "Can we include a specific brand or product?",
+        "ar": "هل يمكن اختيار علامة أو منتج محدد؟"
+      },
+      "a": {
+        "en": "Yes. Share the brand, model and quantity you have in mind. We confirm the selected version, sourcing terms, accessories and delivery in your project proposal.",
+        "ar": "نعم. شاركنا العلامة والطراز والكمية التي تفكر بها. نؤكد النسخة المختارة وشروط التوريد والملحقات والتسليم ضمن عرض مشروعك."
+      }
+    },
+    {
+      "q": {
+        "en": "How can our branding be added?",
+        "ar": "كيف يمكن إضافة هوية شركتنا؟"
+      },
+      "a": {
+        "en": "Start with the presentation: boxes, sleeves, ribbons and bilingual cards. Product decoration depends on the chosen item and its permitted branding options. Original manufactured pieces can be developed around your brief.",
+        "ar": "يمكن البدء بالعلب والأغلفة والشرائط والبطاقات ثنائية اللغة. تعتمد إضافة الهوية إلى المنتج على القطعة المختارة والخيارات المسموح بها. ويمكن تطوير قطع مصنّعة خصيصاً وفق تفاصيل مشروعك."
+      }
+    },
+    {
+      "q": {
+        "en": "What quantity and lead time should we plan for?",
+        "ar": "ما الكمية والمدة التي ينبغي التخطيط لها؟"
+      },
+      "a": {
+        "en": "Both depend on the product, customisation and delivery destination. Tell us your quantity and required date at the start, so the shortlist can fit your schedule. Artwork, samples and the delivery plan are agreed before production.",
+        "ar": "يعتمد ذلك على المنتج والتخصيص ووجهة التسليم. شاركنا الكمية والتاريخ المطلوب منذ البداية لنقترح خيارات تناسب جدولك. يُتفق على التصاميم والعينات وخطة التسليم قبل التصنيع."
+      }
+    },
+    {
+      "q": {
+        "en": "Can one occasion have different gift levels?",
+        "ar": "هل يمكن تقديم مستويات مختلفة من الهدايا للمناسبة نفسها؟"
+      },
+      "a": {
+        "en": "Yes. Plan complementary gifts for employees, clients and VIPs under one visual identity, with different products and presentation levels for each group.",
+        "ar": "نعم. يمكن تنسيق هدايا للموظفين والعملاء وكبار الضيوف تحت هوية بصرية واحدة، مع اختلاف المنتجات ومستويات التقديم لكل فئة."
+      }
+    }
+  ]
+}
