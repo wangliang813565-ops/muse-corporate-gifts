@@ -19,3 +19,18 @@ Seven lenses: audience and scene appear in every theme; form/material and functi
 Design: extend the approved warm ivory/burgundy atelier with an editorial journal, a direct answer before the image, readable table of contents, product selection and buyer FAQ. Reuse same-day Silsal/AXENT/Mardiny reference analysis from the original page brief and ui-ux-pro-max serif/sans hierarchy. Reject unnecessary login, client logo claims, glass effects and unrelated navigation. Use the already generated gift images; no new unsupported product photography. Mobile retains answer → content → products → project action.
 
 Measurement: implementation and public loading are testable now; search indexing, AI citations, impressions, clicks and qualified briefs remain unknown until authoritative data is connected/read. The machine index is an alternative content interface, not a special ranking mechanism.
+
+## 2026-10-17: Flag Day team selection and handover
+
+Research question: How can a UAE HR/procurement team give one coherent Flag Day presentation while colleagues have different roles, interests, languages and work locations? This is an editorial hypothesis based on the approved catalogue and the approaching annual occasion, not an observed GSC query or a customer quotation. GSC browser acquisition could not attach on this run; no fresh performance or indexed-page figure is available.
+
+Verified date: UAE Cabinet initiative page and Abu Dhabi Media Office Arabic topic page both identify 3 November as the annual Flag Day. No 2026 ceremony time, public-holiday entitlement or delivery capacity is inferred. Sources: https://uaecabinet.ae/en/prime-ministers-initiatives/uae-flag-day and https://www.mediaoffice.abudhabi/ar/topic/uae-flag-day/ (checked 2026-10-17). Old toys blog still has latest public date 2026-09-28; no new article copied or upstream schedule changed.
+
+| Need / lens | Candidate question and purchase decision | Fact / trade-off | Target |
+|---|---|---|---|
+| Audience, function, experience | Must every colleague receive the same item? | Folio for meetings, EKETOP for desk/design interests, HOTO for practical engineering interests; personal-care gifts depend on preference. Catalogue choices, not universal recommendations. | Today's blog, recipient shortlist and related product cards |
+| Form, composition | How can different products still look like one campaign? | Coordinated box family, material palette and bilingual card; inserts fit actual selected items rather than a generic rendering. | Presentation section → customisation guide |
+| Assurance | How do Arabic/English names remain paired with the right item? | One reviewed row per recipient, language/spelling proof, sample fit and named pack matching. No recipient data published. | Proofing checklist |
+| Scene, handover | What if staff work at different branches or shifts? | Branch/shift quantities, labelled cartons and actual handover owner/date; no fixed delivery promise. | Handover section → project brief |
+
+Search entry candidates: UAE Flag Day corporate gifts; employee Flag Day gift ideas; هدايا يوم العلم للشركات؛ هدايا الموظفين ليوم العلم. Search volume and ranking unknown. Distinct from the existing annual calendar and October National Day development plan: this page answers shared presentation, individual suitability and distribution for a specific team occasion.
