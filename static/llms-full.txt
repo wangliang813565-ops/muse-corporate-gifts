@@ -54,6 +54,14 @@ We work through the decisions in sequence, with the approver and required date n
 - Production and packing: agreed inspection points, variant counts, name matching and carton labels.
 - Handover: agreed transport plan, receiving contact, destination and packing list. For a reorder, retain the approved specification and sample reference.
 
+### Approve a technology gift as a complete working set
+Approve the exact product variant, applied branding and assembled package together. A product photo or unbranded sample does not establish that the final branded gift is ready for handover.
+- Record the model, regional version, colour and included accessories. Check phone, app, cable and charger compatibility against the selected manufacturer specifications where relevant.
+- Test the agreed functions on the branded sample. Check that decoration and inserts do not obstruct controls, ports, sensors, ventilation or normal use.
+- Proof the actual artwork version, logo position and recipient names in English and Arabic. Inspect finish and legibility under normal viewing conditions.
+- Pack the actual product and accessories in the proposed box. Check fit, protection, opening, contents and instructions; confirm that the recipient can identify what is included.
+- Keep the sample identifier, specification, dated approval, photos, agreed tolerances and unresolved points together. Reapprove substitutions of product, accessory, decoration or packaging before production.
+
 ### Can our logo be engraved on every branded product?
 Decoration depends on the selected item and its permitted options. Begin with branded packaging; product engraving or another process is confirmed separately for that model.
 
@@ -62,6 +70,9 @@ Not for every project. Presentation packaging and some product personalisation c
 
 ### Is there one minimum quantity for all corporate gifts?
 No single quantity applies to the whole collection. Share the product, customisation scope and approximate quantity so the sourcing and production route can be confirmed.
+
+### What should we approve on a branded technology gift sample?
+Approve the exact model and accessories, test its agreed functions after branding, proof the artwork and names, and inspect the complete packed set. Record the sample version, approved specification and outstanding checks. A change to the product, accessory or packaging needs a new recorded approval.
 
 ### References
 - [MUSE gift collection and customisation options](https://gifts.aimuse.ae/#gift-customisation)
@@ -117,6 +128,14 @@ https://gifts.aimuse.ae/ar/guides/corporate-gift-customisation/
 - التصنيع والتعبئة: نقاط الفحص المتفق عليها وأعداد الخيارات ومطابقة الأسماء وملصقات الكراتين.
 - التسليم: خطة النقل وجهة الاستلام والمسؤول وقائمة التعبئة. ولإعادة الطلب، احتفظ بالمواصفات المعتمدة ومرجع العينة.
 
+### اعتمد الهدية التقنية كمجموعة كاملة قابلة للاستخدام
+اعتمد إصدار المنتج المحدد والعلامة المطبّقة والتغليف المركّب معاً. صورة المنتج أو عينة بلا علامة لا تثبت أن الهدية النهائية جاهزة للتسليم.
+- سجّل الطراز والإصدار الإقليمي واللون والملحقات. تحقّق عند الحاجة من توافق الهاتف والتطبيق والكابل والشاحن مع مواصفات الشركة المصنّعة للمنتج المختار.
+- اختبر الوظائف المتفق عليها على العينة بعد تطبيق العلامة. تأكّد من أن الزخرفة والحامل الداخلي لا تعيق الأزرار أو المنافذ أو المستشعرات أو التهوية أو الاستخدام المعتاد.
+- دقّق إصدار التصميم الفعلي وموضع الشعار وأسماء المستلمين بالعربية والإنجليزية. افحص التشطيب ووضوح القراءة في ظروف مشاهدة عادية.
+- ضع المنتج والملحقات الفعلية داخل الصندوق المقترح. افحص الملاءمة والحماية والفتح والمحتويات والتعليمات، وتأكد من قدرة المستلم على معرفة ما تتضمنه المجموعة.
+- احتفظ بمعرّف العينة والمواصفات والاعتماد المؤرّخ والصور والتفاوتات المقبولة والنقاط المعلّقة معاً. أعد اعتماد أي بديل للمنتج أو الملحق أو الزخرفة أو التغليف قبل الإنتاج.
+
 ### هل يمكن حفر شعارنا على كل منتج يحمل علامة معروفة؟
 يعتمد ذلك على القطعة المختارة وخياراتها المسموح بها. ابدأ بالتغليف بهوية الشركة، ثم أكّد الحفر أو أي معالجة أخرى للطراز المحدد على حدة.
 
@@ -125,6 +144,9 @@ https://gifts.aimuse.ae/ar/guides/corporate-gift-customisation/
 
 ### هل يوجد حد أدنى موحّد لكل هدايا الشركات؟
 لا توجد كمية واحدة تنطبق على المجموعة كلها. شاركنا المنتج ونطاق التخصيص والكمية التقريبية لتأكيد مسار التوريد والإنتاج.
+
+### ما الذي نعتمده في عينة هدية تقنية تحمل علامتنا؟
+اعتمد الطراز والملحقات المحددة، واختبر الوظائف المتفق عليها بعد تطبيق العلامة، ودقّق التصميم والأسماء، وافحص المجموعة كاملة داخل التغليف. سجّل إصدار العينة والمواصفات المعتمدة والفحوص المعلّقة. يتطلب تغيير المنتج أو الملحق أو التغليف اعتماداً جديداً موثّقاً.
 
 ### مراجع
 - [مجموعة ميوز وخيارات تخصيص الهدايا](https://gifts.aimuse.ae/ar/#gift-customisation)

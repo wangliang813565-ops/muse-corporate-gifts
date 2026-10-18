@@ -13,12 +13,12 @@ imageWidth: 1536
 imageHeight: 1024
 products: ["leather-folio", "oud-majlis", "cnc-sculpture", "laifen-wave"]
 answer: "MUSE develops corporate gift selection, branded presentation, product personalisation and original gift designs for UAE projects. Choose a recognised technology product with a custom box, personalise a leather or desk piece, or develop an architectural oud burner or precision-metal form. We bring product, artwork, material, sample and packing decisions into one agreed project brief."
-faq: [{"q": "Can our logo be engraved on every branded product?", "a": "Decoration depends on the selected item and its permitted options. Begin with branded packaging; product engraving or another process is confirmed separately for that model."}, {"q": "Do we need a new mould for a customised corporate gift?", "a": "Not for every project. Presentation packaging and some product personalisation can use established products. A new manufactured form may involve tooling, which is confirmed during development."}, {"q": "Is there one minimum quantity for all corporate gifts?", "a": "No single quantity applies to the whole collection. Share the product, customisation scope and approximate quantity so the sourcing and production route can be confirmed."}]
+faq: [{"q": "Can our logo be engraved on every branded product?", "a": "Decoration depends on the selected item and its permitted options. Begin with branded packaging; product engraving or another process is confirmed separately for that model."}, {"q": "Do we need a new mould for a customised corporate gift?", "a": "Not for every project. Presentation packaging and some product personalisation can use established products. A new manufactured form may involve tooling, which is confirmed during development."}, {"q": "Is there one minimum quantity for all corporate gifts?", "a": "No single quantity applies to the whole collection. Share the product, customisation scope and approximate quantity so the sourcing and production route can be confirmed."}, {"q": "What should we approve on a branded technology gift sample?", "a": "Approve the exact model and accessories, test its agreed functions after branding, proof the artwork and names, and inspect the complete packed set. Record the sample version, approved specification and outstanding checks. A change to the product, accessory or packaging needs a new recorded approval."}]
 sources: [{"title": "MUSE gift collection and customisation options", "url": "https://gifts.aimuse.ae/#gift-customisation"}, {"title": "Laifen Wave product range", "url": "https://www.laifentech.com/products/laifen-wave-electric-toothbrush"}]
 author: "MUSE Gift Team"
 seoTitle: "Corporate Gift Customisation Dubai | Packaging & Bespoke | MUSE"
 date: "2026-10-16"
-lastmod: "2026-10-18T05:15:59+04:00"
+lastmod: "2026-10-18T20:10:54+04:00"
 ---
 
 ## When is branded packaging the right choice?
@@ -84,3 +84,13 @@ We work through the decisions in sequence, with the approver and required date n
 - Sample: product and presentation together, materials, finish, dimensions and permitted decoration.
 - Production and packing: agreed inspection points, variant counts, name matching and carton labels.
 - Handover: agreed transport plan, receiving contact, destination and packing list. For a reorder, retain the approved specification and sample reference.
+
+## Approve a technology gift as a complete working set
+
+Approve the exact product variant, applied branding and assembled package together. A product photo or unbranded sample does not establish that the final branded gift is ready for handover.
+
+- Record the model, regional version, colour and included accessories. Check phone, app, cable and charger compatibility against the selected manufacturer specifications where relevant.
+- Test the agreed functions on the branded sample. Check that decoration and inserts do not obstruct controls, ports, sensors, ventilation or normal use.
+- Proof the actual artwork version, logo position and recipient names in English and Arabic. Inspect finish and legibility under normal viewing conditions.
+- Pack the actual product and accessories in the proposed box. Check fit, protection, opening, contents and instructions; confirm that the recipient can identify what is included.
+- Keep the sample identifier, specification, dated approval, photos, agreed tolerances and unresolved points together. Reapprove substitutions of product, accessory, decoration or packaging before production.
