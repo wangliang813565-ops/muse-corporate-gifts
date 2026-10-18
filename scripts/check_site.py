@@ -71,6 +71,22 @@ def inspect(path):
         graphs += data.get("@graph", [data])
     require(any(g.get("@type") == "Organization" for g in graphs), path + ": organization")
     require(any(g.get("@type") == "WebPage" for g in graphs), path + ": WebPage")
+    lang = "ar" if path.startswith("ar/") else "en"
+    require(soup.select_one('meta[property="og:locale:alternate"]')["content"] == ("en_AE" if lang == "ar" else "ar_AE"), path + ": alternate locale")
+    if path in ("", "ar/"):
+        products = json.loads((ROOT / "data/corporate_gifts_v2.json").read_text(encoding="utf-8"))["products"]
+        catalogue = next((g for g in graphs if g.get("@id") == CANONICAL + path + "#gift-catalogue"), {})
+        require(catalogue.get("numberOfItems") == len(products), path + ": catalogue schema count")
+        items = catalogue.get("itemListElement", [])
+        require(len(items) == len(products), path + ": catalogue item count")
+        for p, item in zip(products, items):
+            card = soup.find(id="gift-" + p["id"])
+            note = card.select_one(".vg-product-guide p") if card else None
+            require(note and note.get_text(strip=True) == p["selection"][lang], path + p["id"] + ": visible selection note")
+            require(item["description"] == p["text"][lang] and item["url"] == CANONICAL + path + "#gift-" + p["id"], path + p["id"] + ": catalogue schema mismatch")
+        require(len(soup.select(".vg-buyer-routes a")) == 3, path + ": buyer routes")
+    if path.endswith("guides/uae-corporate-gifting-calendar/"):
+        require(len(soup.select(".gk-occasion-cards article")) == 9, path + ": occasion comparison coverage")
     if "/blog/" in "/" + path and not path.endswith("blog/"):
         article = next(g for g in graphs if g.get("@type") == "BlogPosting")
         require(article.get("datePublished") and article.get("dateModified"), path + ": article dates")
@@ -156,6 +172,9 @@ try:
     source_products = json.loads((ROOT / "data/corporate_gifts_v2.json").read_text(encoding="utf-8"))["products"]
     source_occasions = json.loads((ROOT / "data/gift_occasions.json").read_text(encoding="utf-8"))["guides"]
     require(data["products"] == source_products and data["occasions"] == source_occasions, "Product/occasion machine data drift")
+    for p in source_products:
+        for lang in ("en", "ar"):
+            require(p["selection"][lang] in full, p["id"] + ": selection notes missing from machine text")
     for p in ("blog/index.xml", "ar/blog/index.xml"): ET.fromstring(get(p))
 except Exception as exc:
     issues.append(f"{type(exc).__name__}: {exc}")

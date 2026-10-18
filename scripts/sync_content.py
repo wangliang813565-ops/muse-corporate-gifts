@@ -28,7 +28,8 @@ def url(lang, section, slug=""):
 def synchronise():
     knowledge = read("gift_knowledge.json")
     articles = knowledge["articles"]
-    products = read("corporate_gifts_v2.json")["products"]
+    catalogue = read("corporate_gifts_v2.json")
+    products = catalogue["products"]
     occasions = read("gift_occasions.json")["guides"]
     faqs = read("corporate_gifts.json")["faqs"]
     by_id = {p["id"]: p for p in products}
@@ -74,6 +75,7 @@ def synchronise():
                       "products": a["products"], "answer": c["answer"], "faq": c["faq"],
                       "sources": c.get("sources", []), "author": "MUSE Gift Team"}
             if c.get("seoTitle"): fields["seoTitle"] = c["seoTitle"]
+            if a.get("occasion_index"): fields["occasionIndex"] = True
             if a.get("date"):
                 fields["date"] = a.get("published_at", a["date"])
                 fields["lastmod"] = a.get("updated_at", a.get("published_at", a["date"]))
@@ -101,8 +103,10 @@ def synchronise():
     # Keep existing product and occasion data in this same public index, adding articles.
     structured = {"site": BASE, "languages": ["en", "ar"], "company": "MUSE Information Services L.L.C-FZ",
                   "whatsapp": "+971525682660", "products": products, "occasions": occasions, "faqs": faqs}
+    structured["categories"] = [c for c in catalogue["categories"] if c["id"] != "all"]
+    structured["capabilities"] = {l: {"description": catalogue["ui"][l]["craftText"], "routes": catalogue["ui"][l]["craftSteps"], "url": url(l, "guides", "corporate-gift-customisation")} for l in ("en", "ar")}
     structured["articles"] = [{"id": a["id"], "topic_key": a["topic_key"], "kind": a["kind"],
-        "date": a.get("date"), "products": a["products"], "translations": {l: {"url": url(l, "blog" if a["kind"] == "blog" else "guides", a["slug"]),
+        "date": a.get("date"), "updated_at": a.get("updated_at"), "products": a["products"], "translations": {l: {"url": url(l, "blog" if a["kind"] == "blog" else "guides", a["slug"]),
         "title": a["locales"][l]["title"], "answer": a["locales"][l]["answer"], "sections": a["locales"][l]["sections"],
         "faq": a["locales"][l]["faq"], "sources": a["locales"][l].get("sources", [])} for l in ("en", "ar")}} for a in articles]
     (ROOT / "static/gift-guide.json").write_text(json.dumps(structured, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -121,21 +125,30 @@ def synchronise():
                 full += ["", "### " + s["title"], *s.get("paragraphs", []), *["- " + b for b in s.get("bullets", [])]]
             for f in c["faq"]:
                 full += ["", "### " + f["q"], f["a"]]
+            if c.get("sources"):
+                full += ["", "### References" if l == "en" else "### مراجع"]
+                full += [f'- [{s["title"]}]({s["url"]})' for s in c["sources"]]
     short += ["", "## UAE occasions"]
     for o in occasions:
-        short.append(f'- [{o["title"]["en"]}]({BASE}#occasion-{o["id"]})')
         for l in ("en", "ar"):
+            short.append(f'- [{o["title"][l]}]({BASE}{"ar/" if l == "ar" else ""}#occasion-{o["id"]})')
             full += ["", "## " + o["question"][l], BASE + ("ar/" if l == "ar" else "") + "#occasion-" + o["id"], o["answer"][l], o["plan"][l]]
     for p in products:
         full += ["", "## " + p["brand"] + " — " + p["title"]["en"], BASE + "#gift-" + p["id"]]
         for l in ("en", "ar"):
+            if l == "ar": full.append(BASE + "ar/#gift-" + p["id"])
             full += [p["title"][l], p["text"][l], p["scene"][l]]
-            ui = read("corporate_gifts_v2.json")["ui"][l]
+            if p.get("selection", {}).get(l): full.append(p["selection"][l])
+            ui = catalogue["ui"][l]
             full.append(p.get("personalise", {}).get(l) or ui["originalCustom" if p["custom"] else "brandCustom"])
             if p.get("notice", {}).get(l): full.append(p["notice"][l])
     for f in faqs:
         for l in ("en", "ar"):
             full += ["", "## " + f["q"][l], f["a"][l]]
+    for l in ("en", "ar"):
+        c = structured["capabilities"][l]
+        full += ["", "## MUSE capabilities" if l == "en" else "## قدرات ميوز", c["url"], c["description"]]
+        for s in c["routes"]: full += ["### " + s["title"], s["text"]]
     short += ["", "- [Full bilingual buying answers](" + BASE + "llms-full.txt)", "- [Structured content](" + BASE + "gift-guide.json)", "", "WhatsApp: +971 52 568 2660. Email: musetrendytoy@gmail.com."]
     (ROOT / "static/llms.txt").write_text("\n".join(short) + "\n", encoding="utf-8")
     (ROOT / "static/llms-full.txt").write_text("\n".join(full) + "\n", encoding="utf-8")

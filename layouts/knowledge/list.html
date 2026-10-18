@@ -1,6 +1,8 @@
 {{ define "pagehead" }}
-<link rel="stylesheet" href="{{ "css/gift-atelier.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/gift-knowledge.css" | relURL }}">
+{{ $atelierStyle := resources.FromString "css/gift-atelier.css" (readFile "static/css/gift-atelier.css") | fingerprint }}
+<link rel="stylesheet" href="{{ $atelierStyle.RelPermalink }}">
+{{ $knowledgeStyle := resources.FromString "css/gift-knowledge.css" (readFile "static/css/gift-knowledge.css") | fingerprint }}
+<link rel="stylesheet" href="{{ $knowledgeStyle.RelPermalink }}">
 {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ $.Title }}" href="{{ .Permalink }}">{{ end }}
 {{ end }}
 {{ define "main" }}

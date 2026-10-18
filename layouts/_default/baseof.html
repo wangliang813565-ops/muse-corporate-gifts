@@ -27,7 +27,7 @@
   <meta property="og:type" content="{{ if and .IsPage (eq .Section "blog") }}article{{ else }}website{{ end }}">
   <meta property="og:image" content="{{ .Params.image | default "/images/corporate-gifts/v2/hero-v2.webp" | absURL }}">
   <meta property="og:locale" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_AE{{ end }}">
-  {{ range .Translations }}<meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_US{{ end }}">
+  {{ range .Translations }}<meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_AE{{ else }}en_AE{{ end }}">
   {{ end }}
   {{/* QW2: og:image dimensions + alt + twitter:card=summary_large_image */}}
   <meta property="og:image:width" content="{{ .Params.imageWidth | default 1200 }}">
@@ -509,6 +509,7 @@
       {{ $home := "/" | relLangURL }}
       <a href="{{ $home }}#gift-selection">{{ if eq .Lang "ar" }}الهدايا{{ else }}The gifts{{ end }}</a>
       <a href="{{ $home }}#gift-occasion-guide">{{ if eq .Lang "ar" }}حسب المناسبة{{ else }}By occasion{{ end }}</a>
+      <a href="{{ "guides/corporate-gift-customisation/" | relLangURL }}">{{ if eq .Lang "ar" }}قدراتنا{{ else }}Our capabilities{{ end }}</a>
       <a href="{{ "guides/" | relLangURL }}">{{ if eq .Lang "ar" }}دليل الشراء{{ else }}Buying guides{{ end }}</a>
       <a href="{{ "blog/" | relLangURL }}">{{ if eq .Lang "ar" }}المجلة{{ else }}Journal{{ end }}</a>
       <a href="{{ $home }}#gift-brief">{{ if eq .Lang "ar" }}خطّط لمشروعك{{ else }}Plan a project{{ end }}</a>

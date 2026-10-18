@@ -174,6 +174,7 @@
     document.getElementById('gift-detail-title').textContent = p.title[lang];
     studio.querySelector('[data-detail-text]').textContent = p.text[lang];
     studio.querySelector('[data-detail-scene]').textContent = p.scene[lang];
+    studio.querySelector('[data-detail-selection]').textContent = p.selection?.[lang] || '';
     studio.querySelector('[data-detail-personal]').textContent = p.personalise?.[lang] || (p.custom ? ui.originalCustom : ui.brandCustom);
     const notice = studio.querySelector('[data-detail-notice]'); notice.textContent = p.notice?.[lang] || ''; notice.hidden = !p.notice?.[lang];
     detailAdd.textContent = selected.has(id) ? `${ui.added} ✓` : `${ui.add} +`;
@@ -220,5 +221,12 @@
   form.addEventListener('submit', event => {event.preventDefault(); if (form.reportValidity()) showReview();});
   studio.querySelector('[data-edit]').addEventListener('click', () => {review.hidden = true; form.hidden = false; form.elements.occasion.focus();});
   try {const saved = JSON.parse(sessionStorage.getItem('muse-gift-list-v2') || '[]'); if (Array.isArray(saved)) saved.filter(id=>products.has(id)).forEach(id=>selected.set(id,products.get(id)));} catch (_) { /* Ignore invalid local state. */ }
-  updateSelection(); applyFilters();
+  function revealOccasionAnchor() {
+    const id = location.hash.slice(1);
+    if (!id.startsWith('occasion-')) return;
+    const target = document.getElementById(id);
+    if (target?.tagName === 'DETAILS') target.open = true;
+  }
+  window.addEventListener('hashchange', revealOccasionAnchor);
+  updateSelection(); applyFilters(); revealOccasionAnchor();
 })();

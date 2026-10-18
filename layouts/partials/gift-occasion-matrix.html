@@ -1,0 +1,11 @@
+{{ $lang := .Lang }}{{ $home := "/" | relLangURL }}
+<section class="gk-occasion-matrix" aria-labelledby="occasion-matrix-heading">
+  <h2 id="occasion-matrix-heading">{{ if eq $lang "ar" }}أي هدية لأي مناسبة؟{{ else }}Which gift for which occasion?{{ end }}</h2>
+  <p>{{ if eq $lang "ar" }}ابدأ بالمناسبة ثم قارن الخيارات بحسب المستلم. اضغط على اسم المنتج لاستكشافه وإضافته إلى قائمة مشروعك.{{ else }}Start with the occasion, then compare the options for your recipient. Open a product to explore it and add it to your project list.{{ end }}</p>
+  <div class="gk-occasion-cards">{{ range hugo.Data.gift_occasions.guides }}
+    <article><p class="gk-kicker">{{ index .when $lang }}</p><h3>{{ index .title $lang }}</h3><p>{{ index .answer $lang }}</p>
+      <ul>{{ range .products }}{{ $pid := . }}{{ range where hugo.Data.corporate_gifts_v2.products "id" $pid }}<li><a href="{{ $home }}#gift-{{ .id }}"><bdi>{{ .brand }}</bdi> · {{ index .title $lang }}</a></li>{{ end }}{{ end }}</ul>
+      <a class="gk-read" href="{{ $home }}#occasion-{{ .id }}">{{ if eq $lang "ar" }}التخطيط لهذه المناسبة{{ else }}Planning for this occasion{{ end }} ↗</a>
+    </article>
+  {{ end }}</div>
+</section>

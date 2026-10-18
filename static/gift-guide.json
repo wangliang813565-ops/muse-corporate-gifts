@@ -16,8 +16,8 @@
       },
       "category": "personal",
       "text": {
-        "en": "A better everyday ritual.",
-        "ar": "عناية يومية بتفاصيل أفضل."
+        "en": "Electric oral care for recipients who welcome a personal daily-use gift.",
+        "ar": "عناية كهربائية بالأسنان لمن يفضّل هدية شخصية للاستخدام اليومي."
       },
       "scene": {
         "en": "Employee wellbeing · Eid appreciation",
@@ -31,7 +31,11 @@
       ],
       "image": "laifen-wave.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm colour, supplied brush heads, replacement-head access and the recipient’s preference for personal care.",
+        "ar": "أكد اللون ورؤوس الفرشاة المرفقة وتوفر الرؤوس البديلة ورغبة المستلم في هدايا العناية الشخصية."
+      }
     },
     {
       "id": "laifen-p3",
@@ -42,8 +46,8 @@
       },
       "category": "personal",
       "text": {
-        "en": "A precise, beautifully resolved personal gift.",
-        "ar": "هدية شخصية بتصميم متقن."
+        "en": "A personal shaving gift for a known routine, with a considered travel presentation.",
+        "ar": "هدية حلاقة شخصية تناسب روتين المستلم، مع تنسيق تقديم ملائم للسفر."
       },
       "scene": {
         "en": "Business travel · Personal recognition",
@@ -58,7 +62,11 @@
       ],
       "image": "laifen-p3.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the recipient uses an electric shaver, then agree the model, charging accessories and cleaning arrangement.",
+        "ar": "أكد أن المستلم يستخدم ماكينة حلاقة كهربائية، ثم اتفق على الطراز وملحقات الشحن وطريقة التنظيف."
+      }
     },
     {
       "id": "shokz-openfit",
@@ -69,8 +77,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "For workdays that keep moving.",
-        "ar": "لأيام عمل مليئة بالحركة."
+        "en": "Open-ear audio for colleagues and clients who prefer this wearing style.",
+        "ar": "سماعات مفتوحة الأذن للموظفين والعملاء الذين يفضلون هذا الأسلوب في الارتداء."
       },
       "scene": {
         "en": "Client appreciation · Service anniversaries",
@@ -85,7 +93,11 @@
       ],
       "image": "shokz-openfit.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Check wearing comfort, phone compatibility, charging-case contents and regional after-sales terms.",
+        "ar": "تحقق من راحة الارتداء والتوافق مع الهاتف ومحتويات علبة الشحن وشروط خدمة ما بعد البيع في المنطقة."
+      }
     },
     {
       "id": "huawei-freeclip",
@@ -96,8 +108,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "Sculptural design, everyday listening.",
-        "ar": "تصميم مميز للاستماع اليومي."
+        "en": "Clip-style audio for everyday listening and individual recognition.",
+        "ar": "سماعات بتصميم المشبك للاستماع اليومي وهدايا التقدير الفردية."
       },
       "scene": {
         "en": "Emirati Women’s Day · Leadership recognition",
@@ -112,7 +124,11 @@
       ],
       "image": "huawei-freeclip.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the preferred fit and colour, phone and app compatibility, and the exact regional package.",
+        "ar": "أكد ملاءمة التصميم واللون والتوافق مع الهاتف والتطبيق ومحتويات النسخة المخصصة للمنطقة."
+      }
     },
     {
       "id": "eketop",
@@ -123,8 +139,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A small object with a remarkable presence.",
-        "ar": "قطعة صغيرة بحضور لافت."
+        "en": "A kinetic metal desk object for people drawn to movement and mechanical design.",
+        "ar": "قطعة مكتبية معدنية متحركة لمحبي الحركة والتصميم الميكانيكي."
       },
       "scene": {
         "en": "Founder gifts · Innovation events",
@@ -139,7 +155,11 @@
       ],
       "image": "eketop.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Review the actual finish, size, base and operation on a sample; select for the experience without assuming a fixed spinning time.",
+        "ar": "راجع التشطيب والحجم والقاعدة وطريقة التشغيل على عينة فعلية؛ اختر التجربة دون افتراض مدة دوران ثابتة."
+      }
     },
     {
       "id": "hoto-kit",
@@ -150,8 +170,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Industrial design you can put to work.",
-        "ar": "تصميم صناعي عملي ومتقن."
+        "en": "A precision screwdriver kit for practical makers and considered home-handover gifts.",
+        "ar": "طقم مفك دقيق لمحبي الأعمال اليدوية وهدايا تسليم المنازل المدروسة."
       },
       "scene": {
         "en": "Engineering clients · New-home handovers",
@@ -165,7 +185,11 @@
       ],
       "image": "hoto-kit.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the included bits and accessories against the recipient’s intended small tasks.",
+        "ar": "أكد رؤوس المفك والملحقات المرفقة بحسب الأعمال الصغيرة التي ينوي المستلم تنفيذها."
+      }
     },
     {
       "id": "dji-mobile",
@@ -176,8 +200,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "Turn the next journey into a story.",
-        "ar": "حوّل الرحلة القادمة إلى حكاية."
+        "en": "A smartphone stabiliser for clients and teams who enjoy making video.",
+        "ar": "مثبّت للهاتف للعملاء والفرق التي تستمتع بإنتاج الفيديو."
       },
       "scene": {
         "en": "Travel clients · Automotive launches",
@@ -192,7 +216,11 @@
       ],
       "image": "dji-mobile.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Check the actual phone model, dimensions and compatibility, plus the selected accessory bundle.",
+        "ar": "تحقق من طراز الهاتف وأبعاده وتوافقه، ومن حزمة الملحقات المختارة."
+      }
     },
     {
       "id": "lofree",
@@ -203,8 +231,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A desk piece with a point of view.",
-        "ar": "قطعة مكتبية تعبّر عن ذوق صاحبها."
+        "en": "A transparent keyboard that gives a design-minded workspace its own character.",
+        "ar": "لوحة مفاتيح شفافة تضيف طابعاً خاصاً لمساحة عمل محبّي التصميم."
       },
       "scene": {
         "en": "Creative teams · Design-led businesses",
@@ -219,7 +247,11 @@
       ],
       "image": "lofree.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm keyboard layout, Arabic/English typing needs, device connection and desk space.",
+        "ar": "أكد تخطيط لوحة المفاتيح واحتياجات الكتابة بالعربية والإنجليزية والاتصال بالجهاز ومساحة المكتب."
+      }
     },
     {
       "id": "ceramic-qahwa",
@@ -230,8 +262,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "Hospitality, shaped in ceramic and brass.",
-        "ar": "ضيافة تتجسد في السيراميك والنحاس."
+        "en": "A ceramic-and-brass Arabic coffee direction for hosts, majlis and hospitality partners.",
+        "ar": "تصميم للقهوة العربية يجمع السيراميك والنحاس للمضيفين والمجالس وشركاء الضيافة."
       },
       "scene": {
         "en": "Ramadan majlis · Hospitality partners",
@@ -246,7 +278,11 @@
       ],
       "image": "ceramic-qahwa.webp",
       "custom": true,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Agree the serving pieces, number of cups, material finish, care instructions and fitted presentation.",
+        "ar": "اتفق على قطع التقديم وعدد الفناجين وتشطيب المواد وتعليمات العناية والتغليف الملائم."
+      }
     },
     {
       "id": "leather-folio",
@@ -257,8 +293,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "A thoughtful companion for important work.",
-        "ar": "رفيق أنيق للأعمال المهمة."
+        "en": "A personalised meeting companion for documents, notes and professional milestones.",
+        "ar": "حافظة اجتماعات شخصية للوثائق والملاحظات ومناسبات التقدير المهنية."
       },
       "scene": {
         "en": "VIP clients · Boardroom milestones",
@@ -273,7 +309,11 @@
       ],
       "image": "leather-folio.webp",
       "custom": true,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Choose the document format, leather specification, internal layout and approved Arabic or English name.",
+        "ar": "اختر مقاس الوثائق ومواصفات الجلد والتقسيم الداخلي والاسم المعتمد بالعربية أو الإنجليزية."
+      }
     },
     {
       "id": "wacaco-pico",
@@ -284,8 +324,8 @@
       },
       "category": "coffee",
       "text": {
-        "en": "For the person who loves the coffee ritual.",
-        "ar": "لمن يستمتع بطقوس تحضير القهوة."
+        "en": "A portable espresso direction for recipients who enjoy preparing their own coffee.",
+        "ar": "خيار إسبريسو محمول لمن يستمتع بتحضير قهوته بنفسه."
       },
       "scene": {
         "en": "Coffee enthusiasts · Travel gifting",
@@ -299,7 +339,11 @@
       ],
       "image": "wacaco-pico.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the recipient’s coffee routine, compatible grind, water preparation and included accessories.",
+        "ar": "أكد طريقة تحضير القهوة لدى المستلم والطحن المناسب وتجهيز الماء والملحقات المرفقة."
+      }
     },
     {
       "id": "giiker-four",
@@ -310,8 +354,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A gift made to be played together.",
-        "ar": "هدية تدعو إلى اللعب معاً."
+        "en": "A shared strategy game for family gatherings and company family activities.",
+        "ar": "لعبة استراتيجية مشتركة للتجمعات العائلية وفعاليات عائلات الموظفين."
       },
       "scene": {
         "en": "Eid family gifts · Company family days",
@@ -326,7 +370,11 @@
       ],
       "image": "giiker-four.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Check the manufacturer’s age guidance, player format, instructions and power requirements for the selected version.",
+        "ar": "راجع العمر الموصى به من الشركة المصنّعة وطريقة اللعب والتعليمات ومتطلبات الطاقة للنسخة المختارة."
+      }
     },
     {
       "id": "shokz-openrun",
@@ -337,8 +385,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "Reward the people who go the extra mile.",
-        "ar": "للأشخاص الذين يحبون تجاوز التحديات."
+        "en": "A sports-audio direction for recipients with an established running or exercise interest.",
+        "ar": "خيار صوتي رياضي لمن لديهم اهتمام فعلي بالجري أو ممارسة الرياضة."
       },
       "scene": {
         "en": "Corporate running · Active lifestyles",
@@ -352,7 +400,11 @@
       ],
       "image": "shokz-openrun.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm fit, the recipient’s activity, phone compatibility and charging accessories.",
+        "ar": "أكد المقاس المناسب ونشاط المستلم والتوافق مع الهاتف وملحقات الشحن."
+      }
     },
     {
       "id": "soundcore-space",
@@ -363,8 +415,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "A considered choice for frequent flyers.",
-        "ar": "اختيار مدروس لكثيري السفر."
+        "en": "Over-ear listening for recipients who prefer a headset format at work or while travelling.",
+        "ar": "سماعات فوق الأذن لمن يفضلون هذا التصميم أثناء العمل أو السفر."
       },
       "scene": {
         "en": "Business travel · Employee awards",
@@ -379,7 +431,11 @@
       ],
       "image": "soundcore-space.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Check wearing preference, packed size, device connections and supplied carrying and charging accessories.",
+        "ar": "تحقق من تفضيل الارتداء والحجم عند التعبئة والاتصال بالأجهزة وملحقات الحمل والشحن المرفقة."
+      }
     },
     {
       "id": "huawei-watch",
@@ -390,8 +446,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "A milestone they can wear every day.",
-        "ar": "ذكرى إنجاز ترافقهم كل يوم."
+        "en": "A wearable recognition gift for someone who wants a 46 mm watch format.",
+        "ar": "ساعة للتكريم تناسب من يفضلون مقاس ٤٦ مم."
       },
       "scene": {
         "en": "Annual recognition · Sales incentives",
@@ -406,7 +462,11 @@
       ],
       "image": "huawei-watch.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm wrist fit, strap and colour, phone/app compatibility and the features available in the selected regional version.",
+        "ar": "أكد ملاءمة الساعة للمعصم والسوار واللون والتوافق مع الهاتف والتطبيق والميزات المتاحة في النسخة المختارة."
+      }
     },
     {
       "id": "anker-powerbank",
@@ -417,8 +477,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "Serious portable power for serious work.",
-        "ar": "طاقة متنقلة للأعمال المهمة."
+        "en": "Portable charging for laptop users working away from a desk.",
+        "ar": "شحن متنقل لمستخدمي الحاسوب المحمول أثناء العمل خارج المكتب."
       },
       "scene": {
         "en": "Laptop users · Frequent business travellers",
@@ -433,7 +493,11 @@
       ],
       "image": "anker-powerbank.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Match laptop power needs and cables; for flying, check the airline’s current battery rules for the exact item and route.",
+        "ar": "طابق احتياجات طاقة الحاسوب والكابلات؛ وللسفر جواً، راجع قواعد شركة الطيران الحالية للبطارية والطراز والمسار المحدد."
+      }
     },
     {
       "id": "anker-desktop",
@@ -444,8 +508,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "A more capable working setup.",
-        "ar": "إضافة عملية لمساحة العمل."
+        "en": "A multi-device charging direction for executive desks and new office setups.",
+        "ar": "خيار لشحن عدة أجهزة على مكاتب الإدارة وفي تجهيزات المكاتب الجديدة."
       },
       "scene": {
         "en": "Executive desks · Office openings",
@@ -460,7 +524,11 @@
       ],
       "image": "anker-desktop.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Agree device and port needs, suitable cables, the regional mains connection and the complete package.",
+        "ar": "اتفق على الأجهزة والمنافذ المطلوبة والكابلات المناسبة ووصلة الكهرباء للمنطقة ومحتويات الحزمة."
+      }
     },
     {
       "id": "dji-pocket",
@@ -471,8 +539,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "For the client who sees stories everywhere.",
-        "ar": "لمن يجد حكاية في كل مكان."
+        "en": "A compact-camera gift for content partners who want a dedicated creation tool.",
+        "ar": "هدية كاميرا مدمجة لشركاء المحتوى الذين يرغبون في أداة تصوير مستقلة."
       },
       "scene": {
         "en": "Content partners · Exceptional rewards",
@@ -486,7 +554,11 @@
       ],
       "image": "dji-pocket.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm the Creator Combo contents, storage needs, intended workflow and recipient interest in filming.",
+        "ar": "أكد محتويات Creator Combo واحتياجات التخزين وطريقة العمل واهتمام المستلم بالتصوير."
+      }
     },
     {
       "id": "insta360-go",
@@ -497,8 +569,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "A distinctive gift for the next adventure.",
-        "ar": "هدية مميزة للمغامرة القادمة."
+        "en": "A small-camera direction for active creators and travel-minded recipients.",
+        "ar": "خيار كاميرا صغيرة لصنّاع المحتوى النشطين ومحبي السفر."
       },
       "scene": {
         "en": "Outdoor clients · Travel and automotive",
@@ -513,7 +585,11 @@
       ],
       "image": "insta360-go.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm the selected bundle, mounting needs, phone/app compatibility and how the recipient plans to use it.",
+        "ar": "أكد الحزمة المختارة وملحقات التثبيت والتوافق مع الهاتف والتطبيق وطريقة الاستخدام المقصودة."
+      }
     },
     {
       "id": "xiaomi-air",
@@ -524,8 +600,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "Practical engineering for the road ahead.",
-        "ar": "هندسة عملية للطريق القادم."
+        "en": "A portable inflation tool for appropriate car-handover and cycling gift briefs.",
+        "ar": "أداة نفخ محمولة لمشروعات هدايا تسليم السيارات وركوب الدراجات المناسبة."
       },
       "scene": {
         "en": "Car handovers · Cycling communities",
@@ -539,7 +615,11 @@
       ],
       "image": "xiaomi-air.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Match the intended tyre or valve, required pressure and included adapters to the actual product specification.",
+        "ar": "طابق الإطار أو الصمام والضغط المطلوب والمحولات المرفقة مع مواصفات المنتج الفعلية."
+      }
     },
     {
       "id": "timemore-s3",
@@ -550,8 +630,8 @@
       },
       "category": "coffee",
       "text": {
-        "en": "Precision you can feel in your hands.",
-        "ar": "دقة تلمسها في كل استخدام."
+        "en": "A manual coffee grinder for recipients who enjoy the preparation as much as the cup.",
+        "ar": "مطحنة قهوة يدوية لمن يستمتع بالتحضير بقدر استمتاعه بفنجان القهوة."
       },
       "scene": {
         "en": "Specialty-coffee clients · Hotel partners",
@@ -565,7 +645,11 @@
       ],
       "image": "timemore-s3.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm the recipient’s brewing method, grind requirements, manual-use preference and presentation contents.",
+        "ar": "أكد طريقة التحضير ودرجة الطحن المطلوبة وتفضيل الاستخدام اليدوي ومحتويات الهدية."
+      }
     },
     {
       "id": "rokr-spaceport",
@@ -576,8 +660,8 @@
       },
       "category": "play",
       "text": {
-        "en": "An engineering project worth displaying.",
-        "ar": "مشروع هندسي يستحق العرض."
+        "en": "An assembly-and-display project for people who enjoy mechanical models.",
+        "ar": "مشروع تركيب وعرض لمحبي النماذج الميكانيكية."
       },
       "scene": {
         "en": "Engineering clients · Company family days",
@@ -592,7 +676,11 @@
       ],
       "image": "rokr-spaceport.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Check age guidance, assembly interest, build space and what tools or materials the selected kit includes.",
+        "ar": "راجع إرشادات العمر والرغبة في التركيب ومساحة العمل والأدوات أو المواد الموجودة في الطقم المختار."
+      }
     },
     {
       "id": "giiker-slide",
@@ -603,8 +691,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A clever challenge, ready for another round.",
-        "ar": "تحدٍّ ذكي يدعوك إلى جولة أخرى."
+        "en": "A sliding-puzzle direction for individual challenges, travel and family activities.",
+        "ar": "لعبة ألغاز منزلقة للتحديات الفردية والسفر والأنشطة العائلية."
       },
       "scene": {
         "en": "Eid gifts · Travel and team activities",
@@ -619,7 +707,11 @@
       ],
       "image": "giiker-slide.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm age guidance, language of instructions and the supplied power or charging arrangement.",
+        "ar": "أكد إرشادات العمر ولغة التعليمات وتجهيزات الطاقة أو الشحن المرفقة."
+      }
     },
     {
       "id": "oud-majlis",
@@ -630,8 +722,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "Our tower, curved-wall and courtyard designs.",
-        "ar": "تصاميمنا المستوحاة من البرج والسور والفناء."
+        "en": "Our tower, curved-wall and courtyard oud-burner designs for a distinctive hospitality gift.",
+        "ar": "تصاميمنا لمباخر العود المستوحاة من البرج والسور والفناء لهدية ضيافة مميزة."
       },
       "scene": {
         "en": "Ramadan & Eid · VIP gifts · UAE heritage occasions",
@@ -677,7 +769,11 @@
         "ar": "تصورات لتصميم مخصص؛ تُعتمد المواصفات والعينة وخطة الإنتاج حسب مشروعك."
       },
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Choose the architectural form, metal finish, leather colour and presentation. Agree the heat-handling components, use instructions and physical sample before production.",
+        "ar": "اختر الشكل المعماري والتشطيب المعدني ولون الجلد والتغليف. اتفق على الأجزاء المعرّضة للحرارة وتعليمات الاستخدام والعينة الفعلية قبل التصنيع."
+      }
     },
     {
       "id": "cnc-sculpture",
@@ -688,8 +784,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Turn an idea into a lasting desk object.",
-        "ar": "حوّل الفكرة إلى قطعة مكتبية باقية."
+        "en": "An original precision-metal form built around an architectural idea or company milestone.",
+        "ar": "شكل معدني دقيق وأصلي مستوحى من فكرة معمارية أو إنجاز للشركة."
       },
       "scene": {
         "en": "Eid Al Etihad · Company anniversaries",
@@ -704,7 +800,11 @@
       ],
       "image": "cnc-sculpture.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Agree drawings, dimensions, material, weight, finish and display base; review the prototype and any tooling needs.",
+        "ar": "اتفق على الرسومات والأبعاد والخامة والوزن والتشطيب وقاعدة العرض؛ وراجع النموذج الأولي وأي احتياج للقوالب أو أدوات التصنيع."
+      }
     },
     {
       "id": "executive-desk",
@@ -715,8 +815,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Materials that make the everyday feel special.",
-        "ar": "خامات تضيف تميزاً إلى كل يوم."
+        "en": "A coordinated stone-and-leather desk direction for professional recognition.",
+        "ar": "مجموعة مكتبية متناسقة من الحجر والجلد للتقدير المهني."
       },
       "scene": {
         "en": "Executive recognition · New offices",
@@ -731,7 +831,11 @@
       ],
       "image": "executive-desk.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Choose the actual components, desk footprint, material finish and name placement as one complete set.",
+        "ar": "اختر المكونات الفعلية والمساحة المطلوبة والتشطيب وموضع الاسم بوصفها مجموعة واحدة متكاملة."
+      }
     },
     {
       "id": "woven-hospitality",
@@ -742,8 +846,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "A presentation case with a second life.",
-        "ar": "علبة تقديم تستمر فائدتها بعد الهدية."
+        "en": "A reusable woven presentation case shaped around the selected hospitality contents.",
+        "ar": "حافظة تقديم منسوجة قابلة لإعادة الاستخدام، تُصمَّم حول محتويات الضيافة المختارة."
       },
       "scene": {
         "en": "Family gifting · Hospitality handovers",
@@ -758,7 +862,11 @@
       ],
       "image": "woven-hospitality.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm case dimensions, handles, lining, closures and the exact non-food contents to be packed.",
+        "ar": "أكد أبعاد الحافظة والمقابض والبطانة والإغلاق والمحتويات غير الغذائية المطلوب تعبئتها."
+      }
     },
     {
       "id": "glass-hospitality",
@@ -769,8 +877,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "A water service with quiet presence.",
-        "ar": "طقم تقديم مياه بحضور أنيق."
+        "en": "Contemporary glass serving pieces for hosts and new-space handovers.",
+        "ar": "قطع زجاجية معاصرة للتقديم وهدايا المضيفين وتسليم المساحات الجديدة."
       },
       "scene": {
         "en": "New homes · Hotel and design clients",
@@ -785,7 +893,11 @@
       ],
       "image": "glass-hospitality.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Agree the piece count, intended serving use, finish, care instructions and protective inserts.",
+        "ar": "اتفق على عدد القطع واستخدامها في التقديم والتشطيب وتعليمات العناية والحشوات الواقية."
+      }
     },
     {
       "id": "leather-weekender",
@@ -796,8 +908,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Make a meaningful departure from the ordinary.",
-        "ar": "هدية سفر تتجاوز المألوف."
+        "en": "A leather travel-bag direction for recipients who value a practical personal piece.",
+        "ar": "حقيبة سفر جلدية لمن يقدرون القطع الشخصية العملية."
       },
       "scene": {
         "en": "Leadership milestones · Exceptional clients",
@@ -812,7 +924,11 @@
       ],
       "image": "leather-weekender.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm dimensions, leather specification, handles, strap and lining; check the recipient’s own travel requirements.",
+        "ar": "أكد الأبعاد ومواصفات الجلد والمقابض والحزام والبطانة؛ وراجع متطلبات سفر المستلم نفسه."
+      }
     }
   ],
   "occasions": [
@@ -1093,6 +1209,16 @@
   "faqs": [
     {
       "q": {
+        "en": "What corporate gifts does MUSE offer in the UAE?",
+        "ar": "ما هدايا الشركات التي تقدمها ميوز في الإمارات؟"
+      },
+      "a": {
+        "en": "Our 29 gift choices span personal care, audio and wearables, travel and creation, desk and play, coffee, crafted pieces, and hospitality. Explore Laifen, Shokz, Huawei, Anker, DJI, EKETOP and more, alongside MUSE architectural oud burners, leather and original metal designs. We build a proposal around the product, recipients and occasion.",
+        "ar": "تشمل خياراتنا الـ٢٩ العناية الشخصية والصوتيات والساعات والسفر والإبداع والمكتب والمرح والقهوة والقطع المصنّعة والضيافة. استكشف Laifen وShokz وHuawei وAnker وDJI وEKETOP وغيرها، إلى جانب مباخر ميوز المعمارية والجلد والتصاميم المعدنية الأصلية. نعدّ المقترح بحسب المنتج والمستلمين والمناسبة."
+      }
+    },
+    {
+      "q": {
         "en": "Can we include a specific brand or product?",
         "ar": "هل يمكن اختيار علامة أو منتج محدد؟"
       },
@@ -1130,14 +1256,121 @@
         "en": "Yes. Plan complementary gifts for employees, clients and VIPs under one visual identity, with different products and presentation levels for each group.",
         "ar": "نعم. يمكن تنسيق هدايا للموظفين والعملاء وكبار الضيوف تحت هوية بصرية واحدة، مع اختلاف المنتجات ومستويات التقديم لكل فئة."
       }
+    },
+    {
+      "q": {
+        "en": "What can MUSE design and customise for our company?",
+        "ar": "ما الذي يمكن لميوز تصميمه وتخصيصه لشركتنا؟"
+      },
+      "a": {
+        "en": "We develop gift selection, branded boxes and fitted inserts, Arabic–English cards and personalisation, and original gift forms in agreed materials. Our architectural oud burners include tower, curved-wall and courtyard directions. Each project defines the selected product, artwork, physical sample, packing and delivery plan before production.",
+        "ar": "نطوّر اختيار الهدايا والعلب بهوية شركتك والحشوات الملائمة والبطاقات العربية والإنجليزية والتخصيص، وأشكال هدايا أصلية بالخامات المتفق عليها. تشمل مباخرنا المعمارية تصاميم البرج والسور والفناء. ويُحدد لكل مشروع المنتج والتصميم والعينة الفعلية والتعبئة وخطة التسليم قبل التصنيع."
+      }
     }
   ],
+  "categories": [
+    {
+      "id": "personal",
+      "title": {
+        "en": "Personal care",
+        "ar": "العناية الشخصية"
+      },
+      "image": "laifen-wave"
+    },
+    {
+      "id": "audio",
+      "title": {
+        "en": "Audio & wearables",
+        "ar": "الصوتيات والساعات"
+      },
+      "image": "huawei-freeclip"
+    },
+    {
+      "id": "travel",
+      "title": {
+        "en": "Travel & creation",
+        "ar": "السفر والإبداع"
+      },
+      "image": "dji-pocket"
+    },
+    {
+      "id": "play",
+      "title": {
+        "en": "Desk & play",
+        "ar": "المكتب والمرح"
+      },
+      "image": "eketop"
+    },
+    {
+      "id": "coffee",
+      "title": {
+        "en": "Coffee culture",
+        "ar": "عالم القهوة"
+      },
+      "image": "wacaco-pico"
+    },
+    {
+      "id": "crafted",
+      "title": {
+        "en": "Crafted & personal",
+        "ar": "تصنيع ولمسة شخصية"
+      },
+      "image": "leather-folio"
+    },
+    {
+      "id": "hospitality",
+      "title": {
+        "en": "Hospitality & VIP",
+        "ar": "الضيافة وكبار الضيوف"
+      },
+      "image": "ceramic-qahwa"
+    }
+  ],
+  "capabilities": {
+    "en": {
+      "description": "We connect product selection with China’s manufacturing strengths: consumer technology, precision metal, leather, ceramics, glass and fitted gift packaging. Start with a recognised product or develop an original MUSE piece.",
+      "routes": [
+        {
+          "title": "Select the right product",
+          "text": "Compare the recipient’s use, exact model, accessories and sourcing terms across seven collections."
+        },
+        {
+          "title": "Build a complete presentation",
+          "text": "Coordinate boxes, fitted inserts, sleeves and Arabic–English cards; proof names on the final layout."
+        },
+        {
+          "title": "Develop an original piece",
+          "text": "Explore our architectural oud burners, metal objects and crafted gifts. Confirm drawings, materials, finishes and the assembled sample before production."
+        }
+      ],
+      "url": "https://gifts.aimuse.ae/guides/corporate-gift-customisation/"
+    },
+    "ar": {
+      "description": "نربط اختيار المنتجات بنقاط قوة التصنيع في الصين: التقنية الاستهلاكية والمعادن الدقيقة والجلد والسيراميك والزجاج والتغليف الملائم. ابدأ بمنتج من علامة معروفة أو طوّر قطعة أصلية مع ميوز.",
+      "routes": [
+        {
+          "title": "اختر المنتج المناسب",
+          "text": "قارن استخدام المستلم والطراز المحدد والملحقات وشروط التوريد عبر سبع مجموعات."
+        },
+        {
+          "title": "طوّر تقديماً متكاملاً",
+          "text": "نسّق العلب والحشوات والأغلفة والبطاقات العربية والإنجليزية؛ وراجع الأسماء في التصميم النهائي."
+        },
+        {
+          "title": "طوّر قطعة أصلية",
+          "text": "استكشف مباخرنا المعمارية والقطع المعدنية والهدايا المصنّعة. أكد الرسومات والخامات والتشطيبات والعينة المجمّعة قبل التصنيع."
+        }
+      ],
+      "url": "https://gifts.aimuse.ae/ar/guides/corporate-gift-customisation/"
+    }
+  },
   "articles": [
     {
       "id": "corporate-gift-customisation",
       "topic_key": "customisation-routes",
       "kind": "guide",
       "date": "2026-10-16",
+      "updated_at": "2026-10-18T05:15:59+04:00",
       "products": [
         "leather-folio",
         "oud-majlis",
@@ -1147,8 +1380,8 @@
       "translations": {
         "en": {
           "url": "https://gifts.aimuse.ae/guides/corporate-gift-customisation/",
-          "title": "Corporate gift customisation: packaging, personalisation or original manufacturing?",
-          "answer": "Choose the product first, then choose how much of it needs to change. For a selected branded product, begin with a presentation box and bilingual card. For a personal everyday object, assess permitted engraving or embossing. For a gift shaped around your company, develop an original manufactured piece. Quantity, sample approval and the required handover date decide which route is workable.",
+          "title": "What MUSE can create: corporate gift customisation and manufacturing",
+          "answer": "MUSE develops corporate gift selection, branded presentation, product personalisation and original gift designs for UAE projects. Choose a recognised technology product with a custom box, personalise a leather or desk piece, or develop an architectural oud burner or precision-metal form. We bring product, artwork, material, sample and packing decisions into one agreed project brief.",
           "sections": [
             {
               "title": "When is branded packaging the right choice?",
@@ -1184,6 +1417,19 @@
               ]
             },
             {
+              "title": "What can China-based development bring to your gift?",
+              "paragraphs": [
+                "Combine the product disciplines that fit the brief: consumer technology for everyday use; precision metal for a lasting desk object; leather for work or travel; ceramics and glass for hospitality; and packaging that holds the complete set. We coordinate these choices around the UAE recipient and occasion. The material and production route are agreed for the selected design.",
+                "Our [architectural oud burners](/#gift-oud-majlis) offer tower, curved-wall and courtyard directions. Compare form, metal finish, leather colour and the presentation case. A company motif can instead become an [original metal piece](/#gift-cnc-sculpture), while a [leather folio](/#gift-leather-folio) offers a more everyday professional use."
+              ],
+              "bullets": [
+                "Metal: approve dimensions, weight, edges, surface finish and base on the prototype.",
+                "Leather: confirm the specified material, colour, stitching, internal layout and name placement.",
+                "Ceramics and glass: agree the actual serving pieces, intended use, finish and protective packing.",
+                "Mixed gift sets: fit the inserts to the approved products and keep accessories and instructions together."
+              ]
+            },
+            {
               "title": "What should a complete brief contain?",
               "paragraphs": [
                 "Separate the people receiving the gift from the people approving it. A project can have one visual identity and several product levels for employees, clients and VIPs. Keep the recipient experience coherent while agreeing the quantity and packaging of each level separately."
@@ -1202,6 +1448,20 @@
                 "Choose a few products from our collection and send the brief to MUSE on WhatsApp. We can compare the routes against the same recipient group and handover date, so you can approve a concrete direction."
               ],
               "bullets": []
+            },
+            {
+              "title": "How does a gift project move from brief to handover?",
+              "paragraphs": [
+                "We work through the decisions in sequence, with the approver and required date named at the start. If the product or specification changes after approval, review the affected sample and schedule before releasing production."
+              ],
+              "bullets": [
+                "Brief: occasion, recipient groups, quantity by variant, delivery locations and handover date.",
+                "Selection: exact product, regional version, sourcing and applicable support terms.",
+                "Design: box structure, insert, artwork, Arabic–English message and approved recipient names.",
+                "Sample: product and presentation together, materials, finish, dimensions and permitted decoration.",
+                "Production and packing: agreed inspection points, variant counts, name matching and carton labels.",
+                "Handover: agreed transport plan, receiving contact, destination and packing list. For a reorder, retain the approved specification and sample reference."
+              ]
             }
           ],
           "faq": [
@@ -1231,8 +1491,8 @@
         },
         "ar": {
           "url": "https://gifts.aimuse.ae/ar/guides/corporate-gift-customisation/",
-          "title": "تخصيص هدايا الشركات: تغليف بالهوية أم إضافة الأسماء أم تصنيع خاص؟",
-          "answer": "ابدأ باختيار المنتج، ثم حدّد ما يحتاج إلى تخصيص. للمنتجات ذات العلامة المعروفة، ابدأ بعلبة تقديم وبطاقة ثنائية اللغة. وللقطع الشخصية اليومية، ادرس الحفر أو الطباعة البارزة بحسب الخيارات المسموح بها. أما إذا كانت الفكرة تتطلب شكلاً خاصاً بالشركة، فانتقل إلى التطوير والتصنيع. تحدّد الكمية واعتماد العينة وموعد التسليم المسار المناسب.",
+          "title": "ما الذي تصنعه ميوز لك؟ تخصيص وتصنيع هدايا الشركات",
+          "answer": "تطوّر ميوز اختيار هدايا الشركات وتغليفها بهوية العلامة وتخصيص المنتجات وتصاميم الهدايا الأصلية للمشروعات في الإمارات. اختر منتجاً تقنياً معروفاً مع علبة خاصة، أو خصّص قطعة جلدية أو مكتبية، أو طوّر مبخرة معمارية أو شكلاً معدنياً دقيقاً. نجمع قرارات المنتج والتصميم والخامة والعينة والتعبئة في موجز مشروع واحد متفق عليه.",
           "sections": [
             {
               "title": "متى يكون التغليف بهوية الشركة هو الاختيار المناسب؟",
@@ -1268,6 +1528,19 @@
               ]
             },
             {
+              "title": "كيف يخدم التطوير في الصين مشروع هديتك؟",
+              "paragraphs": [
+                "اجمع مجالات المنتجات المناسبة للموجز: التقنية الاستهلاكية للاستخدام اليومي، والمعادن الدقيقة لقطعة مكتبية تدوم، والجلد للعمل أو السفر، والسيراميك والزجاج للضيافة، والتغليف الذي يحتضن المجموعة كاملة. ننسّق هذه الخيارات بحسب المستلم والمناسبة في الإمارات، ونتفق على الخامات وطريقة التصنيع للتصميم المختار.",
+                "تقدم [مباخرنا المعمارية](/ar/#gift-oud-majlis) اتجاهات البرج والسور والفناء. قارن الشكل والتشطيب المعدني ولون الجلد وحافظة التقديم. ويمكن تحويل فكرة من هوية الشركة إلى [قطعة معدنية أصلية](/ar/#gift-cnc-sculpture)، بينما تقدم [الحافظة الجلدية](/ar/#gift-leather-folio) استخداماً مهنياً يومياً."
+              ],
+              "bullets": [
+                "المعادن: اعتمد الأبعاد والوزن والحواف والتشطيب والقاعدة على النموذج الأولي.",
+                "الجلد: أكد الخامة المحددة واللون والخياطة والتقسيم الداخلي وموضع الاسم.",
+                "السيراميك والزجاج: اتفق على قطع التقديم واستخدامها وتشطيبها والتغليف الواقي.",
+                "المجموعات المختلطة: صمّم الحشوات للمنتجات المعتمدة واجمع الملحقات والتعليمات معها."
+              ]
+            },
+            {
               "title": "ما المعلومات التي يحتاجها الطلب المتكامل؟",
               "paragraphs": [
                 "ميّز بين مستلمي الهدايا ومن يعتمدون المشروع. يمكن استخدام هوية بصرية واحدة مع مستويات مختلفة للموظفين والعملاء وكبار الضيوف. حافظ على تجربة متناسقة، وحدّد كمية كل مستوى وتغليفه على حدة."
@@ -1286,6 +1559,20 @@
                 "اختر بعض المنتجات من مجموعتنا وأرسل التفاصيل إلى ميوز عبر واتساب. نقارن المسارات للفئة نفسها وموعد التسليم نفسه، لتختار اتجاهاً واضحاً وقابلاً للاعتماد."
               ],
               "bullets": []
+            },
+            {
+              "title": "كيف ينتقل مشروع الهدية من الموجز إلى التسليم؟",
+              "paragraphs": [
+                "نعالج القرارات بالتتابع، مع تحديد صاحب الموافقة والتاريخ المطلوب منذ البداية. إذا تغير المنتج أو المواصفات بعد الاعتماد، نراجع العينة والجدول المتأثرين قبل بدء التصنيع."
+              ],
+              "bullets": [
+                "الموجز: المناسبة وفئات المستلمين والكمية لكل خيار ووجهات التسليم والتاريخ المطلوب.",
+                "الاختيار: المنتج المحدد والنسخة المخصصة للمنطقة وشروط التوريد والدعم المطبق.",
+                "التصميم: هيكل العلبة والحشوة والهوية والرسالة العربية والإنجليزية وأسماء المستلمين المعتمدة.",
+                "العينة: المنتج والتغليف معاً والخامات والتشطيب والأبعاد والتخصيص المسموح.",
+                "التصنيع والتعبئة: نقاط الفحص المتفق عليها وأعداد الخيارات ومطابقة الأسماء وملصقات الكراتين.",
+                "التسليم: خطة النقل وجهة الاستلام والمسؤول وقائمة التعبئة. ولإعادة الطلب، احتفظ بالمواصفات المعتمدة ومرجع العينة."
+              ]
             }
           ],
           "faq": [
@@ -1320,6 +1607,7 @@
       "topic_key": "technology-gift-procurement",
       "kind": "guide",
       "date": "2026-10-16",
+      "updated_at": "2026-10-18T05:15:59+04:00",
       "products": [
         "laifen-wave",
         "laifen-p3",
@@ -1377,6 +1665,18 @@
               "bullets": [
                 "Choose the creator route for an actual content or travel interest.",
                 "Choose the playful route for a desk experience without assuming an app-led workflow."
+              ]
+            },
+            {
+              "title": "Practical engineering, coffee and play: three more directions",
+              "paragraphs": [
+                "For a hands-on recipient, compare the [HOTO precision kit](/#gift-hoto-kit) with the [Xiaomi portable air compressor](/#gift-xiaomi-air). One is a small-tool direction; the other belongs to a specific tyre or inflation use. Confirm the actual tasks and included accessories.",
+                "For coffee enthusiasts, [Wacaco Picopresso](/#gift-wacaco-pico) addresses espresso preparation while the [Timemore S3](/#gift-timemore-s3) addresses manual grinding. Match the recipient’s brewing method rather than treating the two as interchangeable.",
+                "For desk play, compare [EKETOP](/#gift-eketop), [GiiKER Super Slide](/#gift-giiker-slide), [Smart Four](/#gift-giiker-four) and [ROKR Marble Spaceport](/#gift-rokr-spaceport). They offer a moving desk object, an individual puzzle, a shared game and an assembly project. The recipient’s age, interest, available space and willingness to assemble matter."
+              ],
+              "bullets": [
+                "A useful manufacturing strength is a well-matched product and presentation, not a longer specification list.",
+                "See the [complete seven-category selection](/guides/corporate-gift-selection/) for crafted and hospitality alternatives."
               ]
             },
             {
@@ -1475,6 +1775,18 @@
               ]
             },
             {
+              "title": "الهندسة العملية والقهوة والمرح: ثلاثة اتجاهات أخرى",
+              "paragraphs": [
+                "لمن يحب العمل اليدوي، قارن [طقم HOTO الدقيق](/ar/#gift-hoto-kit) مع [منفاخ Xiaomi المحمول](/ar/#gift-xiaomi-air). الأول خيار للأعمال الصغيرة بالأدوات، والثاني لاستخدام محدد في النفخ أو الإطارات. أكد المهام الفعلية والملحقات المرفقة.",
+                "لمحبي القهوة، يخدم [Wacaco Picopresso](/ar/#gift-wacaco-pico) تحضير الإسبريسو، بينما تخدم [Timemore S3](/ar/#gift-timemore-s3) الطحن اليدوي. طابق طريقة تحضير المستلم بدلاً من اعتبارهما بديلين متطابقين.",
+                "للمرح المكتبي، قارن [EKETOP](/ar/#gift-eketop) و[GiiKER Super Slide](/ar/#gift-giiker-slide) و[Smart Four](/ar/#gift-giiker-four) و[ROKR Marble Spaceport](/ar/#gift-rokr-spaceport). توفر قطعة مكتبية متحركة ولغزاً فردياً ولعبة مشتركة ومشروع تركيب. راعِ عمر المستلم واهتمامه والمساحة المتاحة ورغبته في التركيب."
+              ],
+              "bullets": [
+                "تكمن قيمة التصنيع في منتج وتقديم مناسبين، لا في إطالة قائمة المواصفات.",
+                "راجع [دليل المجموعات السبع](/ar/guides/corporate-gift-selection/) لبدائل الهدايا المصنّعة والضيافة."
+              ]
+            },
+            {
               "title": "اعتمد الهدية كاملة",
               "paragraphs": [
                 "للمنتجات التقنية ذات العلامات المعروفة، أكّد شروط التوريد وخدمات ما بعد البيع الإقليمية مع الطراز المختار. اتفق على ترتيب المنتج والتعليمات الأصلية والملحقات والتهنئة داخل التغليف. تحمل العلبة والغلاف والبطاقة ثنائية اللغة هوية شركتك، فيما يُبحث تخصيص الجهاز نفسه على حدة.",
@@ -1527,6 +1839,7 @@
       "topic_key": "uae-occasion-procurement-calendar",
       "kind": "guide",
       "date": "2026-10-16",
+      "updated_at": "2026-10-18T05:15:59+04:00",
       "products": [
         "oud-majlis",
         "ceramic-qahwa",
@@ -1539,7 +1852,7 @@
         "en": {
           "url": "https://gifts.aimuse.ae/guides/uae-corporate-gifting-calendar/",
           "title": "The UAE corporate gifting calendar: occasions, recipients and buying windows",
-          "answer": "Build the annual gift plan around the handover moment, not just the holiday name. Ramadan hospitality, Eid family appreciation, Emirati Women's Day recognition and national occasions have different recipients and messages. Begin established-product and branded-packaging projects around 6–8 weeks ahead as a planning starting point, earlier for Ramadan hospitality; original manufacturing needs a longer development window. Confirm the actual schedule for each brief.",
+          "answer": "For Ramadan hosts, compare a qahwa service with MUSE architectural oud burners; for Eid employees and families, consider a chosen personal-care or audio gift, a shared game or a coffee tool. For Flag Day and Eid Al Etihad, coordinate folios, desk pieces and VIP hospitality gifts around the campaign. Select by the recipient, then plan backwards from your company’s handover date using the occasion-to-gift guide below.",
           "sections": [
             {
               "title": "Ramadan and both Eids need separate briefs",
@@ -1594,6 +1907,18 @@
                 "Send MUSE the coming occasions, recipient groups and approximate quantities. We can build a coordinated gift family and confirm each project's schedule. These buying windows help start a discussion; the agreed project plan determines production and delivery."
               ],
               "bullets": []
+            },
+            {
+              "title": "A campaign calendar needs approval dates, not only holiday dates",
+              "paragraphs": [
+                "Put five decisions against each campaign: recipient shortlist, product confirmation, artwork approval, packed-sample approval and the actual handover. Add the company reviewer and receiving location to each decision. Work backwards using the supplier’s confirmed production and transport plan.",
+                "For the next Ramadan and Eid cycle, prepare the recipient groups and product directions while exact religious dates await official confirmation. See our [Ramadan and Eid selection guide](/guides/ramadan-eid-corporate-gifts/) and [customisation process](/guides/corporate-gift-customisation/) to align the gift, presentation and approvals."
+              ],
+              "bullets": [
+                "Planning allowance is not a delivery commitment: agree the actual schedule for the chosen product and quantity.",
+                "Separate Flag Day, Eid Al Etihad, Ramadan, Eid Al Fitr and Eid Al Adha greetings.",
+                "For a mixed workforce, confirm which occasions the company observes and let individual interests guide the contents."
+              ]
             }
           ],
           "faq": [
@@ -1620,19 +1945,23 @@
               "url": "https://www.visitdubai.com/en/festivals-and-events/hag-al-leila"
             },
             {
-              "title": "National Media Authority: Flag Day",
-              "url": "https://www.nma.gov.ae/en/media-center/events/flag-day"
-            },
-            {
               "title": "Ministry of Health and Prevention: Emirati Women's Day",
               "url": "https://mohap.gov.ae/en/w/emirati-women-s-day"
+            },
+            {
+              "title": "UAE Cabinet: UAE Flag Day",
+              "url": "https://uaecabinet.ae/en/prime-ministers-initiatives/uae-flag-day"
+            },
+            {
+              "title": "Zayed Authority: UAE National Day",
+              "url": "https://www.za.gov.ae/Media-Centre/Events/UAE-National-day"
             }
           ]
         },
         "ar": {
           "url": "https://gifts.aimuse.ae/ar/guides/uae-corporate-gifting-calendar/",
           "title": "تقويم هدايا الشركات في الإمارات: المناسبات وفترات بدء الشراء",
-          "answer": "ابنِ خطة الهدايا السنوية حول لحظة التسليم. تختلف ضيافة رمضان وتقدير العائلات في العيد وتكريم المرأة الإماراتية والمناسبات الوطنية في المستلمين والرسائل. ابدأ مشروعات المنتجات القائمة مع التغليف بهوية الشركة قبل الموعد بنحو ٦–٨ أسابيع كنقطة تخطيط أولية، وأبكر لضيافة رمضان. يحتاج التصنيع الأصلي إلى مدة تطوير أطول، ويُؤكّد الجدول الفعلي لكل مشروع.",
+          "answer": "لمضيفي رمضان، قارن طقم القهوة العربية مع مباخر ميوز المعمارية؛ وللموظفين والعائلات في العيد، اختر هدية عناية شخصية أو صوتيات حسب الرغبة، أو لعبة مشتركة أو أداة قهوة. وليوم العلم وعيد الاتحاد، نسّق الحافظات والقطع المكتبية وهدايا ضيافة كبار الضيوف بحسب الحملة. اختر وفق المستلم، ثم خطط عكسياً من موعد تسليم شركتك باستخدام دليل المناسبات والهدايا أدناه.",
           "sections": [
             {
               "title": "رمضان والعيدان تحتاج إلى طلبات مستقلة",
@@ -1687,6 +2016,18 @@
                 "أرسل إلى ميوز المناسبات المقبلة وفئات المستلمين والكميات التقريبية. ننسّق مجموعة هدايا مترابطة ونؤكد جدول كل مشروع. تساعد هذه الفترات على بدء التخطيط، بينما تحدّد خطة المشروع المتفق عليها مواعيد الإنتاج والتسليم."
               ],
               "bullets": []
+            },
+            {
+              "title": "تقويم الحملة يحتاج مواعيد اعتماد، وليس تواريخ المناسبات فقط",
+              "paragraphs": [
+                "اربط بكل حملة خمسة قرارات: قائمة المستلمين وتأكيد المنتج واعتماد التصميم واعتماد العينة المعبّأة والتسليم الفعلي. حدد مسؤول المراجعة وجهة الاستلام لكل قرار، وخطط عكسياً بحسب خطة التصنيع والنقل المؤكدة.",
+                "لدورة رمضان والعيد المقبلة، جهّز فئات المستلمين واتجاهات المنتجات بينما تنتظر التواريخ الدينية الإعلان الرسمي. راجع [دليل اختيار هدايا رمضان والعيد](/ar/guides/ramadan-eid-corporate-gifts/) و[خطوات التخصيص](/ar/guides/corporate-gift-customisation/) لربط الهدية والتقديم والموافقات."
+              ],
+              "bullets": [
+                "الفترة التخطيطية ليست تعهداً بالتسليم: اتفق على الجدول الفعلي للمنتج والكمية المختارين.",
+                "ميّز رسائل يوم العلم وعيد الاتحاد ورمضان وعيد الفطر وعيد الأضحى.",
+                "للقوى العاملة المتنوعة، أكد المناسبات التي تحتفي بها الشركة واجعل اهتمامات الأفراد أساس اختيار المحتويات."
+              ]
             }
           ],
           "faq": [
@@ -1713,12 +2054,550 @@
               "url": "https://www.visitdubai.com/en/festivals-and-events/hag-al-leila"
             },
             {
-              "title": "الهيئة الوطنية للإعلام: يوم العلم",
-              "url": "https://www.nma.gov.ae/en/media-center/events/flag-day"
-            },
-            {
               "title": "وزارة الصحة ووقاية المجتمع: يوم المرأة الإماراتية",
               "url": "https://mohap.gov.ae/en/w/emirati-women-s-day"
+            },
+            {
+              "title": "UAE Cabinet: UAE Flag Day",
+              "url": "https://uaecabinet.ae/en/prime-ministers-initiatives/uae-flag-day"
+            },
+            {
+              "title": "Zayed Authority: UAE National Day",
+              "url": "https://www.za.gov.ae/Media-Centre/Events/UAE-National-day"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "corporate-gift-selection",
+      "topic_key": "seven-category-corporate-gift-selection",
+      "kind": "guide",
+      "date": "2026-10-18",
+      "updated_at": "2026-10-18T05:23:47+04:00",
+      "products": [
+        "laifen-wave",
+        "huawei-freeclip",
+        "anker-powerbank",
+        "giiker-four",
+        "leather-folio",
+        "oud-majlis"
+      ],
+      "translations": {
+        "en": {
+          "url": "https://gifts.aimuse.ae/guides/corporate-gift-selection/",
+          "title": "What corporate gifts does MUSE offer?",
+          "answer": "Our collection brings together 29 corporate gift choices in seven categories: personal care, audio and wearables, travel and creation, desk and play, coffee, crafted personal pieces, and hospitality. Start with what the recipient will actually use, then compare the model, materials, personalisation and presentation. These are selections for a project proposal; availability and the final configuration are confirmed for your order.",
+          "sections": [
+            {
+              "title": "Personal care: a gift for a known daily routine",
+              "paragraphs": [
+                "[Laifen Wave](/#gift-laifen-wave) is an electric toothbrush direction for someone who welcomes a personal daily-use gift. [Laifen P3 Pro](/#gift-laifen-p3) suits a recipient who already uses an electric shaver. Neither should be chosen solely because the recipients are employees: the personal nature of the gift matters.",
+                "For a varied team, offer a practical alternative from another category and carry the same company identity through the packaging. A considered choice is more useful than assuming one care routine for everyone."
+              ],
+              "bullets": [
+                "Wave: confirm colour, included brush heads and access to replacement heads.",
+                "P3 Pro: confirm the model, charging accessories and cleaning arrangement.",
+                "Approve the actual product package and the greeting together."
+              ]
+            },
+            {
+              "title": "Audio and wearables: compare how the recipient wants to wear it",
+              "paragraphs": [
+                "[Shokz OpenFit 2](/#gift-shokz-openfit) offers an open-ear direction; [Huawei FreeClip 2](/#gift-huawei-freeclip) uses a clip-style format. Compare the recipient's wearing preference before choosing between them. [Shokz OpenRun Pro 2](/#gift-shokz-openrun) belongs on a shortlist for someone with an established running or exercise interest.",
+                "[Soundcore Space One Pro](/#gift-soundcore-space) is an over-ear option for someone who prefers a headset at work or while travelling. [Huawei WATCH GT 6 · 46 mm](/#gift-huawei-watch) is a different kind of recognition gift: wrist fit, strap and the recipient's preference for that watch size come first."
+              ],
+              "bullets": [
+                "Check phone and app compatibility, the regional version and included accessories.",
+                "For audio, compare fit and carrying needs; for a watch, agree strap, colour and wrist fit.",
+                "Use our [technology gift guide](/guides/premium-technology-gifts/) to prepare model and package checks."
+              ]
+            },
+            {
+              "title": "Travel and creation: choose the task before the device",
+              "paragraphs": [
+                "For a colleague working away from a desk, compare the [Anker Prime 27,650 mAh · 250W power bank](/#gift-anker-powerbank) with the [Anker Prime 250W desktop charger](/#gift-anker-desktop). The first is a portable charging direction; the second belongs in a multi-device desk setup. Match actual devices, cables and power needs.",
+                "For video, [DJI Osmo Mobile 8](/#gift-dji-mobile) suits a smartphone workflow, while [DJI Osmo Pocket 3 Creator Combo](/#gift-dji-pocket) offers a dedicated compact-camera direction. [Insta360 GO Ultra](/#gift-insta360-go) is another small-camera choice for an active creator. Choose around how the person intends to film, including mounts, storage and the selected bundle.",
+                "[Xiaomi Portable Air Compressor 2](/#gift-xiaomi-air) serves a different brief: a practical car-handover or cycling gift when the intended tyre, valve, pressure and supplied adapters match."
+              ],
+              "bullets": [
+                "Confirm the exact phone model for a smartphone stabiliser and the required app workflow for a camera.",
+                "Check the regional mains connection for a desktop charger.",
+                "For a travelling recipient, verify the airline's current battery requirements for the exact power bank and route."
+              ]
+            },
+            {
+              "title": "Desk and play: distinguish design interest, shared play and assembly",
+              "paragraphs": [
+                "The [EKETOP kinetic metal spinning top](/#gift-eketop) suits a desk with an interest in movement and mechanical design. The [LOFREE 1% transparent keyboard](/#gift-lofree) is a working accessory with a distinctive appearance; keyboard layout, Arabic or English typing needs and device connection decide whether it fits.",
+                "[GiiKER Smart Four](/#gift-giiker-four) is a shared strategy-game direction, while [GiiKER Super Slide](/#gift-giiker-slide) suits individual puzzle challenges. [ROKR Marble Spaceport · LGC01](/#gift-rokr-spaceport) is an assembly-and-display project. A recipient who enjoys a short game may not want a model-building project."
+              ],
+              "bullets": [
+                "For games, confirm manufacturer age guidance, instructions and power requirements.",
+                "For ROKR, check assembly interest, working space and included tools or materials.",
+                "For EKETOP, review the actual size, finish, base and operation on a sample."
+              ]
+            },
+            {
+              "title": "Coffee culture: preparation is part of the gift",
+              "paragraphs": [
+                "[Wacaco Picopresso](/#gift-wacaco-pico) is a portable espresso direction for someone who enjoys making their own coffee. [TIMEMORE Chestnut S3](/#gift-timemore-s3) is a manual grinder for a recipient who values preparation as much as the cup.",
+                "Begin with the recipient's brewing routine. A coffee enthusiast may enjoy choosing a grind and preparing water; someone seeking a ready-to-serve hospitality gift may be better matched to our qahwa service. If combining coffee tools, confirm that their selected configurations work together."
+              ],
+              "bullets": [
+                "Agree the brewing method, grind needs and included accessories.",
+                "Check the recipient's preference for manual preparation.",
+                "Fit the presentation around the approved items, instructions and accessories."
+              ]
+            },
+            {
+              "title": "Crafted and personal: choose a working object or a lasting keepsake",
+              "paragraphs": [
+                "A [personalised leather folio](/#gift-leather-folio) supports meetings and document handling; a [stone-and-leather desk ensemble](/#gift-executive-desk) creates a coordinated working space. Choose the document format or actual desk components first, then the material finish and name placement.",
+                "An [original precision-metal piece](/#gift-cnc-sculpture) can develop an architectural idea or company milestone into a display object. A [leather weekender](/#gift-leather-weekender) suits someone who values a personal travel bag. The [HOTO 3.6V precision screwdriver kit](/#gift-hoto-kit) is a practical alternative for makers or a considered home-handover brief.",
+                "Our China sourcing and development work connects consumer technology, precision metalwork, leather, ceramic and glass, and fitted packaging. We coordinate the relevant product and manufacturing routes for your project; the selected materials, construction and finish belong in the approved sample."
+              ],
+              "bullets": [
+                "Folio and weekender: confirm leather specification, dimensions, lining and internal layout.",
+                "Metal and desk pieces: agree drawings or components, weight, edges, finish and display footprint.",
+                "HOTO: match the included bits and accessories to the intended small tasks.",
+                "Compare packaging, personalisation and original development in our [customisation guide](/guides/corporate-gift-customisation/)."
+              ]
+            },
+            {
+              "title": "Hospitality and VIP: consider the host and the place of use",
+              "paragraphs": [
+                "Our [architectural oud burners](/#gift-oud-majlis) offer tower, curved-wall and courtyard forms. Compare their silhouette, metal finish, leather colour and presentation, then agree the heat-handling components and use instructions on a physical sample. The [contemporary qahwa service](/#gift-ceramic-qahwa) is a ceramic-and-brass direction for a host who serves Arabic coffee.",
+                "[Contemporary glass hospitality pieces](/#gift-glass-hospitality) suit serving and new-space handovers. The [woven hospitality case](/#gift-woven-hospitality) provides reusable presentation around the selected contents. Confirm the actual piece count, care needs and protective inserts; the case dimensions should follow what it holds.",
+                "For a seasonal project, use our [Ramadan and Eid guide](/guides/ramadan-eid-corporate-gifts/) and [UAE gifting calendar](/guides/uae-corporate-gifting-calendar/). Send us the recipient groups, preferred items, quantities, required handover date and delivery locations through the [gift project brief](/#gift-brief). We can then shape a shortlist and presentation for the same clear occasion."
+              ],
+              "bullets": [
+                "Choose by the host's use of the space and interest in hospitality.",
+                "Review the complete assembled gift, including the greeting and any individual name.",
+                "Confirm the product, customisation scope and delivery plan before production."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Does MUSE only offer technology gifts?",
+              "a": "No. Our 29-choice collection spans seven categories, including personal care, technology, games, coffee tools, leather, precision-metal pieces and hospitality gifts. You can combine appropriate products through a coordinated presentation."
+            },
+            {
+              "q": "Should every employee receive the same gift?",
+              "a": "One presentation can accommodate more than one useful choice. For example, a folio, open-ear audio or a game may suit different recipients. Agree the quantities for each option and keep the company identity and greeting consistent."
+            },
+            {
+              "q": "How do we choose between a branded product and an original design?",
+              "a": "Choose a branded product when its existing function and model fit the recipient. Choose original development when the form, material or company story should shape the object. Packaging can carry your identity in either route; product decoration needs separate confirmation."
+            },
+            {
+              "q": "Are all 29 choices available immediately?",
+              "a": "The collection is a selection catalogue for project proposals. We confirm availability, the exact configuration, quantities, customisation and the delivery plan for the chosen items."
+            }
+          ],
+          "sources": [
+            {
+              "title": "MUSE corporate gift collection",
+              "url": "https://gifts.aimuse.ae/"
+            },
+            {
+              "title": "MUSE gift customisation and original development",
+              "url": "https://gifts.aimuse.ae/guides/corporate-gift-customisation/"
+            }
+          ]
+        },
+        "ar": {
+          "url": "https://gifts.aimuse.ae/ar/guides/corporate-gift-selection/",
+          "title": "ما هدايا الشركات التي تقدّمها ميوز؟",
+          "answer": "تضم مجموعتنا ٢٩ خياراً لهدايا الشركات في سبع فئات: العناية الشخصية، والصوتيات والساعات، والسفر والإبداع، والمكتب والمرح، والقهوة، والقطع المصنّعة بلمسة شخصية، والضيافة. ابدأ بما سيستخدمه المتلقي فعلاً، ثم قارن الطراز والخامات والتخصيص والتغليف. هذه خيارات نبني منها مقترح مشروعك؛ ونؤكد التوافر والتجهيز النهائي للطلب المحدد.",
+          "sections": [
+            {
+              "title": "العناية الشخصية: هدية تناسب روتيناً معروفاً",
+              "paragraphs": [
+                "تقدّم [Laifen Wave](/ar/#gift-laifen-wave) خيار فرشاة أسنان كهربائية لمن يرحّب بهدية شخصية للاستخدام اليومي. وتناسب [Laifen P3 Pro](/ar/#gift-laifen-p3) من يستخدم ماكينة حلاقة كهربائية بالفعل. لا يكفي أن يكون المستلم موظفاً لاختيار إحدى الهديتين؛ فطبيعة الهدية الشخصية تستدعي مراعاة تفضيله.",
+                "لفريق متنوع، أتح خياراً عملياً من فئة أخرى مع الحفاظ على هوية الشركة نفسها في التغليف. الاختيار المدروس أنسب من افتراض روتين عناية واحد للجميع."
+              ],
+              "bullets": [
+                "Wave: أكد اللون ورؤوس الفرشاة المرفقة وإمكان الحصول على رؤوس بديلة.",
+                "P3 Pro: أكد الطراز وملحقات الشحن وطريقة التنظيف.",
+                "اعتمد عبوة المنتج الفعلية والتهنئة معاً."
+              ]
+            },
+            {
+              "title": "الصوتيات والساعات: قارن أسلوب الارتداء أولاً",
+              "paragraphs": [
+                "تقدّم [Shokz OpenFit 2](/ar/#gift-shokz-openfit) خيار السماعات المفتوحة، وتأتي [Huawei FreeClip 2](/ar/#gift-huawei-freeclip) بتصميم المشبك. قارن ما يرتاح إليه المستلم قبل الاختيار بينهما. أما [Shokz OpenRun Pro 2](/ar/#gift-shokz-openrun) فتناسب قائمة من لديه اهتمام فعلي بالجري أو الرياضة.",
+                "تمثّل [Soundcore Space One Pro](/ar/#gift-soundcore-space) خياراً فوق الأذن لمن يفضّل هذا التصميم في العمل أو السفر. وتقدّم [Huawei WATCH GT 6 بمقاس ٤٦ مم](/ar/#gift-huawei-watch) نوعاً مختلفاً من هدايا التقدير؛ تبدأ ملاءمتها من المعصم والسوار وتفضيل المستلم لهذا المقاس."
+              ],
+              "bullets": [
+                "تحقق من التوافق مع الهاتف والتطبيق والنسخة المخصصة للمنطقة والملحقات المرفقة.",
+                "في السماعات، قارن الراحة واحتياجات الحمل؛ وفي الساعة، اتفق على السوار واللون والمقاس.",
+                "استعن بـ[دليل الهدايا التقنية](/ar/guides/premium-technology-gifts/) لتجهيز مراجعة الطراز ومحتويات الحزمة."
+              ]
+            },
+            {
+              "title": "السفر والإبداع: حدّد المهمة قبل الجهاز",
+              "paragraphs": [
+                "لزميل يعمل خارج المكتب، قارن [باور بنك Anker Prime بسعة ٢٧٬٦٥٠ ملّي أمبير ساعة وقدرة 250W](/ar/#gift-anker-powerbank) مع [شاحن Anker Prime المكتبي 250W](/ar/#gift-anker-desktop). الأول اتجاه للشحن المتنقل، والثاني لتجهيز مكتب بعدة أجهزة. طابق الأجهزة والكابلات واحتياجات الطاقة الفعلية.",
+                "للفيديو، يناسب [DJI Osmo Mobile 8](/ar/#gift-dji-mobile) التصوير بالهاتف، بينما يقدّم [DJI Osmo Pocket 3 Creator Combo](/ar/#gift-dji-pocket) خيار كاميرا مدمجة مستقلة. وتمثّل [Insta360 GO Ultra](/ar/#gift-insta360-go) خيار كاميرا صغيرة آخر لصانع محتوى نشط. اختر بحسب طريقة التصوير المقصودة، بما فيها التثبيت والتخزين والحزمة المحددة.",
+                "يخدم [Xiaomi Portable Air Compressor 2](/ar/#gift-xiaomi-air) استخداماً مختلفاً: هدية عملية لتسليم سيارة أو لمحبي الدراجات، بعد مطابقة الإطار والصمام والضغط والمحولات المرفقة."
+              ],
+              "bullets": [
+                "أكد طراز الهاتف الفعلي لمثبّت الهاتف، والتطبيق وطريقة العمل المطلوبة للكاميرا.",
+                "تحقق من وصلة الكهرباء المناسبة للمنطقة في الشاحن المكتبي.",
+                "للمسافر، راجع قواعد شركة الطيران الحالية للبطارية والطراز والمسار المحدد."
+              ]
+            },
+            {
+              "title": "المكتب والمرح: فرّق بين التصميم واللعب المشترك والتركيب",
+              "paragraphs": [
+                "يناسب [بلبل EKETOP المعدني المتحرك](/ar/#gift-eketop) مكتب شخص يهتم بالحركة والتصميم الميكانيكي. أما [لوحة LOFREE 1% الشفافة](/ar/#gift-lofree) فهي أداة عمل ذات حضور بصري مميز؛ ويحدّد تخطيطها والكتابة بالعربية أو الإنجليزية والاتصال بالجهاز مدى ملاءمتها.",
+                "تقدّم [GiiKER Smart Four](/ar/#gift-giiker-four) لعبة استراتيجية مشتركة، بينما تناسب [GiiKER Super Slide](/ar/#gift-giiker-slide) تحديات الألغاز الفردية. و[ROKR Marble Spaceport · LGC01](/ar/#gift-rokr-spaceport) مشروع تركيب وعرض. من يستمتع بلعبة قصيرة قد لا يرغب بالضرورة في بناء نموذج."
+              ],
+              "bullets": [
+                "للألعاب، أكد إرشادات العمر من المصنّع ولغة التعليمات ومتطلبات الطاقة.",
+                "لنموذج ROKR، تحقق من الرغبة في التركيب ومساحة العمل والأدوات أو المواد المرفقة.",
+                "لقطعة EKETOP، راجع الحجم والتشطيب والقاعدة وطريقة التشغيل على عينة فعلية."
+              ]
+            },
+            {
+              "title": "عالم القهوة: التحضير جزء من الهدية",
+              "paragraphs": [
+                "تقدّم [Wacaco Picopresso](/ar/#gift-wacaco-pico) خيار إسبريسو محمول لمن يستمتع بتحضير قهوته. وتناسب [مطحنة TIMEMORE Chestnut S3](/ar/#gift-timemore-s3) اليدوية من يقدّر خطوات التحضير بقدر فنجان القهوة.",
+                "ابدأ من طريقة التحضير لدى المستلم. قد يستمتع محب القهوة باختيار الطحن وتجهيز الماء، بينما يكون طقم القهوة العربية أنسب لمن يريد هدية للتقديم والضيافة. وإذا جمعت أدوات قهوة في هدية واحدة، فأكد توافق التجهيزات المختارة."
+              ],
+              "bullets": [
+                "اتفق على طريقة التحضير ومتطلبات الطحن والملحقات المرفقة.",
+                "تحقق من تفضيل المستلم للتحضير اليدوي.",
+                "صمّم التغليف حول المنتجات المعتمدة وتعليماتها وملحقاتها."
+              ]
+            },
+            {
+              "title": "تصنيع ولمسة شخصية: قطعة للعمل أو تذكار يبقى",
+              "paragraphs": [
+                "تخدم [الحافظة الجلدية الشخصية](/ar/#gift-leather-folio) الاجتماعات وحمل الوثائق، وتنسّق [مجموعة المكتب من الحجر والجلد](/ar/#gift-executive-desk) مساحة العمل. اختر مقاس الوثائق أو مكونات المكتب الفعلية أولاً، ثم التشطيب وموضع الاسم.",
+                "يمكن تطوير [قطعة معدنية دقيقة وأصلية](/ar/#gift-cnc-sculpture) من فكرة معمارية أو إنجاز للشركة. وتناسب [حقيبة السفر الجلدية](/ar/#gift-leather-weekender) من يقدّر حقيبة شخصية عملية. أما [طقم مفك HOTO الدقيق 3.6V](/ar/#gift-hoto-kit) فهو بديل لمحبي الأعمال اليدوية أو لهدية مدروسة عند تسليم منزل.",
+                "نجمع في عملنا مع موارد التوريد والتطوير في الصين بين التقنية الاستهلاكية والمعادن الدقيقة والجلد والسيراميك والزجاج والتغليف المصمّم للمحتويات. ننسّق مسارات المنتجات والتصنيع المناسبة لمشروعك، وتُحدَّد الخامات والبنية والتشطيبات في العينة المعتمدة."
+              ],
+              "bullets": [
+                "للحافظة وحقيبة السفر: أكد مواصفات الجلد والأبعاد والبطانة والتقسيم الداخلي.",
+                "للمعدن وقطع المكتب: اتفق على الرسومات أو المكونات والوزن والحواف والتشطيب ومساحة العرض.",
+                "لطقم HOTO: طابق الرؤوس والملحقات مع الأعمال الصغيرة المقصودة.",
+                "قارن التغليف والتخصيص والتطوير الأصلي في [دليل تخصيص الهدايا](/ar/guides/corporate-gift-customisation/)."
+              ]
+            },
+            {
+              "title": "الضيافة وكبار الضيوف: فكّر في المضيف ومكان الاستخدام",
+              "paragraphs": [
+                "تتوافر تصاميم [مباخرنا المعمارية](/ar/#gift-oud-majlis) باتجاهات البرج والسور المنحني والفناء. قارن الشكل والتشطيب المعدني ولون الجلد والتقديم، ثم اتفق على الأجزاء المعرّضة للحرارة وتعليمات الاستخدام على عينة فعلية. ويقدّم [طقم القهوة العربية المعاصر](/ar/#gift-ceramic-qahwa) اتجاهاً من السيراميك والنحاس لمضيف يقدّم القهوة العربية.",
+                "تناسب [قطع الضيافة الزجاجية المعاصرة](/ar/#gift-glass-hospitality) التقديم وتسليم المساحات الجديدة. وتوفّر [حقيبة الضيافة المنسوجة](/ar/#gift-woven-hospitality) تقديماً قابلاً لإعادة الاستخدام حول المحتويات المختارة. أكد عدد القطع والعناية والحشوات الواقية؛ فأبعاد الحقيبة تتبع ما سيُعبّأ فيها.",
+                "للمشروعات الموسمية، راجع [دليل رمضان والعيدين](/ar/guides/ramadan-eid-corporate-gifts/) و[تقويم الإهداء في الإمارات](/ar/guides/uae-corporate-gifting-calendar/). أرسل فئات المستلمين والقطع المفضلة والكميات وموعد التسليم المطلوب ووجهاته عبر [موجز مشروع الهدية](/ar/#gift-brief)، لنعدّ قائمة وتقديماً يناسبان المناسبة المحددة."
+              ],
+              "bullets": [
+                "اختر بحسب استخدام المضيف للمكان واهتمامه بالضيافة.",
+                "راجع الهدية المجمّعة كاملة، بما فيها التهنئة والاسم الفردي إن وجد.",
+                "أكد المنتج ونطاق التخصيص وخطة التسليم قبل التصنيع."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "هل تقتصر هدايا ميوز على المنتجات التقنية؟",
+              "a": "لا. تضم مجموعتنا ٢٩ خياراً في سبع فئات، تشمل العناية الشخصية والتقنية والألعاب وأدوات القهوة والجلد والقطع المعدنية الدقيقة وهدايا الضيافة. ويمكن جمع المنتجات المناسبة في تقديم متناسق."
+            },
+            {
+              "q": "هل يجب أن يحصل كل موظف على الهدية نفسها؟",
+              "a": "يمكن لهوية تقديم واحدة أن تضم خيارات مفيدة متعددة؛ كحافظة أو سماعات مفتوحة أو لعبة بحسب المستلم. حدد كمية كل خيار وحافظ على تناسق هوية الشركة والتهنئة."
+            },
+            {
+              "q": "كيف نختار بين منتج من علامة معروفة وتصميم أصلي؟",
+              "a": "اختر المنتج المعروف عندما تناسب وظيفته وطرازه المستلم. واختر التطوير الأصلي عندما تريد أن يعبّر الشكل أو الخامة أو قصة الشركة عن الهدية. يحمل التغليف هويتك في المسارين، أما تخصيص المنتج نفسه فيحتاج إلى تأكيد مستقل."
+            },
+            {
+              "q": "هل الخيارات الـ٢٩ متاحة للتسليم الفوري؟",
+              "a": "المجموعة دليل اختيار لبناء مقترح المشروع. نؤكد التوافر والتجهيز المحدد والكميات والتخصيص وخطة التسليم للمنتجات المختارة."
+            }
+          ],
+          "sources": [
+            {
+              "title": "مجموعة ميوز لهدايا الشركات",
+              "url": "https://gifts.aimuse.ae/ar/"
+            },
+            {
+              "title": "تخصيص وتطوير الهدايا الأصلية لدى ميوز",
+              "url": "https://gifts.aimuse.ae/ar/guides/corporate-gift-customisation/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ramadan-eid-corporate-gifts",
+      "topic_key": "ramadan-fitr-adha-recipient-gift-planning",
+      "kind": "guide",
+      "date": "2026-10-18",
+      "updated_at": "2026-10-18T05:23:47+04:00",
+      "products": [
+        "oud-majlis",
+        "ceramic-qahwa",
+        "leather-folio",
+        "giiker-four",
+        "wacaco-pico",
+        "shokz-openfit"
+      ],
+      "translations": {
+        "en": {
+          "url": "https://gifts.aimuse.ae/guides/ramadan-eid-corporate-gifts/",
+          "title": "How to choose corporate gifts for Ramadan and Eid",
+          "answer": "For Ramadan, begin with the host and the first planned gathering. For Eid Al Fitr, separate individual employee appreciation from gifts intended for family time. For Eid Al Adha, choose a partner gift around the person's interests and availability. MUSE brings together hospitality pieces, original architectural oud burners, leather, coffee tools, games and selected technology, with presentation and greetings tailored to each occasion.",
+          "sections": [
+            {
+              "title": "Define three briefs, even when one team manages them",
+              "paragraphs": [
+                "A Ramadan client visit, an employee's Eid Al Fitr gift and an Eid Al Adha partner greeting have different purposes. A hospitality piece may be useful to a host, but it need not be the right choice for every colleague. Religious occasions do not make personal preferences identical.",
+                "Set the recipient group, intended use and actual handover for each brief. Decide whether the gift belongs to an individual, a household or a shared business setting. That distinction shapes the product, greeting, packaging and quantity."
+              ],
+              "bullets": [
+                "Ramadan: welcoming, hosting and an agreed visit or gathering.",
+                "Eid Al Fitr: appreciation for an individual or something a family can enjoy together.",
+                "Eid Al Adha: a separate partner or client gesture with its own greeting and handover."
+              ]
+            },
+            {
+              "title": "Ramadan hosts: compare an oud burner with a qahwa service",
+              "paragraphs": [
+                "Our [architectural oud burners](/#gift-oud-majlis) offer three design directions: tower, curved wall and courtyard. Choose the silhouette that fits the host's space and the project's visual language. Then compare metal finish, leather colour and presentation. Agree dimensions, heat-handling components and use instructions through a physical sample.",
+                "The [contemporary qahwa service](/#gift-ceramic-qahwa) takes a different role: a ceramic-and-brass direction for serving Arabic coffee. Confirm the pieces and number of cups around the host's actual use. [Glass hospitality pieces](/#gift-glass-hospitality) are another serving direction, while a [personal leather folio](/#gift-leather-folio) may better suit a business host whose gift should stay useful at work.",
+                "Plan to hand over a hospitality gift before the gathering where it is intended to be used. An impressive package that arrives after the visit misses that purpose."
+              ],
+              "bullets": [
+                "Oud burner: architectural form, handling, finish and approved sample.",
+                "Qahwa or glass: serving pieces, care instructions and protective packing.",
+                "Folio: document format, internal layout and the recipient's approved name."
+              ]
+            },
+            {
+              "title": "Eid Al Fitr: distinguish employee appreciation from family play",
+              "paragraphs": [
+                "For an individual, compare [Shokz OpenFit 2](/#gift-shokz-openfit) or [Huawei FreeClip 2](/#gift-huawei-freeclip) by wearing preference and phone compatibility. [Laifen Wave](/#gift-laifen-wave) can fit a personal-care gift when that is welcome. A [leather folio](/#gift-leather-folio) offers a work-related alternative.",
+                "For family time, [GiiKER Smart Four](/#gift-giiker-four) is a shared strategy-game direction; [GiiKER Super Slide](/#gift-giiker-slide) offers an individual puzzle challenge. [ROKR Marble Spaceport](/#gift-rokr-spaceport) suits a recipient who wants an assembly project. Check the manufacturer's age guidance and the actual instructions rather than treating every game as suitable for every household.",
+                "An [EKETOP kinetic top](/#gift-eketop) can bring a playful moment to a design-minded adult's desk. Match the gift to the person, then use a coordinated Eid Al Fitr card and box to connect the team campaign."
+              ],
+              "bullets": [
+                "Record whether each gift is for the employee or for family use.",
+                "Offer different useful products within the same presentation when preferences vary.",
+                "Confirm names and distribution quantities before colleagues leave for the holiday."
+              ]
+            },
+            {
+              "title": "Eid Al Adha partners: choose around a known interest",
+              "paragraphs": [
+                "For a partner who enjoys hosting, revisit the [architectural oud burner](/#gift-oud-majlis). For a traveller, consider the [leather weekender](/#gift-leather-weekender) after checking dimensions, handles, strap and lining. For someone who enjoys preparing coffee, compare [Wacaco Picopresso](/#gift-wacaco-pico) with the [TIMEMORE Chestnut S3 hand grinder](/#gift-timemore-s3).",
+                "Coffee equipment and a qahwa service answer different needs: preparation for an enthusiast versus serving guests. A [Huawei WATCH GT 6 · 46 mm](/#gift-huawei-watch) or another quality technology choice can suit an individual partner when fit and device compatibility are known. Use our [technology gift guide](/guides/premium-technology-gifts/) to make that check specific.",
+                "Use an Eid Al Adha message and confirm whether the recipient will be available for the intended handover. Travel or leave arrangements can matter more than a general office delivery date."
+              ],
+              "bullets": [
+                "Hosting: consider the recipient's space and use of the object.",
+                "Travel, coffee or technology: choose the activity the recipient actually enjoys.",
+                "Confirm the named recipient, location and handover contact."
+              ]
+            },
+            {
+              "title": "Make the Arabic greeting, name and packaging work together",
+              "paragraphs": [
+                "Keep the occasion clear in the wording. A Ramadan greeting might use «رمضان كريم»; an Eid Al Fitr or Eid Al Adha card should name the relevant Eid when the campaign needs that distinction. Let the message of appreciation sound natural in Arabic rather than translating an English slogan word for word.",
+                "Prepare one approved recipient list with the Arabic and English names, titles where needed, product choice and destination. Review spelling and right-to-left layout in the artwork, then inspect the name and greeting on the final material. Separate a company-wide card from any personalised detail so late name corrections do not disturb the whole design.",
+                "Choose a fitted box or a [woven presentation case](/#gift-woven-hospitality) around the actual contents. Check the opening sequence, secure inserts, accessories and instructions together. Use a restrained company identity that leaves the greeting and gift easy to enjoy."
+              ],
+              "bullets": [
+                "Name one owner for recipient data and one final artwork approver.",
+                "Approve Arabic and English text, name placement, material and colour together.",
+                "Match each personalised pack to its recipient before cartons are closed."
+              ]
+            },
+            {
+              "title": "Choose the development route before approving the schedule",
+              "paragraphs": [
+                "For a branded technology item, start with the exact model and regional package, then agree the outer box, sleeve and greeting. Confirm any decoration on the product separately. For an original oud burner or crafted piece, the form, materials and finish require their own development and sample decisions.",
+                "Our China sourcing and development work connects consumer technology, precision metalwork, leather, ceramic and glass, and coordinated packaging. A mixed gift set needs one assembled sample to confirm that those elements fit and travel together. It also needs clear decisions on what is included.",
+                "Use our [customisation guide](/guides/corporate-gift-customisation/) to compare these routes. If the handover is close, compare an established product with a simpler presentation before committing to a new manufactured form."
+              ],
+              "bullets": [
+                "Approve product configuration and included accessories.",
+                "Approve artwork, names, box structure and inserts.",
+                "Approve the complete sample, inspection points and packing plan before production."
+              ]
+            },
+            {
+              "title": "Work backwards from the real handover",
+              "paragraphs": [
+                "Set a working handover date around your first Ramadan gathering, employees' final working day before Eid Al Fitr, or a partner's availability for Eid Al Adha. Follow UAE official announcements for Ramadan and Eid dates, and review your plan when those dates are confirmed. A planning date is not a guaranteed delivery commitment.",
+                "Build the project schedule with us from that handover backwards. Allow for sample revisions, recipient proofing, the selected production route, factory holiday schedules in China and transport. The approved proposal should give each stage an owner and a date.",
+                "Use the [UAE gifting calendar](/guides/uae-corporate-gifting-calendar/) for the broader annual plan and the [seven-category selection guide](/guides/corporate-gift-selection/) for alternatives. Share the occasion, recipient groups, quantities, preferred products, required handover and destinations through the [gift project brief](/#gift-brief)."
+              ],
+              "bullets": [
+                "Handover: named person, location, date and recipient availability.",
+                "Receiving and distribution: time for carton checks, name matching and branch or team allocation.",
+                "Transport and packing: agreed route, protective packing and confirmed dispatch plan.",
+                "Production: approved configuration, sample and inspection points.",
+                "Approvals and selection: final names, bilingual artwork, materials and product choice, with room to correct a sample."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Should Ramadan and Eid gifts be the same?",
+              "a": "They can share a visual identity, but the gift should follow its purpose. Ramadan hospitality, individual Eid Al Fitr appreciation and Eid Al Adha partner gifting may call for different products, greetings and handover dates."
+            },
+            {
+              "q": "What are MUSE's three architectural oud-burner designs?",
+              "a": "Our design directions are a tower, a curved wall and a courtyard. We develop the selected form with agreed dimensions, metal finish, leather colour, presentation and use details, checked through the physical sample."
+            },
+            {
+              "q": "Can a company give technology or games for Eid?",
+              "a": "Yes, when the choice suits the recipient. Confirm fit and device compatibility for technology, and age guidance, instructions and player format for games. Distinguish a personal gift from one intended for the household."
+            },
+            {
+              "q": "When should we start planning Ramadan or Eid gifts?",
+              "a": "Start from the required handover and work backwards through distribution, transport, production, samples and approvals. Original development needs a different plan from an established product with customised packaging. Confirm the schedule for the selected route and follow UAE official announcements for religious dates."
+            }
+          ],
+          "sources": [
+            {
+              "title": "MUSE hospitality and corporate gift collection",
+              "url": "https://gifts.aimuse.ae/"
+            },
+            {
+              "title": "UAE Government: public holidays and religious dates",
+              "url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+            }
+          ]
+        },
+        "ar": {
+          "url": "https://gifts.aimuse.ae/ar/guides/ramadan-eid-corporate-gifts/",
+          "title": "كيف تختار هدايا الشركات لرمضان والعيدين؟",
+          "answer": "في رمضان، ابدأ بالمضيف وأول لقاء مخطّط. وفي عيد الفطر، فرّق بين تقدير الموظف شخصياً والهدية المخصصة لوقت العائلة. وفي عيد الأضحى، اختر هدية الشريك بحسب اهتمامه وتوافره للاستلام. تجمع ميوز قطع الضيافة ومباخرها المعمارية الأصلية والجلد وأدوات القهوة والألعاب والمنتجات التقنية المختارة، مع تقديم وتهنئة يناسبان كل مناسبة.",
+          "sections": [
+            {
+              "title": "ثلاثة احتياجات مختلفة، ولو تولّاها فريق واحد",
+              "paragraphs": [
+                "زيارة عميل في رمضان، وهدية موظف في عيد الفطر، وتهنئة شريك بعيد الأضحى لها أغراض مختلفة. قد تفيد قطعة ضيافة مضيفاً، لكنها ليست بالضرورة اختيار كل زميل. المناسبة الدينية لا تجعل تفضيلات المستلمين متطابقة.",
+                "حدّد فئة المستلمين والاستخدام المقصود وموعد التسليم الفعلي لكل طلب. هل الهدية لشخص أم لأسرة أم لمكان عمل مشترك؟ يؤثر هذا القرار في المنتج والتهنئة والتغليف والكمية."
+              ],
+              "bullets": [
+                "رمضان: الترحيب والضيافة وموعد زيارة أو لقاء متفق عليه.",
+                "عيد الفطر: تقدير شخصي أو نشاط تستمتع به العائلة.",
+                "عيد الأضحى: لفتة مستقلة لشريك أو عميل بتهنئتها وموعد تسليمها."
+              ]
+            },
+            {
+              "title": "لمضيف رمضان: قارن المبخرة بطقم القهوة العربية",
+              "paragraphs": [
+                "تقدّم [مباخرنا المعمارية](/ar/#gift-oud-majlis) ثلاثة اتجاهات: البرج والسور المنحني والفناء. اختر الشكل الملائم لمكان المضيف ولغة التصميم في المشروع، ثم قارن التشطيب المعدني ولون الجلد وطريقة التقديم. اتفق على الأبعاد والأجزاء المعرّضة للحرارة وتعليمات الاستخدام من خلال عينة فعلية.",
+                "يخدم [طقم القهوة العربية المعاصر](/ar/#gift-ceramic-qahwa) دوراً مختلفاً: تقديم القهوة بتصميم يجمع السيراميك والنحاس. أكد القطع وعدد الفناجين بحسب استخدام المضيف. وتوفّر [قطع الضيافة الزجاجية](/ar/#gift-glass-hospitality) اتجاهاً آخر للتقديم، بينما قد تناسب [الحافظة الجلدية الشخصية](/ar/#gift-leather-folio) مضيفاً من شركاء الأعمال يفضّل هدية يستخدمها في العمل.",
+                "خطّط لتسليم هدية الضيافة قبل اللقاء الذي ستُستخدم فيه. فالتغليف المميز وحده لا يحقق الغرض إذا وصلت الهدية بعد الزيارة."
+              ],
+              "bullets": [
+                "المبخرة: الشكل المعماري وطريقة الاستخدام والتشطيب والعينة المعتمدة.",
+                "القهوة أو الزجاج: قطع التقديم وتعليمات العناية والتغليف الواقي.",
+                "الحافظة: مقاس الوثائق والتقسيم الداخلي واسم المتلقي المعتمد."
+              ]
+            },
+            {
+              "title": "عيد الفطر: تقدير الموظف يختلف عن هدية العائلة",
+              "paragraphs": [
+                "للهدية الفردية، قارن [Shokz OpenFit 2](/ar/#gift-shokz-openfit) و[Huawei FreeClip 2](/ar/#gift-huawei-freeclip) بحسب تفضيل الارتداء والتوافق مع الهاتف. وقد تناسب [Laifen Wave](/ar/#gift-laifen-wave) هدية عناية شخصية عندما يرحّب بها المستلم. وتقدّم [الحافظة الجلدية](/ar/#gift-leather-folio) بديلاً للاستخدام المهني.",
+                "لوقت العائلة، توفّر [GiiKER Smart Four](/ar/#gift-giiker-four) لعبة استراتيجية مشتركة، وتقدّم [GiiKER Super Slide](/ar/#gift-giiker-slide) تحدياً فردياً في الألغاز. أما [ROKR Marble Spaceport](/ar/#gift-rokr-spaceport) فيناسب من يريد مشروع تركيب. راجع إرشادات العمر من المصنّع والتعليمات الفعلية؛ فليست كل لعبة مناسبة لكل أسرة.",
+                "يمكن لـ[بلبل EKETOP المتحرك](/ar/#gift-eketop) أن يضيف لحظة مرح لمكتب شخص بالغ يهتم بالتصميم. طابق الهدية مع الشخص، ثم وحّد حملة الفريق ببطاقة وعلبة منسّقتين لعيد الفطر."
+              ],
+              "bullets": [
+                "سجّل ما إذا كانت كل هدية للموظف نفسه أم للاستخدام العائلي.",
+                "أتح منتجات مفيدة مختلفة ضمن هوية تقديم واحدة عند اختلاف التفضيلات.",
+                "أكد الأسماء وكميات التوزيع قبل مغادرة الزملاء لإجازة العيد."
+              ]
+            },
+            {
+              "title": "شركاء عيد الأضحى: اختر اهتماماً تعرفه",
+              "paragraphs": [
+                "للشريك المحب للضيافة، يمكن العودة إلى [المبخرة المعمارية](/ar/#gift-oud-majlis). وللمسافر، قارن [حقيبة السفر الجلدية](/ar/#gift-leather-weekender) بعد تأكيد الأبعاد والمقابض والحزام والبطانة. ولمن يستمتع بتحضير القهوة، قارن [Wacaco Picopresso](/ar/#gift-wacaco-pico) مع [مطحنة TIMEMORE Chestnut S3 اليدوية](/ar/#gift-timemore-s3).",
+                "تخدم أدوات تحضير القهوة وطقم القهوة العربية احتياجين مختلفين: التحضير لمحبي القهوة مقابل تقديمها للضيوف. وقد تناسب [Huawei WATCH GT 6 بمقاس ٤٦ مم](/ar/#gift-huawei-watch) أو هدية تقنية مختارة شريكاً بعينه عندما يُعرف المقاس المناسب والتوافق مع أجهزته. يساعدك [دليل الهدايا التقنية](/ar/guides/premium-technology-gifts/) على تحديد هذه النقاط.",
+                "استخدم رسالة خاصة بعيد الأضحى وأكد توافر المستلم في موعد التسليم المقصود. قد تكون ترتيبات السفر أو الإجازة أهم من تاريخ وصول الهدية إلى المكتب بصورة عامة."
+              ],
+              "bullets": [
+                "للضيافة: راعِ مكان المستلم وطريقة استخدام القطعة.",
+                "للسفر أو القهوة أو التقنية: اختر نشاطاً يستمتع به المتلقي فعلاً.",
+                "أكد اسم المستلم والموقع والشخص المسؤول عن التسليم."
+              ]
+            },
+            {
+              "title": "اجمع التهنئة العربية والاسم والتغليف في تصميم متناسق",
+              "paragraphs": [
+                "اجعل المناسبة واضحة في النص. يمكن أن تحمل بطاقة رمضان عبارة «رمضان كريم»، بينما تسمّي بطاقة عيد الفطر أو عيد الأضحى العيد المقصود عندما تحتاج الحملة إلى هذا التمييز. اكتب رسالة تقدير طبيعية بالعربية، بدلاً من ترجمة شعار إنجليزي كلمة بكلمة.",
+                "جهّز قائمة مستلمين معتمدة تتضمن الاسم العربي والإنجليزي واللقب عند الحاجة والمنتج والوجهة. راجع الإملاء واتجاه النص في التصميم، ثم افحص الاسم والتهنئة على الخامة النهائية. افصل بطاقة الشركة المشتركة عن التفاصيل الشخصية حتى لا يغيّر تصحيح اسم متأخر التصميم كله.",
+                "اختر علبة مناسبة أو [حقيبة تقديم منسوجة](/ar/#gift-woven-hospitality) حول المحتويات الفعلية. راجع تسلسل الفتح وثبات الحشوات والملحقات والتعليمات معاً، واجعل هوية الشركة متزنة بحيث تبقى الهدية والتهنئة واضحتين."
+              ],
+              "bullets": [
+                "حدّد مسؤولاً واحداً عن بيانات المستلمين وصاحب الاعتماد النهائي للتصميم.",
+                "اعتمد النصين العربي والإنجليزي وموضع الاسم والخامة واللون معاً.",
+                "طابق كل عبوة شخصية مع مستلمها قبل إغلاق الكراتين."
+              ]
+            },
+            {
+              "title": "اختر مسار التطوير قبل اعتماد الجدول",
+              "paragraphs": [
+                "للمنتج التقني من علامة معروفة، ابدأ بالطراز الدقيق والنسخة المخصصة للمنطقة، ثم اتفق على العلبة الخارجية والغلاف والتهنئة. أكد أي تخصيص للمنتج نفسه على حدة. أما المبخرة الأصلية أو القطعة المصنّعة خصيصاً، فتحتاج إلى قرارات مستقلة للشكل والخامات والتشطيب والعينة.",
+                "يجمع عملنا مع موارد التوريد والتطوير في الصين التقنية الاستهلاكية والمعادن الدقيقة والجلد والسيراميك والزجاج والتغليف المتناسق. تحتاج المجموعة المختلطة إلى عينة مجمّعة تؤكد ملاءمة العناصر بعضها لبعض وحمايتها أثناء النقل، وإلى تحديد واضح لكل ما تتضمنه.",
+                "قارن المسارات في [دليل تخصيص الهدايا](/ar/guides/corporate-gift-customisation/). وإذا اقترب موعد التسليم، فقارن منتجاً قائماً مع تقديم أبسط قبل الالتزام بتصنيع شكل جديد."
+              ],
+              "bullets": [
+                "اعتمد تجهيز المنتج وملحقاته المرفقة.",
+                "اعتمد التصميم والأسماء وهيكل العلبة والحشوات.",
+                "اعتمد العينة الكاملة ونقاط الفحص وخطة التعبئة قبل التصنيع."
+              ]
+            },
+            {
+              "title": "خطّط عكسياً من موعد التسليم الفعلي",
+              "paragraphs": [
+                "حدّد موعداً عملياً للتسليم بحسب أول لقاء في رمضان، أو آخر يوم عمل للموظفين قبل عيد الفطر، أو توافر الشريك في عيد الأضحى. اعتمد إعلانات الإمارات الرسمية لمواعيد رمضان والعيدين، وراجع الخطة عند تأكيدها. التاريخ المستخدم للتخطيط لا يمثّل ضماناً للتسليم.",
+                "نبني جدول المشروع معك بدءاً من ذلك الموعد وبالرجوع إلى المراحل السابقة. احسب مراجعات العينة وتدقيق الأسماء ومسار التصنيع المختار وعطلات المصانع في الصين والنقل. ويحدّد المقترح المعتمد مسؤولاً وتاريخاً لكل مرحلة.",
+                "راجع [تقويم الإهداء في الإمارات](/ar/guides/uae-corporate-gifting-calendar/) للخطة السنوية، و[دليل الفئات السبع](/ar/guides/corporate-gift-selection/) للبدائل. أرسل المناسبة وفئات المستلمين والكميات والمنتجات المفضلة وموعد التسليم المطلوب ووجهاته عبر [موجز مشروع الهدية](/ar/#gift-brief)."
+              ],
+              "bullets": [
+                "التسليم: اسم المسؤول والمكان والتاريخ وتوافر المستلم.",
+                "الاستلام والتوزيع: وقت لفحص الكراتين ومطابقة الأسماء وتخصيص الكميات للفروع أو الفرق.",
+                "النقل والتعبئة: المسار المتفق عليه والحماية وخطة الإرسال المؤكدة.",
+                "التصنيع: التجهيز والعينة المعتمدان ونقاط الفحص.",
+                "الاعتمادات والاختيار: الأسماء النهائية والتصميم باللغتين والخامات والمنتج، مع وقت لتصحيح العينة."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "هل نختار الهدية نفسها لرمضان والعيد؟",
+              "a": "يمكن توحيد الهوية البصرية، لكن الهدية تتبع غرضها. فضيافة رمضان، وتقدير الموظف في عيد الفطر، وإهداء الشريك في عيد الأضحى قد تحتاج إلى منتجات وتهنئات ومواعيد تسليم مختلفة."
+            },
+            {
+              "q": "ما تصاميم مباخر ميوز المعمارية الثلاثة؟",
+              "a": "اتجاهاتنا هي البرج والسور المنحني والفناء. نطوّر الشكل المختار بأبعاد وتشطيب معدني ولون جلد وتقديم وتفاصيل استخدام متفق عليها، وتُراجع من خلال العينة الفعلية."
+            },
+            {
+              "q": "هل تناسب التقنية والألعاب هدايا الشركات في العيد؟",
+              "a": "نعم، عندما تلائم المتلقي. أكد الراحة والتوافق مع الأجهزة للمنتجات التقنية، وإرشادات العمر والتعليمات وطريقة اللعب للألعاب. وميّز بين هدية شخصية وهدية مخصصة للأسرة."
+            },
+            {
+              "q": "متى نبدأ تخطيط هدايا رمضان أو العيد؟",
+              "a": "ابدأ من موعد التسليم المطلوب وارجع إلى التوزيع والنقل والتصنيع والعينات والاعتمادات. يحتاج التطوير الأصلي إلى خطة تختلف عن منتج قائم بتغليف خاص. أكد الجدول للمسار المختار واعتمد الإعلان الرسمي في الإمارات للمواعيد الدينية."
+            }
+          ],
+          "sources": [
+            {
+              "title": "مجموعة ميوز للضيافة وهدايا الشركات",
+              "url": "https://gifts.aimuse.ae/ar/"
+            },
+            {
+              "title": "حكومة الإمارات: العطلات الرسمية والمواعيد الدينية",
+              "url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
             }
           ]
         }
@@ -1729,6 +2608,7 @@
       "topic_key": "national-day-2026-october-procurement",
       "kind": "blog",
       "date": "2026-10-16",
+      "updated_at": null,
       "products": [
         "leather-folio",
         "executive-desk",
@@ -1914,6 +2794,7 @@
       "topic_key": "flag-day-team-selection-presentation-handover",
       "kind": "blog",
       "date": "2026-10-17",
+      "updated_at": null,
       "products": [
         "leather-folio",
         "eketop",

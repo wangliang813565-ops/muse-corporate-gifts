@@ -1,0 +1,7 @@
+{{ $lang := .Lang }}
+<section class="vg-wrap vg-buyer-routes" aria-label="{{ if eq $lang "ar" }}اختر طريقك إلى الهدية{{ else }}Find your gift direction{{ end }}">
+{{ range $id := slice "uae-corporate-gifting-calendar" "corporate-gift-selection" "corporate-gift-customisation" }}
+{{ with $.Site.GetPage (printf "/guides/%s" $id) }}
+<a href="{{ .RelPermalink }}"><span class="vg-kicker">{{ if eq $id "uae-corporate-gifting-calendar" }}{{ if eq $lang "ar" }}ما الهدية المناسبة لكل مناسبة؟{{ else }}What to give, and when{{ end }}{{ else if eq $id "corporate-gift-selection" }}{{ if eq $lang "ar" }}اكتشف خياراتنا الـ٢٩{{ else }}What we offer: 29 choices{{ end }}{{ else }}{{ if eq $lang "ar" }}ما الذي نطوّره لشركتك؟{{ else }}What we can create for you{{ end }}{{ end }}</span><p>{{ if eq $id "uae-corporate-gifting-calendar" }}{{ if eq $lang "ar" }}رمضان والعيدان ويوم العلم وعيد الاتحاد والتقدير.{{ else }}Ramadan, both Eids, Flag Day, Eid Al Etihad and recognition.{{ end }}{{ else if eq $id "corporate-gift-selection" }}{{ if eq $lang "ar" }}تقنية ومرح وقهوة وجلد وهدايا ضيافة أصلية.{{ else }}Technology, play, coffee, leather and original hospitality gifts.{{ end }}{{ else }}{{ if eq $lang "ar" }}التغليف والتخصيص والتصميم والعينات وخطة التسليم.{{ else }}Packaging, personalisation, design, samples and handover planning.{{ end }}{{ end }}</p><span aria-hidden="true">↗</span></a>
+{{ end }}{{ end }}
+</section>

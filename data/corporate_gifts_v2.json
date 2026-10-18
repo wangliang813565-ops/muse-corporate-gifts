@@ -9,8 +9,8 @@
       },
       "category": "personal",
       "text": {
-        "en": "A better everyday ritual.",
-        "ar": "عناية يومية بتفاصيل أفضل."
+        "en": "Electric oral care for recipients who welcome a personal daily-use gift.",
+        "ar": "عناية كهربائية بالأسنان لمن يفضّل هدية شخصية للاستخدام اليومي."
       },
       "scene": {
         "en": "Employee wellbeing · Eid appreciation",
@@ -24,7 +24,11 @@
       ],
       "image": "laifen-wave.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm colour, supplied brush heads, replacement-head access and the recipient’s preference for personal care.",
+        "ar": "أكد اللون ورؤوس الفرشاة المرفقة وتوفر الرؤوس البديلة ورغبة المستلم في هدايا العناية الشخصية."
+      }
     },
     {
       "id": "laifen-p3",
@@ -35,8 +39,8 @@
       },
       "category": "personal",
       "text": {
-        "en": "A precise, beautifully resolved personal gift.",
-        "ar": "هدية شخصية بتصميم متقن."
+        "en": "A personal shaving gift for a known routine, with a considered travel presentation.",
+        "ar": "هدية حلاقة شخصية تناسب روتين المستلم، مع تنسيق تقديم ملائم للسفر."
       },
       "scene": {
         "en": "Business travel · Personal recognition",
@@ -51,7 +55,11 @@
       ],
       "image": "laifen-p3.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the recipient uses an electric shaver, then agree the model, charging accessories and cleaning arrangement.",
+        "ar": "أكد أن المستلم يستخدم ماكينة حلاقة كهربائية، ثم اتفق على الطراز وملحقات الشحن وطريقة التنظيف."
+      }
     },
     {
       "id": "shokz-openfit",
@@ -62,8 +70,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "For workdays that keep moving.",
-        "ar": "لأيام عمل مليئة بالحركة."
+        "en": "Open-ear audio for colleagues and clients who prefer this wearing style.",
+        "ar": "سماعات مفتوحة الأذن للموظفين والعملاء الذين يفضلون هذا الأسلوب في الارتداء."
       },
       "scene": {
         "en": "Client appreciation · Service anniversaries",
@@ -78,7 +86,11 @@
       ],
       "image": "shokz-openfit.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Check wearing comfort, phone compatibility, charging-case contents and regional after-sales terms.",
+        "ar": "تحقق من راحة الارتداء والتوافق مع الهاتف ومحتويات علبة الشحن وشروط خدمة ما بعد البيع في المنطقة."
+      }
     },
     {
       "id": "huawei-freeclip",
@@ -89,8 +101,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "Sculptural design, everyday listening.",
-        "ar": "تصميم مميز للاستماع اليومي."
+        "en": "Clip-style audio for everyday listening and individual recognition.",
+        "ar": "سماعات بتصميم المشبك للاستماع اليومي وهدايا التقدير الفردية."
       },
       "scene": {
         "en": "Emirati Women’s Day · Leadership recognition",
@@ -105,7 +117,11 @@
       ],
       "image": "huawei-freeclip.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the preferred fit and colour, phone and app compatibility, and the exact regional package.",
+        "ar": "أكد ملاءمة التصميم واللون والتوافق مع الهاتف والتطبيق ومحتويات النسخة المخصصة للمنطقة."
+      }
     },
     {
       "id": "eketop",
@@ -116,8 +132,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A small object with a remarkable presence.",
-        "ar": "قطعة صغيرة بحضور لافت."
+        "en": "A kinetic metal desk object for people drawn to movement and mechanical design.",
+        "ar": "قطعة مكتبية معدنية متحركة لمحبي الحركة والتصميم الميكانيكي."
       },
       "scene": {
         "en": "Founder gifts · Innovation events",
@@ -132,7 +148,11 @@
       ],
       "image": "eketop.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Review the actual finish, size, base and operation on a sample; select for the experience without assuming a fixed spinning time.",
+        "ar": "راجع التشطيب والحجم والقاعدة وطريقة التشغيل على عينة فعلية؛ اختر التجربة دون افتراض مدة دوران ثابتة."
+      }
     },
     {
       "id": "hoto-kit",
@@ -143,8 +163,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Industrial design you can put to work.",
-        "ar": "تصميم صناعي عملي ومتقن."
+        "en": "A precision screwdriver kit for practical makers and considered home-handover gifts.",
+        "ar": "طقم مفك دقيق لمحبي الأعمال اليدوية وهدايا تسليم المنازل المدروسة."
       },
       "scene": {
         "en": "Engineering clients · New-home handovers",
@@ -158,7 +178,11 @@
       ],
       "image": "hoto-kit.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the included bits and accessories against the recipient’s intended small tasks.",
+        "ar": "أكد رؤوس المفك والملحقات المرفقة بحسب الأعمال الصغيرة التي ينوي المستلم تنفيذها."
+      }
     },
     {
       "id": "dji-mobile",
@@ -169,8 +193,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "Turn the next journey into a story.",
-        "ar": "حوّل الرحلة القادمة إلى حكاية."
+        "en": "A smartphone stabiliser for clients and teams who enjoy making video.",
+        "ar": "مثبّت للهاتف للعملاء والفرق التي تستمتع بإنتاج الفيديو."
       },
       "scene": {
         "en": "Travel clients · Automotive launches",
@@ -185,7 +209,11 @@
       ],
       "image": "dji-mobile.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Check the actual phone model, dimensions and compatibility, plus the selected accessory bundle.",
+        "ar": "تحقق من طراز الهاتف وأبعاده وتوافقه، ومن حزمة الملحقات المختارة."
+      }
     },
     {
       "id": "lofree",
@@ -196,8 +224,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A desk piece with a point of view.",
-        "ar": "قطعة مكتبية تعبّر عن ذوق صاحبها."
+        "en": "A transparent keyboard that gives a design-minded workspace its own character.",
+        "ar": "لوحة مفاتيح شفافة تضيف طابعاً خاصاً لمساحة عمل محبّي التصميم."
       },
       "scene": {
         "en": "Creative teams · Design-led businesses",
@@ -212,7 +240,11 @@
       ],
       "image": "lofree.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm keyboard layout, Arabic/English typing needs, device connection and desk space.",
+        "ar": "أكد تخطيط لوحة المفاتيح واحتياجات الكتابة بالعربية والإنجليزية والاتصال بالجهاز ومساحة المكتب."
+      }
     },
     {
       "id": "ceramic-qahwa",
@@ -223,8 +255,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "Hospitality, shaped in ceramic and brass.",
-        "ar": "ضيافة تتجسد في السيراميك والنحاس."
+        "en": "A ceramic-and-brass Arabic coffee direction for hosts, majlis and hospitality partners.",
+        "ar": "تصميم للقهوة العربية يجمع السيراميك والنحاس للمضيفين والمجالس وشركاء الضيافة."
       },
       "scene": {
         "en": "Ramadan majlis · Hospitality partners",
@@ -239,7 +271,11 @@
       ],
       "image": "ceramic-qahwa.webp",
       "custom": true,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Agree the serving pieces, number of cups, material finish, care instructions and fitted presentation.",
+        "ar": "اتفق على قطع التقديم وعدد الفناجين وتشطيب المواد وتعليمات العناية والتغليف الملائم."
+      }
     },
     {
       "id": "leather-folio",
@@ -250,8 +286,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "A thoughtful companion for important work.",
-        "ar": "رفيق أنيق للأعمال المهمة."
+        "en": "A personalised meeting companion for documents, notes and professional milestones.",
+        "ar": "حافظة اجتماعات شخصية للوثائق والملاحظات ومناسبات التقدير المهنية."
       },
       "scene": {
         "en": "VIP clients · Boardroom milestones",
@@ -266,7 +302,11 @@
       ],
       "image": "leather-folio.webp",
       "custom": true,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Choose the document format, leather specification, internal layout and approved Arabic or English name.",
+        "ar": "اختر مقاس الوثائق ومواصفات الجلد والتقسيم الداخلي والاسم المعتمد بالعربية أو الإنجليزية."
+      }
     },
     {
       "id": "wacaco-pico",
@@ -277,8 +317,8 @@
       },
       "category": "coffee",
       "text": {
-        "en": "For the person who loves the coffee ritual.",
-        "ar": "لمن يستمتع بطقوس تحضير القهوة."
+        "en": "A portable espresso direction for recipients who enjoy preparing their own coffee.",
+        "ar": "خيار إسبريسو محمول لمن يستمتع بتحضير قهوته بنفسه."
       },
       "scene": {
         "en": "Coffee enthusiasts · Travel gifting",
@@ -292,7 +332,11 @@
       ],
       "image": "wacaco-pico.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Confirm the recipient’s coffee routine, compatible grind, water preparation and included accessories.",
+        "ar": "أكد طريقة تحضير القهوة لدى المستلم والطحن المناسب وتجهيز الماء والملحقات المرفقة."
+      }
     },
     {
       "id": "giiker-four",
@@ -303,8 +347,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A gift made to be played together.",
-        "ar": "هدية تدعو إلى اللعب معاً."
+        "en": "A shared strategy game for family gatherings and company family activities.",
+        "ar": "لعبة استراتيجية مشتركة للتجمعات العائلية وفعاليات عائلات الموظفين."
       },
       "scene": {
         "en": "Eid family gifts · Company family days",
@@ -319,7 +363,11 @@
       ],
       "image": "giiker-four.webp",
       "custom": false,
-      "featured": true
+      "featured": true,
+      "selection": {
+        "en": "Check the manufacturer’s age guidance, player format, instructions and power requirements for the selected version.",
+        "ar": "راجع العمر الموصى به من الشركة المصنّعة وطريقة اللعب والتعليمات ومتطلبات الطاقة للنسخة المختارة."
+      }
     },
     {
       "id": "shokz-openrun",
@@ -330,8 +378,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "Reward the people who go the extra mile.",
-        "ar": "للأشخاص الذين يحبون تجاوز التحديات."
+        "en": "A sports-audio direction for recipients with an established running or exercise interest.",
+        "ar": "خيار صوتي رياضي لمن لديهم اهتمام فعلي بالجري أو ممارسة الرياضة."
       },
       "scene": {
         "en": "Corporate running · Active lifestyles",
@@ -345,7 +393,11 @@
       ],
       "image": "shokz-openrun.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm fit, the recipient’s activity, phone compatibility and charging accessories.",
+        "ar": "أكد المقاس المناسب ونشاط المستلم والتوافق مع الهاتف وملحقات الشحن."
+      }
     },
     {
       "id": "soundcore-space",
@@ -356,8 +408,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "A considered choice for frequent flyers.",
-        "ar": "اختيار مدروس لكثيري السفر."
+        "en": "Over-ear listening for recipients who prefer a headset format at work or while travelling.",
+        "ar": "سماعات فوق الأذن لمن يفضلون هذا التصميم أثناء العمل أو السفر."
       },
       "scene": {
         "en": "Business travel · Employee awards",
@@ -372,7 +424,11 @@
       ],
       "image": "soundcore-space.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Check wearing preference, packed size, device connections and supplied carrying and charging accessories.",
+        "ar": "تحقق من تفضيل الارتداء والحجم عند التعبئة والاتصال بالأجهزة وملحقات الحمل والشحن المرفقة."
+      }
     },
     {
       "id": "huawei-watch",
@@ -383,8 +439,8 @@
       },
       "category": "audio",
       "text": {
-        "en": "A milestone they can wear every day.",
-        "ar": "ذكرى إنجاز ترافقهم كل يوم."
+        "en": "A wearable recognition gift for someone who wants a 46 mm watch format.",
+        "ar": "ساعة للتكريم تناسب من يفضلون مقاس ٤٦ مم."
       },
       "scene": {
         "en": "Annual recognition · Sales incentives",
@@ -399,7 +455,11 @@
       ],
       "image": "huawei-watch.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm wrist fit, strap and colour, phone/app compatibility and the features available in the selected regional version.",
+        "ar": "أكد ملاءمة الساعة للمعصم والسوار واللون والتوافق مع الهاتف والتطبيق والميزات المتاحة في النسخة المختارة."
+      }
     },
     {
       "id": "anker-powerbank",
@@ -410,8 +470,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "Serious portable power for serious work.",
-        "ar": "طاقة متنقلة للأعمال المهمة."
+        "en": "Portable charging for laptop users working away from a desk.",
+        "ar": "شحن متنقل لمستخدمي الحاسوب المحمول أثناء العمل خارج المكتب."
       },
       "scene": {
         "en": "Laptop users · Frequent business travellers",
@@ -426,7 +486,11 @@
       ],
       "image": "anker-powerbank.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Match laptop power needs and cables; for flying, check the airline’s current battery rules for the exact item and route.",
+        "ar": "طابق احتياجات طاقة الحاسوب والكابلات؛ وللسفر جواً، راجع قواعد شركة الطيران الحالية للبطارية والطراز والمسار المحدد."
+      }
     },
     {
       "id": "anker-desktop",
@@ -437,8 +501,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "A more capable working setup.",
-        "ar": "إضافة عملية لمساحة العمل."
+        "en": "A multi-device charging direction for executive desks and new office setups.",
+        "ar": "خيار لشحن عدة أجهزة على مكاتب الإدارة وفي تجهيزات المكاتب الجديدة."
       },
       "scene": {
         "en": "Executive desks · Office openings",
@@ -453,7 +517,11 @@
       ],
       "image": "anker-desktop.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Agree device and port needs, suitable cables, the regional mains connection and the complete package.",
+        "ar": "اتفق على الأجهزة والمنافذ المطلوبة والكابلات المناسبة ووصلة الكهرباء للمنطقة ومحتويات الحزمة."
+      }
     },
     {
       "id": "dji-pocket",
@@ -464,8 +532,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "For the client who sees stories everywhere.",
-        "ar": "لمن يجد حكاية في كل مكان."
+        "en": "A compact-camera gift for content partners who want a dedicated creation tool.",
+        "ar": "هدية كاميرا مدمجة لشركاء المحتوى الذين يرغبون في أداة تصوير مستقلة."
       },
       "scene": {
         "en": "Content partners · Exceptional rewards",
@@ -479,7 +547,11 @@
       ],
       "image": "dji-pocket.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm the Creator Combo contents, storage needs, intended workflow and recipient interest in filming.",
+        "ar": "أكد محتويات Creator Combo واحتياجات التخزين وطريقة العمل واهتمام المستلم بالتصوير."
+      }
     },
     {
       "id": "insta360-go",
@@ -490,8 +562,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "A distinctive gift for the next adventure.",
-        "ar": "هدية مميزة للمغامرة القادمة."
+        "en": "A small-camera direction for active creators and travel-minded recipients.",
+        "ar": "خيار كاميرا صغيرة لصنّاع المحتوى النشطين ومحبي السفر."
       },
       "scene": {
         "en": "Outdoor clients · Travel and automotive",
@@ -506,7 +578,11 @@
       ],
       "image": "insta360-go.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm the selected bundle, mounting needs, phone/app compatibility and how the recipient plans to use it.",
+        "ar": "أكد الحزمة المختارة وملحقات التثبيت والتوافق مع الهاتف والتطبيق وطريقة الاستخدام المقصودة."
+      }
     },
     {
       "id": "xiaomi-air",
@@ -517,8 +593,8 @@
       },
       "category": "travel",
       "text": {
-        "en": "Practical engineering for the road ahead.",
-        "ar": "هندسة عملية للطريق القادم."
+        "en": "A portable inflation tool for appropriate car-handover and cycling gift briefs.",
+        "ar": "أداة نفخ محمولة لمشروعات هدايا تسليم السيارات وركوب الدراجات المناسبة."
       },
       "scene": {
         "en": "Car handovers · Cycling communities",
@@ -532,7 +608,11 @@
       ],
       "image": "xiaomi-air.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Match the intended tyre or valve, required pressure and included adapters to the actual product specification.",
+        "ar": "طابق الإطار أو الصمام والضغط المطلوب والمحولات المرفقة مع مواصفات المنتج الفعلية."
+      }
     },
     {
       "id": "timemore-s3",
@@ -543,8 +623,8 @@
       },
       "category": "coffee",
       "text": {
-        "en": "Precision you can feel in your hands.",
-        "ar": "دقة تلمسها في كل استخدام."
+        "en": "A manual coffee grinder for recipients who enjoy the preparation as much as the cup.",
+        "ar": "مطحنة قهوة يدوية لمن يستمتع بالتحضير بقدر استمتاعه بفنجان القهوة."
       },
       "scene": {
         "en": "Specialty-coffee clients · Hotel partners",
@@ -558,7 +638,11 @@
       ],
       "image": "timemore-s3.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm the recipient’s brewing method, grind requirements, manual-use preference and presentation contents.",
+        "ar": "أكد طريقة التحضير ودرجة الطحن المطلوبة وتفضيل الاستخدام اليدوي ومحتويات الهدية."
+      }
     },
     {
       "id": "rokr-spaceport",
@@ -569,8 +653,8 @@
       },
       "category": "play",
       "text": {
-        "en": "An engineering project worth displaying.",
-        "ar": "مشروع هندسي يستحق العرض."
+        "en": "An assembly-and-display project for people who enjoy mechanical models.",
+        "ar": "مشروع تركيب وعرض لمحبي النماذج الميكانيكية."
       },
       "scene": {
         "en": "Engineering clients · Company family days",
@@ -585,7 +669,11 @@
       ],
       "image": "rokr-spaceport.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Check age guidance, assembly interest, build space and what tools or materials the selected kit includes.",
+        "ar": "راجع إرشادات العمر والرغبة في التركيب ومساحة العمل والأدوات أو المواد الموجودة في الطقم المختار."
+      }
     },
     {
       "id": "giiker-slide",
@@ -596,8 +684,8 @@
       },
       "category": "play",
       "text": {
-        "en": "A clever challenge, ready for another round.",
-        "ar": "تحدٍّ ذكي يدعوك إلى جولة أخرى."
+        "en": "A sliding-puzzle direction for individual challenges, travel and family activities.",
+        "ar": "لعبة ألغاز منزلقة للتحديات الفردية والسفر والأنشطة العائلية."
       },
       "scene": {
         "en": "Eid gifts · Travel and team activities",
@@ -612,7 +700,11 @@
       ],
       "image": "giiker-slide.webp",
       "custom": false,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm age guidance, language of instructions and the supplied power or charging arrangement.",
+        "ar": "أكد إرشادات العمر ولغة التعليمات وتجهيزات الطاقة أو الشحن المرفقة."
+      }
     },
     {
       "id": "oud-majlis",
@@ -623,8 +715,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "Our tower, curved-wall and courtyard designs.",
-        "ar": "تصاميمنا المستوحاة من البرج والسور والفناء."
+        "en": "Our tower, curved-wall and courtyard oud-burner designs for a distinctive hospitality gift.",
+        "ar": "تصاميمنا لمباخر العود المستوحاة من البرج والسور والفناء لهدية ضيافة مميزة."
       },
       "scene": {
         "en": "Ramadan & Eid · VIP gifts · UAE heritage occasions",
@@ -670,7 +762,11 @@
         "ar": "تصورات لتصميم مخصص؛ تُعتمد المواصفات والعينة وخطة الإنتاج حسب مشروعك."
       },
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Choose the architectural form, metal finish, leather colour and presentation. Agree the heat-handling components, use instructions and physical sample before production.",
+        "ar": "اختر الشكل المعماري والتشطيب المعدني ولون الجلد والتغليف. اتفق على الأجزاء المعرّضة للحرارة وتعليمات الاستخدام والعينة الفعلية قبل التصنيع."
+      }
     },
     {
       "id": "cnc-sculpture",
@@ -681,8 +777,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Turn an idea into a lasting desk object.",
-        "ar": "حوّل الفكرة إلى قطعة مكتبية باقية."
+        "en": "An original precision-metal form built around an architectural idea or company milestone.",
+        "ar": "شكل معدني دقيق وأصلي مستوحى من فكرة معمارية أو إنجاز للشركة."
       },
       "scene": {
         "en": "Eid Al Etihad · Company anniversaries",
@@ -697,7 +793,11 @@
       ],
       "image": "cnc-sculpture.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Agree drawings, dimensions, material, weight, finish and display base; review the prototype and any tooling needs.",
+        "ar": "اتفق على الرسومات والأبعاد والخامة والوزن والتشطيب وقاعدة العرض؛ وراجع النموذج الأولي وأي احتياج للقوالب أو أدوات التصنيع."
+      }
     },
     {
       "id": "executive-desk",
@@ -708,8 +808,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Materials that make the everyday feel special.",
-        "ar": "خامات تضيف تميزاً إلى كل يوم."
+        "en": "A coordinated stone-and-leather desk direction for professional recognition.",
+        "ar": "مجموعة مكتبية متناسقة من الحجر والجلد للتقدير المهني."
       },
       "scene": {
         "en": "Executive recognition · New offices",
@@ -724,7 +824,11 @@
       ],
       "image": "executive-desk.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Choose the actual components, desk footprint, material finish and name placement as one complete set.",
+        "ar": "اختر المكونات الفعلية والمساحة المطلوبة والتشطيب وموضع الاسم بوصفها مجموعة واحدة متكاملة."
+      }
     },
     {
       "id": "woven-hospitality",
@@ -735,8 +839,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "A presentation case with a second life.",
-        "ar": "علبة تقديم تستمر فائدتها بعد الهدية."
+        "en": "A reusable woven presentation case shaped around the selected hospitality contents.",
+        "ar": "حافظة تقديم منسوجة قابلة لإعادة الاستخدام، تُصمَّم حول محتويات الضيافة المختارة."
       },
       "scene": {
         "en": "Family gifting · Hospitality handovers",
@@ -751,7 +855,11 @@
       ],
       "image": "woven-hospitality.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm case dimensions, handles, lining, closures and the exact non-food contents to be packed.",
+        "ar": "أكد أبعاد الحافظة والمقابض والبطانة والإغلاق والمحتويات غير الغذائية المطلوب تعبئتها."
+      }
     },
     {
       "id": "glass-hospitality",
@@ -762,8 +870,8 @@
       },
       "category": "hospitality",
       "text": {
-        "en": "A water service with quiet presence.",
-        "ar": "طقم تقديم مياه بحضور أنيق."
+        "en": "Contemporary glass serving pieces for hosts and new-space handovers.",
+        "ar": "قطع زجاجية معاصرة للتقديم وهدايا المضيفين وتسليم المساحات الجديدة."
       },
       "scene": {
         "en": "New homes · Hotel and design clients",
@@ -778,7 +886,11 @@
       ],
       "image": "glass-hospitality.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Agree the piece count, intended serving use, finish, care instructions and protective inserts.",
+        "ar": "اتفق على عدد القطع واستخدامها في التقديم والتشطيب وتعليمات العناية والحشوات الواقية."
+      }
     },
     {
       "id": "leather-weekender",
@@ -789,8 +901,8 @@
       },
       "category": "crafted",
       "text": {
-        "en": "Make a meaningful departure from the ordinary.",
-        "ar": "هدية سفر تتجاوز المألوف."
+        "en": "A leather travel-bag direction for recipients who value a practical personal piece.",
+        "ar": "حقيبة سفر جلدية لمن يقدرون القطع الشخصية العملية."
       },
       "scene": {
         "en": "Leadership milestones · Exceptional clients",
@@ -805,7 +917,11 @@
       ],
       "image": "leather-weekender.webp",
       "custom": true,
-      "featured": false
+      "featured": false,
+      "selection": {
+        "en": "Confirm dimensions, leather specification, handles, strap and lining; check the recipient’s own travel requirements.",
+        "ar": "أكد الأبعاد ومواصفات الجلد والمقابض والحزام والبطانة؛ وراجع متطلبات سفر المستلم نفسه."
+      }
     }
   ],
   "categories": [
@@ -878,7 +994,7 @@
       "heroKicker": "THE CORPORATE GIFT ATELIER · DUBAI",
       "heroOne": "Corporate gifts,",
       "heroTwo": "chosen to impress.",
-      "heroText": "Design-led technology. Objects with character. Beautifully crafted gifts. Discover a wider world of giving, shaped for your people and UAE occasions.",
+      "heroText": "MUSE brings premium technology, playful desk objects and original crafted gifts to UAE corporate projects. Choose for Ramadan, Eid, national occasions or a business milestone; we shape the product selection, branded presentation and custom development around your recipients.",
       "browse": "Explore the gifts",
       "start": "Create a gift project",
       "heroCaption": "Laifen P3 Pro · kinetic metal · considered presentation",
@@ -922,36 +1038,39 @@
       "seeEdit": "Plan this edit",
       "craftKicker": "CHINA’S MAKING TALENT. YOUR POINT OF VIEW.",
       "craftTitle": "The product matters.\nSo do the details.",
-      "craftText": "From recognised consumer brands to a piece made from the ground up, choose how far you want to personalise.",
+      "craftText": "We connect product selection with China’s manufacturing strengths: consumer technology, precision metal, leather, ceramics, glass and fitted gift packaging. Start with a recognised product or develop an original MUSE piece.",
       "craftSteps": [
         {
-          "title": "Choose the original",
-          "text": "Select a proper product with the design, function and recipient fit to stand on its own."
+          "title": "Select the right product",
+          "text": "Compare the recipient’s use, exact model, accessories and sourcing terms across seven collections."
         },
         {
-          "title": "Make the presentation yours",
-          "text": "Colour-matched boxes, material choices, named sleeves and English–Arabic cards."
+          "title": "Build a complete presentation",
+          "text": "Coordinate boxes, fitted inserts, sleeves and Arabic–English cards; proof names on the final layout."
         },
         {
-          "title": "Create something exclusive",
-          "text": "Precision metal, leather, glass or ceramics, developed through artwork and an approval sample."
+          "title": "Develop an original piece",
+          "text": "Explore our architectural oud burners, metal objects and crafted gifts. Confirm drawings, materials, finishes and the assembled sample before production."
         }
       ],
       "calendarKicker": "THE UAE GIFTING CALENDAR",
       "calendarTitle": "A little earlier. A lot more considered.",
-      "calendarText": "Begin selection 6–8 weeks ahead for branded products and packaging; allow 3–4 months for original manufacturing. Work backwards from the day you want to give.",
+      "calendarText": "Use 6–8 weeks as an initial discussion window for selected products with packaging, and 3–4 months for original development. The agreed scope, approvals and transport determine each project’s actual schedule.",
       "lunarNote": "Ramadan and Eid dates follow UAE announcements. Confirm factory and shipping calendars as part of your project.",
       "briefKicker": "FROM A SHORTLIST TO SOMETHING PERSONAL",
       "briefTitle": "Tell us who.\nWe’ll help with the what.",
       "briefText": "Choose gifts above, or start with your occasion, recipients and quantity. Your reviewed brief goes to our Dubai WhatsApp.",
       "moreSelected": "more selected",
-      "selectedLabel": "SELECTED FOR YOUR PROJECT"
+      "selectedLabel": "SELECTED FOR YOUR PROJECT",
+      "selectionTitle": "Before you choose",
+      "selectionGuide": "Compare gift options",
+      "capabilityGuide": "Explore our customisation capabilities"
     },
     "ar": {
       "heroKicker": "أتيليه هدايا الشركات · دبي",
       "heroOne": "هدايا شركات،",
       "heroTwo": "باختيار يترك أثراً.",
-      "heroText": "تقنية بتصميم مميز، وقطع لها شخصية، وهدايا متقنة الصنع. اكتشف خيارات أوسع تناسب ضيوفك وفريقك ومناسبات الإمارات.",
+      "heroText": "تجمع ميوز التقنية الراقية والقطع المكتبية الممتعة والهدايا المصنّعة بتصاميم أصلية لمشروعات الشركات في الإمارات. اختر لرمضان أو العيد أو المناسبات الوطنية أو إنجازات الأعمال؛ وننسّق المنتجات والتغليف بهويتك والتطوير الخاص بحسب المستلمين.",
       "browse": "استكشف الهدايا",
       "start": "ابدأ مشروع هدايا",
       "heroCaption": "Laifen P3 Pro · معدن متحرك · تقديم مدروس",
@@ -995,30 +1114,33 @@
       "seeEdit": "خطّط لهذه المجموعة",
       "craftKicker": "قدرات التصنيع الصينية. ورؤيتك الخاصة.",
       "craftTitle": "المنتج مهم.\nوكذلك التفاصيل.",
-      "craftText": "من علامات المنتجات المعروفة إلى قطعة تُصنع من البداية، اختر مستوى التخصيص الذي يناسبك.",
+      "craftText": "نربط اختيار المنتجات بنقاط قوة التصنيع في الصين: التقنية الاستهلاكية والمعادن الدقيقة والجلد والسيراميك والزجاج والتغليف الملائم. ابدأ بمنتج من علامة معروفة أو طوّر قطعة أصلية مع ميوز.",
       "craftSteps": [
         {
-          "title": "اختر المنتج الأصلي",
-          "text": "منتج يستحق الاختيار بتصميمه ووظيفته وملاءمته لصاحب الهدية."
+          "title": "اختر المنتج المناسب",
+          "text": "قارن استخدام المستلم والطراز المحدد والملحقات وشروط التوريد عبر سبع مجموعات."
         },
         {
-          "title": "أضف هويتك إلى التقديم",
-          "text": "علب بألوانك وخامات مختارة وأغلفة بالأسماء وبطاقات بالعربية والإنجليزية."
+          "title": "طوّر تقديماً متكاملاً",
+          "text": "نسّق العلب والحشوات والأغلفة والبطاقات العربية والإنجليزية؛ وراجع الأسماء في التصميم النهائي."
         },
         {
-          "title": "ابتكر قطعة خاصة",
-          "text": "معدن دقيق أو جلد أو زجاج أو سيراميك، من التصميم إلى العينة المعتمدة."
+          "title": "طوّر قطعة أصلية",
+          "text": "استكشف مباخرنا المعمارية والقطع المعدنية والهدايا المصنّعة. أكد الرسومات والخامات والتشطيبات والعينة المجمّعة قبل التصنيع."
         }
       ],
       "calendarKicker": "تقويم الهدايا في الإمارات",
       "calendarTitle": "التخطيط المبكر يصنع فرقاً.",
-      "calendarText": "ابدأ الاختيار قبل ٦–٨ أسابيع للمنتجات والتغليف، وخصص ٣–٤ أشهر للتصنيع الأصلي. نخطط عكسياً من يوم تقديم الهدية.",
+      "calendarText": "اعتبر ٦–٨ أسابيع نقطة بداية لمناقشة المنتجات المختارة مع التغليف، و٣–٤ أشهر للتطوير الأصلي. يحدد نطاق العمل والموافقات والنقل الجدول الفعلي لكل مشروع.",
       "lunarNote": "تتبع مواعيد رمضان والعيد إعلانات الإمارات. نؤكد جداول المصانع والشحن ضمن مشروعك.",
       "briefKicker": "من قائمة مختارة إلى هدية شخصية",
       "briefTitle": "أخبرنا لمن.\nونساعدك في الاختيار.",
       "briefText": "اختر الهدايا أعلاه أو ابدأ بالمناسبة والمستلمين والكمية. راجع طلبك ثم أرسله إلى واتساب فريقنا في دبي.",
       "moreSelected": "خيارات إضافية",
-      "selectedLabel": "اخترتها لمشروعك"
+      "selectedLabel": "اخترتها لمشروعك",
+      "selectionTitle": "قبل أن تختار",
+      "selectionGuide": "قارن خيارات الهدايا",
+      "capabilityGuide": "استكشف قدراتنا في التخصيص"
     }
   },
   "occasions": [

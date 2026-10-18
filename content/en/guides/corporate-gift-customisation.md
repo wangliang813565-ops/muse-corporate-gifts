@@ -1,5 +1,5 @@
 ---
-title: "Corporate gift customisation: packaging, personalisation or original manufacturing?"
+title: "What MUSE can create: corporate gift customisation and manufacturing"
 description: "Compare three corporate gift customisation routes for UAE projects: branded presentation, permitted product decoration and original manufacturing. Know what to approve before production."
 translationKey: "corporate-gift-customisation"
 type: "knowledge"
@@ -12,13 +12,13 @@ images: ["/images/corporate-gifts/v2/presentation-detail.webp"]
 imageWidth: 1536
 imageHeight: 1024
 products: ["leather-folio", "oud-majlis", "cnc-sculpture", "laifen-wave"]
-answer: "Choose the product first, then choose how much of it needs to change. For a selected branded product, begin with a presentation box and bilingual card. For a personal everyday object, assess permitted engraving or embossing. For a gift shaped around your company, develop an original manufactured piece. Quantity, sample approval and the required handover date decide which route is workable."
+answer: "MUSE develops corporate gift selection, branded presentation, product personalisation and original gift designs for UAE projects. Choose a recognised technology product with a custom box, personalise a leather or desk piece, or develop an architectural oud burner or precision-metal form. We bring product, artwork, material, sample and packing decisions into one agreed project brief."
 faq: [{"q": "Can our logo be engraved on every branded product?", "a": "Decoration depends on the selected item and its permitted options. Begin with branded packaging; product engraving or another process is confirmed separately for that model."}, {"q": "Do we need a new mould for a customised corporate gift?", "a": "Not for every project. Presentation packaging and some product personalisation can use established products. A new manufactured form may involve tooling, which is confirmed during development."}, {"q": "Is there one minimum quantity for all corporate gifts?", "a": "No single quantity applies to the whole collection. Share the product, customisation scope and approximate quantity so the sourcing and production route can be confirmed."}]
 sources: [{"title": "MUSE gift collection and customisation options", "url": "https://gifts.aimuse.ae/#gift-customisation"}, {"title": "Laifen Wave product range", "url": "https://www.laifentech.com/products/laifen-wave-electric-toothbrush"}]
 author: "MUSE Gift Team"
 seoTitle: "Corporate Gift Customisation Dubai | Packaging & Bespoke | MUSE"
 date: "2026-10-16"
-lastmod: "2026-10-16"
+lastmod: "2026-10-18T05:15:59+04:00"
 ---
 
 ## When is branded packaging the right choice?
@@ -48,6 +48,17 @@ Allow a planning window of around 3–4 months as a starting point for an origin
 - Best starting point: distinctive VIP projects and planned company anniversaries.
 - Approve: drawings, dimensions, materials, finish sample, prototype and the agreed production scope.
 
+## What can China-based development bring to your gift?
+
+Combine the product disciplines that fit the brief: consumer technology for everyday use; precision metal for a lasting desk object; leather for work or travel; ceramics and glass for hospitality; and packaging that holds the complete set. We coordinate these choices around the UAE recipient and occasion. The material and production route are agreed for the selected design.
+
+Our [architectural oud burners](/#gift-oud-majlis) offer tower, curved-wall and courtyard directions. Compare form, metal finish, leather colour and the presentation case. A company motif can instead become an [original metal piece](/#gift-cnc-sculpture), while a [leather folio](/#gift-leather-folio) offers a more everyday professional use.
+
+- Metal: approve dimensions, weight, edges, surface finish and base on the prototype.
+- Leather: confirm the specified material, colour, stitching, internal layout and name placement.
+- Ceramics and glass: agree the actual serving pieces, intended use, finish and protective packing.
+- Mixed gift sets: fit the inserts to the approved products and keep accessories and instructions together.
+
 ## What should a complete brief contain?
 
 Separate the people receiving the gift from the people approving it. A project can have one visual identity and several product levels for employees, clients and VIPs. Keep the recipient experience coherent while agreeing the quantity and packaging of each level separately.
@@ -62,3 +73,14 @@ Separate the people receiving the gift from the people approving it. A project c
 Ask for a proposal that separates the chosen model, the customisation scope, packaging and delivery plan. Quantities and lead times are confirmed for the actual project; a selection field on the website is not a universal minimum order.
 
 Choose a few products from our collection and send the brief to MUSE on WhatsApp. We can compare the routes against the same recipient group and handover date, so you can approve a concrete direction.
+
+## How does a gift project move from brief to handover?
+
+We work through the decisions in sequence, with the approver and required date named at the start. If the product or specification changes after approval, review the affected sample and schedule before releasing production.
+
+- Brief: occasion, recipient groups, quantity by variant, delivery locations and handover date.
+- Selection: exact product, regional version, sourcing and applicable support terms.
+- Design: box structure, insert, artwork, Arabic–English message and approved recipient names.
+- Sample: product and presentation together, materials, finish, dimensions and permitted decoration.
+- Production and packing: agreed inspection points, variant counts, name matching and carton labels.
+- Handover: agreed transport plan, receiving contact, destination and packing list. For a reorder, retain the approved specification and sample reference.

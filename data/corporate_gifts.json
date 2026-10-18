@@ -260,6 +260,16 @@
   "faqs": [
     {
       "q": {
+        "en": "What corporate gifts does MUSE offer in the UAE?",
+        "ar": "ما هدايا الشركات التي تقدمها ميوز في الإمارات؟"
+      },
+      "a": {
+        "en": "Our 29 gift choices span personal care, audio and wearables, travel and creation, desk and play, coffee, crafted pieces, and hospitality. Explore Laifen, Shokz, Huawei, Anker, DJI, EKETOP and more, alongside MUSE architectural oud burners, leather and original metal designs. We build a proposal around the product, recipients and occasion.",
+        "ar": "تشمل خياراتنا الـ٢٩ العناية الشخصية والصوتيات والساعات والسفر والإبداع والمكتب والمرح والقهوة والقطع المصنّعة والضيافة. استكشف Laifen وShokz وHuawei وAnker وDJI وEKETOP وغيرها، إلى جانب مباخر ميوز المعمارية والجلد والتصاميم المعدنية الأصلية. نعدّ المقترح بحسب المنتج والمستلمين والمناسبة."
+      }
+    },
+    {
+      "q": {
         "en": "Can we include a specific brand or product?",
         "ar": "هل يمكن اختيار علامة أو منتج محدد؟"
       },
@@ -296,6 +306,16 @@
       "a": {
         "en": "Yes. Plan complementary gifts for employees, clients and VIPs under one visual identity, with different products and presentation levels for each group.",
         "ar": "نعم. يمكن تنسيق هدايا للموظفين والعملاء وكبار الضيوف تحت هوية بصرية واحدة، مع اختلاف المنتجات ومستويات التقديم لكل فئة."
+      }
+    },
+    {
+      "q": {
+        "en": "What can MUSE design and customise for our company?",
+        "ar": "ما الذي يمكن لميوز تصميمه وتخصيصه لشركتنا؟"
+      },
+      "a": {
+        "en": "We develop gift selection, branded boxes and fitted inserts, Arabic–English cards and personalisation, and original gift forms in agreed materials. Our architectural oud burners include tower, curved-wall and courtyard directions. Each project defines the selected product, artwork, physical sample, packing and delivery plan before production.",
+        "ar": "نطوّر اختيار الهدايا والعلب بهوية شركتك والحشوات الملائمة والبطاقات العربية والإنجليزية والتخصيص، وأشكال هدايا أصلية بالخامات المتفق عليها. تشمل مباخرنا المعمارية تصاميم البرج والسور والفناء. ويُحدد لكل مشروع المنتج والتصميم والعينة الفعلية والتعبئة وخطة التسليم قبل التصنيع."
       }
     }
   ]

@@ -5,7 +5,7 @@
 {{ $graph := slice $org $site $page }}
 {{ if and .IsPage (eq .Type "knowledge") }}
   {{ $article := dict "@type" "Article" "@id" (printf "%s#article" .Permalink) "headline" .Title "description" .Description "url" .Permalink "inLanguage" .Lang "mainEntityOfPage" (dict "@id" (printf "%s#webpage" .Permalink)) "author" (dict "@type" "Organization" "name" "MUSE Gift Team" "url" .Site.BaseURL) "publisher" (dict "@id" $orgID) "image" (absURL .Params.image) "articleBody" (printf "%s %s" .Params.answer .Plain) }}
-  {{ if eq .Section "blog" }}{{ $article = merge $article (dict "@type" "BlogPosting" "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}{{ end }}
+  {{ if eq .Section "blog" }}{{ $article = merge $article (dict "@type" "BlogPosting" "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}{{ else if not .Date.IsZero }}{{ $article = merge $article (dict "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}{{ end }}
   {{ $crumb := dict "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "MUSE" "item" .Site.Home.Permalink) (dict "@type" "ListItem" "position" 2 "name" .Parent.Title "item" .Parent.Permalink) (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) }}
   {{ $graph = $graph | append $article | append $crumb }}
 {{ end }}

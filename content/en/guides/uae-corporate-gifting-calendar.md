@@ -12,13 +12,14 @@ images: ["/images/corporate-gifts/v2/ramadan-edit.webp"]
 imageWidth: 1536
 imageHeight: 1024
 products: ["oud-majlis", "ceramic-qahwa", "giiker-four", "huawei-freeclip", "leather-folio", "cnc-sculpture"]
-answer: "Build the annual gift plan around the handover moment, not just the holiday name. Ramadan hospitality, Eid family appreciation, Emirati Women's Day recognition and national occasions have different recipients and messages. Begin established-product and branded-packaging projects around 6–8 weeks ahead as a planning starting point, earlier for Ramadan hospitality; original manufacturing needs a longer development window. Confirm the actual schedule for each brief."
+answer: "For Ramadan hosts, compare a qahwa service with MUSE architectural oud burners; for Eid employees and families, consider a chosen personal-care or audio gift, a shared game or a coffee tool. For Flag Day and Eid Al Etihad, coordinate folios, desk pieces and VIP hospitality gifts around the campaign. Select by the recipient, then plan backwards from your company’s handover date using the occasion-to-gift guide below."
 faq: [{"q": "Should Ramadan and Eid use the same gift?", "a": "They can share a visual identity, but the purpose and greeting should fit each occasion. Hospitality before a Ramadan gathering differs from employee or family appreciation at Eid."}, {"q": "Are the planning windows guaranteed delivery lead times?", "a": "No. They are starting points for planning. Product availability, customisation, sample approval, factory schedules, transport and the destination determine the agreed project timeline."}, {"q": "Should we plan around the official holiday or our company event?", "a": "Use the intended handover date as the working deadline. Your company event and recipient availability can fall before the commemorative date or holiday break."}]
-sources: [{"title": "UAE Government: public holidays", "url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"}, {"title": "Visit Dubai: Hag Al Leila", "url": "https://www.visitdubai.com/en/festivals-and-events/hag-al-leila"}, {"title": "National Media Authority: Flag Day", "url": "https://www.nma.gov.ae/en/media-center/events/flag-day"}, {"title": "Ministry of Health and Prevention: Emirati Women's Day", "url": "https://mohap.gov.ae/en/w/emirati-women-s-day"}]
+sources: [{"title": "UAE Government: public holidays", "url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"}, {"title": "Visit Dubai: Hag Al Leila", "url": "https://www.visitdubai.com/en/festivals-and-events/hag-al-leila"}, {"title": "Ministry of Health and Prevention: Emirati Women's Day", "url": "https://mohap.gov.ae/en/w/emirati-women-s-day"}, {"title": "UAE Cabinet: UAE Flag Day", "url": "https://uaecabinet.ae/en/prime-ministers-initiatives/uae-flag-day"}, {"title": "Zayed Authority: UAE National Day", "url": "https://www.za.gov.ae/Media-Centre/Events/UAE-National-day"}]
 author: "MUSE Gift Team"
 seoTitle: "UAE Corporate Gifting Calendar & Buying Windows | MUSE"
+occasionIndex: true
 date: "2026-10-16"
-lastmod: "2026-10-16"
+lastmod: "2026-10-18T05:15:59+04:00"
 ---
 
 ## Ramadan and both Eids need separate briefs
@@ -64,3 +65,13 @@ Begin national-campaign planning in August or September if original pieces are i
 Property handovers, exhibitions, office openings, company anniversaries and service awards should have their own entries in the buying calendar. Work backwards from when the recipient will receive the gift, allowing time for product choice, artwork, samples, production and delivery.
 
 Send MUSE the coming occasions, recipient groups and approximate quantities. We can build a coordinated gift family and confirm each project's schedule. These buying windows help start a discussion; the agreed project plan determines production and delivery.
+
+## A campaign calendar needs approval dates, not only holiday dates
+
+Put five decisions against each campaign: recipient shortlist, product confirmation, artwork approval, packed-sample approval and the actual handover. Add the company reviewer and receiving location to each decision. Work backwards using the supplier’s confirmed production and transport plan.
+
+For the next Ramadan and Eid cycle, prepare the recipient groups and product directions while exact religious dates await official confirmation. See our [Ramadan and Eid selection guide](/guides/ramadan-eid-corporate-gifts/) and [customisation process](/guides/corporate-gift-customisation/) to align the gift, presentation and approvals.
+
+- Planning allowance is not a delivery commitment: agree the actual schedule for the chosen product and quantity.
+- Separate Flag Day, Eid Al Etihad, Ramadan, Eid Al Fitr and Eid Al Adha greetings.
+- For a mixed workforce, confirm which occasions the company observes and let individual interests guide the contents.
