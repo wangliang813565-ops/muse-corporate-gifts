@@ -9,13 +9,14 @@ knowledgeId: "muse-architectural-oud-burner-gifts"
 topic_key: "original-oud-burner-form-finish-presentation-selection"
 image: "/images/corporate-gifts/v2/oud-majlis.webp"
 images: ["/images/corporate-gifts/v2/oud-majlis.webp"]
-imageWidth: 1536
-imageHeight: 1024
+imageWidth: 1200
+imageHeight: 1200
 products: ["oud-majlis"]
 answer: "For a Ramadan host, an Eid client or a heritage-themed VIP gift, start with the recipient’s interest in oud and their preferred setting. MUSE offers three architectural oud-burner design directions: Wind Crown for a rounded tower silhouette, Parapet Ribbon for a curved-wall form, and Courtyard Keep for a rectangular form with corner towers. Choose the form first, then develop the metal finish, leather colour, dedication and fitted presentation around your company’s identity."
 faq: [{"q": "Which MUSE oud-burner design should I choose?", "a": "Choose Wind Crown for a rounded tower silhouette, Parapet Ribbon for a curved-wall form, or Courtyard Keep for a rectangular composition with corner towers. Match the style to the recipient, then confirm dimensions and use on the sample."}, {"q": "Can one design work for Ramadan and Eid corporate gifts?", "a": "Yes, when it suits the recipient. For Ramadan, brief the host and handover setting; for Eid, brief the individual or client relationship. Adapt the dedication and presentation to the occasion and confirm the required delivery date."}, {"q": "What can MUSE customise on this original gift direction?", "a": "We can develop the architectural form, metal finish, leather colour, presentation case and bilingual dedication. Confirm object marking separately; new shapes and final specifications require project-specific development and sample approval."}, {"q": "Does the oud-burner gift automatically include oud or accessories?", "a": "Specify the contents in the proposal. The burner design does not by itself define included oud, consumables or accessories. Agree the complete set, intended operation and instructions before approving the sample."}]
 sources: [{"title": "MUSE architectural oud-burner designs and personalisation", "url": "https://gifts.aimuse.ae/#gift-oud-majlis"}, {"title": "MUSE original gift development and customisation", "url": "https://gifts.aimuse.ae/guides/corporate-gift-customisation/"}]
 author: "MUSE Gift Team"
+imageFit: "contain"
 seoTitle: "Custom Oud Burner Corporate Gifts UAE | MUSE Designs"
 date: "2026-10-20T11:41:48+04:00"
 lastmod: "2026-10-20T11:41:48+04:00"

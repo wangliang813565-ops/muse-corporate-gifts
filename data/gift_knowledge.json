@@ -2361,7 +2361,10 @@
             }
           ]
         }
-      }
+      },
+      "imageFit": "contain",
+      "imageWidth": 1200,
+      "imageHeight": 1200
     }
   ]
 }

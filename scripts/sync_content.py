@@ -71,9 +71,12 @@ def synchronise():
             fields = {"title": c["title"], "description": c["description"], "translationKey": a["id"],
                       "type": "knowledge", "layout": "knowledge", "contentKind": a["kind"],
                       "knowledgeId": a["id"], "topic_key": a["topic_key"], "image": a["image"],
-                      "images": [a["image"]], "imageWidth": 1536, "imageHeight": 1024,
+                      "images": [a["image"]], "imageWidth": a.get("imageWidth", 1536), "imageHeight": a.get("imageHeight", 1024),
                       "products": a["products"], "answer": c["answer"], "faq": c["faq"],
                       "sources": c.get("sources", []), "author": "MUSE Gift Team"}
+            if a.get("imageFit"):
+                assert a["imageFit"] in ("cover", "contain")
+                fields["imageFit"] = a["imageFit"]
             if c.get("seoTitle"): fields["seoTitle"] = c["seoTitle"]
             if a.get("occasion_index"): fields["occasionIndex"] = True
             if a.get("date"):
