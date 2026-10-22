@@ -11,6 +11,14 @@
 {{ $seasons := hugo.Data.gift_occasions }}{{ $sv := index $seasons.ui $lang }}
 <div class="cg vg" data-gift-studio data-phone="{{ .Site.Params.whatsapp }}" data-language="{{ $lang }}" data-source="{{ .Permalink }}">
 <a class="cg-skip" href="#gift-selection">{{ $v.browse }}</a>
+<section class="vg-wrap" aria-label="{{ if eq $lang "ar" }}ابدأ مشروع هدايا شركتك{{ else }}Start your corporate gift project{{ end }}">
+  <p>{{ .Params.procurementAnswer }}</p>
+  <nav aria-label="{{ if eq $lang "ar" }}أدلة مشتري هدايا الشركات{{ else }}Corporate gift buyer guides{{ end }}">
+    <a href="{{ "guides/corporate-gift-selection/" | relLangURL }}">{{ if eq $lang "ar" }}اختيار الهدية{{ else }}Choose the gift{{ end }}</a> ·
+    <a href="{{ "guides/corporate-gift-customisation/" | relLangURL }}">{{ if eq $lang "ar" }}الهوية والتغليف{{ else }}Branding and packaging{{ end }}</a> ·
+    <a href="{{ "guides/uae-corporate-gifting-calendar/" | relLangURL }}">{{ if eq $lang "ar" }}خطة المناسبة والتسليم{{ else }}Occasion and handover planning{{ end }}</a>
+  </nav>
+</section>
 <section class="vg-hero vg-wrap" aria-labelledby="gift-heading">
   <div class="vg-hero-copy"><p class="vg-kicker">{{ $v.heroKicker }}</p><h1 id="gift-heading">{{ $v.heroOne }}<br><em>{{ $v.heroTwo }}</em></h1><p class="vg-lede">{{ $v.heroText }}</p><div class="vg-actions"><a href="#gift-selection" class="vg-button">{{ $v.browse }} <span aria-hidden="true">↗</span></a><a href="#gift-brief" class="vg-link">{{ $v.start }} <span aria-hidden="true">→</span></a></div><div class="vg-hero-tags">{{ range $v.heroTags }}<span>{{ . }}</span>{{ end }}</div></div>
   <figure class="vg-hero-image"><img src="{{ "images/corporate-gifts/v2/hero-v2.webp" | relURL }}" alt="{{ $v.heroAlt }}" width="1536" height="1024" decoding="async" fetchpriority="high"><figcaption><span>MUSE / THE GIFT EDIT</span>{{ $v.heroCaption }}</figcaption></figure>
