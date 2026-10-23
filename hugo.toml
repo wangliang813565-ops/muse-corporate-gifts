@@ -11,6 +11,7 @@ enableGitInfo = false
   email = 'musetrendytoy@gmail.com'
   phone = '+971 52 568 2660'
   whatsapp = '971525682660'
+  analyticsID = 'G-CYNETCQ51B'
 [languages]
   [languages.en]
     weight = 1

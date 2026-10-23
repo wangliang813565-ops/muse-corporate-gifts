@@ -1,0 +1,22 @@
+{{ if and hugo.IsProduction .Site.Params.analyticsID }}
+{{ $style := resources.FromString "css/analytics-consent.css" (readFile "static/css/analytics-consent.css") | fingerprint }}
+{{ $script := resources.FromString "js/analytics-consent.js" (readFile "static/js/analytics-consent.js") | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<section id="analytics-notice" class="analytics-notice" role="region" aria-labelledby="analytics-title" data-measurement-id="{{ .Site.Params.analyticsID }}" hidden>
+  <h2 id="analytics-title">{{ if eq .Lang "ar" }}اختيارك للخصوصية{{ else }}Your privacy choice{{ end }}</h2>
+  <p>{{ if eq .Lang "ar" }}نستخدم Google Analytics بإذنك لفهم زيارات الموقع وتحسين تجربة اختيار الهدايا. يمكنك الرفض ومواصلة التصفح.{{ else }}With your permission, we use Google Analytics to understand site visits and improve gift browsing. You can decline and keep browsing.{{ end }}</p>
+  <details><summary>{{ if eq .Lang "ar" }}تفاصيل إحصاءات الزيارات{{ else }}About visit analytics{{ end }}</summary>
+    {{ if eq .Lang "ar" }}
+    <p>ينطبق هذا الإشعار على gifts.aimuse.ae، الذي تديره MUSE Information Services L.L.C-FZ في دبي. عند الموافقة، يتلقى Google معلومات عن الصفحات التي تزورها، ومصدر الزيارة، والمتصفح والجهاز، والموقع الجغرافي التقريبي، ومعرّفات ملفات تعريف الارتباط لقياس الزيارات. قد يعالج Google البيانات خارج بلدك.</p>
+    <p>لا نرسل إلى Analytics أسماءك أو بريدك أو هاتفك أو محتوى موجز المشروع أو رسائل واتساب. نعطّل ميزات الإعلانات والجمع التلقائي لبيانات النماذج. لا نحمّل Analytics قبل موافقتك.</p>
+    <p>نحفظ اختيارك في هذا المتصفح لمدة تصل إلى 180 يوماً. يمكنك سحب موافقتك للزيارات اللاحقة عبر «إعدادات ملفات الارتباط» أسفل الصفحة. تتبع ملفات Analytics مدة صلاحية 180 يوماً دون تجديد تلقائي؛ وقد تنتهي قبل ذلك وفق إعدادات متصفحك. للاستفسار: <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">خصوصية Google</a>.</p>
+    {{ else }}
+    <p>This notice covers gifts.aimuse.ae, operated by MUSE Information Services L.L.C-FZ, Dubai. If you accept, Google receives visited pages, referring website, browser and device information, approximate location and cookie identifiers to measure visits. Google may process data outside your country.</p>
+    <p>We do not send your name, email, phone number, project brief or WhatsApp message content to Analytics. Advertising features and automatic form collection are disabled. Analytics does not load before you accept.</p>
+    <p>We remember your choice in this browser for up to 180 days. You can withdraw consent for future visits through Cookie settings in the footer. Analytics cookies have a 180-day expiry without automatic renewal; your browser may expire them earlier. Questions: <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google privacy policy</a>.</p>
+    {{ end }}
+  </details>
+  <div class="analytics-actions"><button type="button" data-analytics-choice="granted">{{ if eq .Lang "ar" }}السماح بالإحصاءات{{ else }}Allow analytics{{ end }}</button><button type="button" data-analytics-choice="denied">{{ if eq .Lang "ar" }}رفض{{ else }}Decline{{ end }}</button></div>
+</section>
+<script src="{{ $script.RelPermalink }}" defer></script>
+{{ end }}
