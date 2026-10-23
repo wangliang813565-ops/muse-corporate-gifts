@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync('static/js/analytics-consent.js', 'utf8');
 function browser({host='gifts.aimuse.ae', choice=null, storageBlocked=false}={}) {
-  const events={}, scripts=[], cookieWrites=[], stored=new Map();
+  const events={}, documentEvents={}, scripts=[], cookieWrites=[], stored=new Map();
   const key='muse-gifts-analytics-consent-v1';
   if(choice)stored.set(key,JSON.stringify({value:choice,at:Date.now()}));
   const buttons=['granted','denied'].map(value=>({dataset:{analyticsChoice:value},addEventListener(_,fn){this.click=fn;},focus(){}}));
@@ -12,9 +12,10 @@ function browser({host='gifts.aimuse.ae', choice=null, storageBlocked=false}={})
   const settings={hidden:true,addEventListener(_,fn){this.click=fn;},focus(){}};
   const context={URL,Date,JSON,encodeURIComponent,navigator:{},location:{hostname:host,origin:'https://'+host,pathname:'/ar/',search:'?email=private@example.com',hash:'#sensitive',reload(){context.reloaded=true;}},localStorage:{getItem(k){if(storageBlocked)throw Error('disabled');return stored.get(k)||null;},setItem(k,v){if(storageBlocked)throw Error('disabled');stored.set(k,v);}},document:{referrer:'https://example.com/private?email=person@example.com',getElementById(){return panel;},querySelector(){return settings;},createElement(){return {};},head:{appendChild(s){scripts.push(s);}}}};
   Object.defineProperty(context.document,'cookie',{get(){return '_ga=example; _ga_TEST1234=example; unrelated=keep';},set(v){cookieWrites.push(v);}});
+  context.document.addEventListener=(name,fn)=>{documentEvents[name]=fn;};
   context.window=context;context.addEventListener=(name,fn)=>{events[name]=fn;};
   vm.runInNewContext(source,context);
-  return {context,panel,settings,scripts,cookieWrites,buttons,events,stored,key};
+  return {context,panel,settings,scripts,cookieWrites,buttons,events,documentEvents,stored,key};
 }
 test('unanswered and declined visitors make no Google request',()=>{
   const fresh=browser();assert.equal(fresh.scripts.length,0);assert.equal(fresh.panel.hidden,false);
@@ -46,4 +47,37 @@ test('a different preview hostname never collects, even with saved consent',()=>
 test('consent withdrawal in another tab stops an active tag',()=>{
   const b=browser({choice:'granted'});b.stored.delete(b.key);b.events.storage({key:b.key});
   assert.equal(b.context.reloaded,true);assert.equal(b.context['ga-disable-G-TEST1234'],true);
+});
+function click(b,{placement='.vg-whatsapp-float',href='https://wa.me/971525682660?text=PRIVATE%20BRIEF',type='click',button=0,defaultPrevented=false,anchor=true}={}) {
+  const link={href,matches(selector){return selector===placement;},closest(selector){return selector===placement?{}:null;}};
+  b.documentEvents[type]({type,button,defaultPrevented,target:{closest(){return anchor?link:null;}}});
+}
+function whatsappEvents(b) {return (b.context.dataLayer||[]).map(a=>Array.from(a)).filter(a=>a[0]==='event' && a[1]==='whatsapp_click');}
+test('WhatsApp clicks require opt-in and stop immediately on withdrawal',()=>{
+  const b=browser();click(b);assert.equal(whatsappEvents(b).length,0);
+  b.buttons[0].click();click(b);assert.equal(whatsappEvents(b).length,1);
+  b.buttons[1].click();click(b);assert.equal(whatsappEvents(b).length,1);
+});
+test('all real WhatsApp placements are counted without sending URL queries or private content',()=>{
+  const b=browser({choice:'granted'});
+  const placements={'.vg-whatsapp-float':'floating','.gk-chat':'guide_article','.cg-contact':'home_contact','footer':'footer','[data-send-link]':'reviewed_brief'};
+  for(const [selector,expected] of Object.entries(placements)) {
+    click(b,{placement:selector});const params=whatsappEvents(b).at(-1)[2];
+    assert.equal(params.cta_placement,expected);assert.equal(params.send_to,'G-TEST1234');
+    assert.equal(params.page_location,'https://gifts.aimuse.ae/ar/');
+  }
+  assert.equal(whatsappEvents(b).length,5);
+  assert.ok(!/PRIVATE|BRIEF|private@example|wa\.me|971525682660|sensitive/.test(JSON.stringify(whatsappEvents(b))));
+});
+test('prepare form, unrelated hosts, cancelled actions and right clicks do not count',()=>{
+  const b=browser({choice:'granted'});
+  click(b,{anchor:false});click(b,{href:'https://wa.me.evil.test/971525682660'});
+  click(b,{href:'https://wa.me/999'});click(b,{href:'http://wa.me/971525682660'});
+  click(b,{defaultPrevented:true});click(b,{button:2});click(b,{type:'auxclick',button:2});
+  assert.equal(whatsappEvents(b).length,0);
+  click(b,{type:'auxclick',button:1});assert.equal(whatsappEvents(b).length,1);
+});
+test('a tag failure does not stop normal link navigation',()=>{
+  const b=browser({choice:'granted'});b.context.gtag=()=>{throw Error('unavailable');};
+  assert.doesNotThrow(()=>click(b));
 });

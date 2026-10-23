@@ -60,6 +60,31 @@
     }
     if (settings) settings.focus();
   }
+  // Delegation also covers the reviewed brief after its link is populated.
+  // Never collect the outbound URL: its query can contain a private brief.
+  function whatsappClick(event) {
+    if (!loaded || window['ga-disable-' + id] || event.defaultPrevented) return;
+    if (event.type === 'auxclick' ? event.button !== 1 : event.button !== 0) return;
+    var link = event.target.closest && event.target.closest('a[href]');
+    if (!link) return;
+    var target;
+    try { target = new URL(link.href); } catch (_) { return; }
+    if (target.protocol !== 'https:' || target.hostname !== 'wa.me' || target.pathname !== '/971525682660') return;
+    var placement = link.matches('[data-send-link]') ? 'reviewed_brief' :
+      link.matches('.vg-whatsapp-float') ? 'floating' :
+      link.matches('.gk-chat') ? 'guide_article' :
+      link.closest('.cg-contact') ? 'home_contact' :
+      link.closest('footer') ? 'footer' : 'other';
+    try {
+      window.gtag('event', 'whatsapp_click', {
+        send_to: id,
+        cta_placement: placement,
+        page_location: location.origin + location.pathname
+      });
+    } catch (_) { /* Analytics must never interrupt the consultation link. */ }
+  }
+  document.addEventListener('click', whatsappClick);
+  document.addEventListener('auxclick', whatsappClick);
   panel.querySelectorAll('[data-analytics-choice]').forEach(function (button) {
     button.addEventListener('click', function () { choose(button.dataset.analyticsChoice); });
   });
