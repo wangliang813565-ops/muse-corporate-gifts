@@ -41,6 +41,16 @@ In the existing daily run, read fresh GSC data when available and retain the las
 
 ## One useful theme each Dubai day
 
+### 2026-10-27：收录故障优先于日更数量
+
+王亮要求查清索引申请报错并处理实际收录、流量问题。本轮暂停新博客；后续每日原流程先读 `output/2026-10-27-index-investigation.md` 及最新证据，处理未闭环的抓取、提交和核心采购页面问题。不得以新增一篇博客代替故障处理，也不为完成数量机械发文。已有指南能回答的问题更新原页；确有新的采购决策和事实依据时才新增主题，每个 Dubai 自然日仍最多一个英阿双语主题。保留每天 08:00 的原监控、访问/WhatsApp 简报和观察范围，不新增调度。
+
+已实测：2026-10-27 节庆日历 Google 现场测试抓取成功、允许索引、canonical 自身；索引申请失败同时显示“无法连接到 reCAPTCHA 服务”，正常刷新后重现。将此记录为浏览器至 Google 验证服务的提交阻点，不能称为本站证书/robots 阻挡、配额超限或 Google 全站故障。未收到“已受理”前不记成功；先接回本人验证结果，不反复自动点同一申请，不绕过验证码或浏览器安全门。实际收录与请求受理分开回读。
+
+本人随后在本聊天明确回复“已显示请求已受理”。按本人确认记录该次受理；自动回读未看到成功弹窗，不能伪装成工具独立验收。不要为重获弹窗重复提交此网址；下轮只读实际抓取/收录状态。
+
+首页采购指南区固定链接五个既有核心指南，最新博客单列；文章推荐按共同产品匹配并保留定制采购入口。检测此结构不被日期排序挤走。任何链接改进都不等于已经收录或获得流量。
+
 Check every existing topic_key, id, slug and date first. At most one new blog theme per local date, with English and Arabic released together. The builder rejects duplicate themes and duplicate blog dates. It does not generate articles. Near-duplicate questions require editorial review even when the keys differ. Stable guides are updated in place; do not turn minor updates into a new article or change old dates just for freshness.
 
 Choose a purchase decision that adds something useful: a comparison, recipient distinction, concrete selection or approval checklist, project sequence or seasonal timing. Start with a direct answer and link selected current product IDs to the collection and project brief. Match the current 29-product selection, including Chinese technology/manufacturing strengths and the three MUSE architectural oud forms. No date-fruit gifts, public prices, budget fields, invented inventory, universal MOQ, promised turnaround, brand dealership, certifications or customer cases. Personal-care gifts require recipient preference; games are not automatically suitable for children.

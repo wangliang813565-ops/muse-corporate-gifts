@@ -1,0 +1,14 @@
+{{/* Keep the purchasing route visible, then recommend matching products rather than only the newest posts. */}}
+{{ $related := slice }}{{ $seen := slice .RelPermalink }}
+{{ $corePath := "guides/corporate-gift-customisation" }}
+{{ if eq .Params.knowledgeId "corporate-gift-customisation" }}{{ $corePath = "guides/uae-corporate-gifting-calendar" }}{{ end }}
+{{ with .Site.GetPage $corePath }}{{ $related = $related | append . }}{{ $seen = $seen | append .RelPermalink }}{{ end }}
+{{ range (where .Site.RegularPages "Type" "knowledge").ByDate.Reverse }}
+  {{ if and (lt (len $related) 3) (not (in $seen .RelPermalink)) (gt (len (intersect $.Params.products .Params.products)) 0) }}
+    {{ $related = $related | append . }}{{ $seen = $seen | append .RelPermalink }}
+  {{ end }}
+{{ end }}
+{{ range where .Site.RegularPages "Section" "guides" }}
+  {{ if and (lt (len $related) 3) (not (in $seen .RelPermalink)) }}{{ $related = $related | append . }}{{ $seen = $seen | append .RelPermalink }}{{ end }}
+{{ end }}
+<section class="gk-related"><h2>{{ if eq .Lang "ar" }}تابع التخطيط لهديتك{{ else }}Continue planning your gift{{ end }}</h2><div class="gk-grid">{{ range $related }}{{ partial "knowledge-card.html" . }}{{ end }}</div></section>

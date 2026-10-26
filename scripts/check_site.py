@@ -85,6 +85,9 @@ def inspect(path):
             require(note and note.get_text(strip=True) == p["selection"][lang], path + p["id"] + ": visible selection note")
             require(item["description"] == p["text"][lang] and item["url"] == CANONICAL + path + "#gift-" + p["id"], path + p["id"] + ": catalogue schema mismatch")
         require(len(soup.select(".vg-buyer-routes a")) == 3, path + ": buyer routes")
+        core_guides = {"uae-corporate-gifting-calendar", "premium-technology-gifts", "corporate-gift-customisation", "ramadan-eid-corporate-gifts", "corporate-gift-selection"}
+        visible_guides = {a.get("href") for a in soup.select("[data-core-guides] .gk-card > a")}
+        require(visible_guides == {"/" + path + "guides/" + slug + "/" for slug in core_guides}, path + ": stable buyer-guide navigation")
     if path.endswith("guides/uae-corporate-gifting-calendar/"):
         require(len(soup.select(".gk-occasion-cards article")) == 9, path + ": occasion comparison coverage")
     if "/blog/" in "/" + path and not path.endswith("blog/"):

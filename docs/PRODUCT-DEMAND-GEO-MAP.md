@@ -1,5 +1,11 @@
 # Corporate gifts: question to answer to enquiry
 
+## 2026-10-27：核心采购入口与收录排查
+
+本轮依据真实页面结构修订，不新增文章，也不声称有已观察到的采购搜索词。首页“采购指南”区原按日期仅显示四篇最新博客；文章底部原统一展示三篇最新内容，与当前采购问题不一定相关。改为固定入口：节庆选品日历、科技礼品、定制能力、Ramadan/Eid 选品、收礼人选品；文章推荐优先共同产品并保留包装/定制指南。它们分别回答“什么节买什么”“有哪些高品质科技产品”“我们能定制哪些部分”，沿现有产品事实和五篇指南，不增加品牌授权、库存或交期主张。
+
+GSC 2026-10-23 索引快照：21 已发现未收录、1 已抓取未收录、0 已收录。2026-10-27 现场抓取通过，但索引申请遭遇 reCAPTCHA 连接失败。缺少搜索曝光，不能用本次链接调整宣称排名、索引或营销效果已改善。
+
 Reviewed 2026-10-16. This is an editorial decision map, not measured search volume or customer research statistics.
 Business facts: current site product data; original custom gift forms supplied by the user; approved English/Arabic gift studio and WhatsApp brief. Public source facts about UAE occasions use government/organiser sources linked in each article. The questions below are reasoned buyer questions, not fabricated customer quotes.
 

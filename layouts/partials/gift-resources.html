@@ -1,2 +1,10 @@
-{{ $pages := where .Site.RegularPages "Type" "knowledge" }}
-{{ if $pages }}<section class="gk-wrap gk-resource-section" id="gift-buying-guides" aria-labelledby="gift-guides-heading"><div class="gk-resource-heading"><div><p class="gk-kicker">{{ if eq .Lang "ar" }}من الفكرة إلى هدية مدروسة{{ else }}From an idea to a considered gift{{ end }}</p><h2 id="gift-guides-heading">{{ if eq .Lang "ar" }}خطّط لهدية تستحق الاختيار.{{ else }}Choose well. Plan with confidence.{{ end }}</h2></div><a href="{{ "guides/" | relLangURL }}">{{ if eq .Lang "ar" }}أدلة الشراء{{ else }}Buying guides{{ end }} ↗</a></div><div class="gk-grid">{{ range first 4 $pages.ByDate.Reverse }}{{ partial "knowledge-card.html" . }}{{ end }}</div></section>{{ end }}
+{{ $lang := .Lang }}
+<section class="gk-wrap gk-resource-section" id="gift-buying-guides" aria-labelledby="gift-guides-heading">
+  <div class="gk-resource-heading"><div><p class="gk-kicker">{{ if eq $lang "ar" }}اختيار الهدية وتخصيصها والتخطيط لتسليمها{{ else }}Selection, customisation and handover{{ end }}</p><h2 id="gift-guides-heading">{{ if eq $lang "ar" }}أدلة شراء هدايا الشركات{{ else }}Corporate gift buying guides{{ end }}</h2></div><a href="{{ "guides/" | relLangURL }}">{{ if eq $lang "ar" }}جميع الأدلة{{ else }}All buying guides{{ end }} ↗</a></div>
+  <div class="gk-grid" data-core-guides>
+    {{ range slice "uae-corporate-gifting-calendar" "premium-technology-gifts" "corporate-gift-customisation" "ramadan-eid-corporate-gifts" "corporate-gift-selection" }}
+      {{ with $.Site.GetPage (printf "guides/%s" .) }}{{ partial "knowledge-card.html" . }}{{ end }}
+    {{ end }}
+  </div>
+  <div class="gk-journal-links"><h3>{{ if eq $lang "ar" }}مقارنات تساعدك على الاختيار{{ else }}Product comparisons and planning advice{{ end }}</h3><ul>{{ range first 3 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}<li><a href="{{ .RelPermalink }}">{{ .Title }} ↗</a></li>{{ end }}</ul><a href="{{ "blog/" | relLangURL }}">{{ if eq $lang "ar" }}مجلة الهدايا{{ else }}The gift journal{{ end }} ↗</a></div>
+</section>
