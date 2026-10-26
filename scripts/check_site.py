@@ -70,7 +70,7 @@ def inspect(path):
         data = json.loads(node.string or node.get_text())
         graphs += data.get("@graph", [data])
     require(any(g.get("@type") == "Organization" for g in graphs), path + ": organization")
-    require(any(g.get("@type") == "WebPage" for g in graphs), path + ": WebPage")
+    require(any(g.get("@type") in ("WebPage", "AboutPage") for g in graphs), path + ": WebPage")
     lang = "ar" if path.startswith("ar/") else "en"
     require(soup.select_one('meta[property="og:locale:alternate"]')["content"] == ("en_AE" if lang == "ar" else "ar_AE"), path + ": alternate locale")
     if path in ("", "ar/"):
@@ -96,6 +96,8 @@ def inspect(path):
         require(len(soup.select(".gk-body h2")) >= 3, path + ": useful article sections")
     if soup.select_one(".gk-article"):
         require(bool(soup.select_one(".gk-answer")), path + ": direct buyer answer")
+        author_link = soup.select_one('.gk-byline a[href]')
+        require(author_link and author_link['href'] == '/' + ('ar/' if lang == 'ar' else '') + 'about/#gift-team', path + ': accountable author link')
         faq = next(g for g in graphs if g.get("@type") == "FAQPage")
         visible = soup.select(".gk-faq details")
         require(len(visible) == len(faq["mainEntity"]), path + ": FAQ count")
@@ -107,6 +109,14 @@ def inspect(path):
         require(bool(soup.select(".gk-index .gk-card")), path + ": empty article list")
     floating = soup.select_one("a.vg-whatsapp-float")
     require(floating and floating["href"] == "https://wa.me/971525682660", path + ": WhatsApp")
+    privacy_path = '/' + ('ar/' if lang == 'ar' else '') + 'privacy/'
+    require(soup.select_one(f'footer a[href="{privacy_path}"]'), path + ': site-specific privacy link')
+    if path in ('about/', 'ar/about/'):
+        require('MUSE Information Services L.L.C-FZ' in soup.main.get_text(' '), path + ': visible company identity')
+        require(soup.find(id='project-approval') and soup.find(id='contact'), path + ': approval and contact details')
+        require(any(g.get('@type') == 'AboutPage' and g.get('mainEntity', {}).get('@id') == CANONICAL + '#organization' for g in graphs), path + ': about entity relationship')
+    if path in ('privacy/', 'ar/privacy/'):
+        require('Google Analytics' in soup.main.get_text(' ') and '180' in soup.main.get_text(' '), path + ': actual analytics disclosure')
     # Follow all same-site HTML links and fragment targets, not just the sitemap.
     for anchor in soup.select("a[href]"):
         href = anchor["href"]
@@ -145,7 +155,7 @@ try:
     if args.live and len(paths) > 50:
         # Keep stable entry points, then newest articles, then a daily rotating sample.
         content = json.loads(get("gift-guide.json"))
-        priority = ["", "ar/", "blog/", "ar/blog/", "guides/", "ar/guides/"]
+        priority = ["", "ar/", "about/", "ar/about/", "privacy/", "ar/privacy/", "blog/", "ar/blog/", "guides/", "ar/guides/"]
         ordered = sorted(content["articles"], key=lambda a: a.get("date") or "", reverse=True)
         for article in ordered[:10]:
             priority += [v["url"].removeprefix(CANONICAL) for v in article["translations"].values()]
@@ -163,6 +173,9 @@ try:
     require(bool(data.get("articles")), "Articles missing from machine index")
     full = get("llms-full.txt").decode("utf-8")
     short = get("llms.txt").decode("utf-8")
+    for lang, pages in data.get("company_pages", {}).items():
+        for name, link in pages.items():
+            require(link in short and link in full and link.removeprefix(CANONICAL) in known_paths, lang + name + ': company index consistency')
     for a in data["articles"]:
         for l, v in a["translations"].items():
             require(v["url"] in short and v["url"] in full and v["answer"] in full, a["id"] + ": index synchronisation")

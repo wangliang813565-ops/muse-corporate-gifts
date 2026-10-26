@@ -6,6 +6,10 @@ https://github.com/wangliang813565-ops/muse-corporate-gifts (main).
 Local root: C:/dev/geo-upgrade-20260929/muse-corporate-gifts.
 Only this gift site is within the daily publishing scope. Keep toys.aimuse.ae pages intact.
 
+### Homepage quality follow-up — 2026-10-27
+
+Read output/2026-10-27-home-quality-review.md together with the earlier index-investigation receipt. The company/about and gift-site privacy pages are substantive site information, not daily blog themes. Maintain their English/Arabic parity and homepage/author links. The gift site's optional analytics disclosure must match the consent implementation; do not restore links that describe the toy site's no-tracking setup as this site's policy. Keep the original site's contracts untouched. Original oud-burner images are design work, not proof of a delivered or tested physical order. Preserve the 29-product/9-occasion catalogue and distinct guides; the current duplicate-content audit did not justify mass deletion or canonical changes. Check actual Google recrawl and index status against this release, without attributing acceptance or non-indexing to an unproven quality penalty.
+
 ## One writer and existing release path
 
 Use the native heartbeat attached to this chat; do not add a Windows task, GitHub article-writing schedule, or another content service.

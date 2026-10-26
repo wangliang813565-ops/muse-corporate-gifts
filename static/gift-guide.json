@@ -1326,6 +1326,16 @@
       "image": "ceramic-qahwa"
     }
   ],
+  "company_pages": {
+    "en": {
+      "about": "https://gifts.aimuse.ae/about/",
+      "privacy": "https://gifts.aimuse.ae/privacy/"
+    },
+    "ar": {
+      "about": "https://gifts.aimuse.ae/ar/about/",
+      "privacy": "https://gifts.aimuse.ae/ar/privacy/"
+    }
+  },
   "capabilities": {
     "en": {
       "description": "We connect product selection with China’s manufacturing strengths: consumer technology, precision metal, leather, ceramics, glass and fitted gift packaging. Start with a recognised product or develop an original MUSE piece.",

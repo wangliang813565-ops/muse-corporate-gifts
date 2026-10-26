@@ -1,0 +1,15 @@
+{{ define "pagehead" }}
+{{ $atelier := resources.FromString "css/gift-atelier.css" (readFile "static/css/gift-atelier.css") | fingerprint }}
+{{ $knowledge := resources.FromString "css/gift-knowledge.css" (readFile "static/css/gift-knowledge.css") | fingerprint }}
+<link rel="stylesheet" href="{{ $atelier.RelPermalink }}">
+<link rel="stylesheet" href="{{ $knowledge.RelPermalink }}">
+{{ end }}
+{{ define "main" }}
+<article class="gk-wrap gk-info">
+  <nav class="gk-breadcrumb" aria-label="{{ if eq .Lang "ar" }}مسار الصفحة{{ else }}Breadcrumb{{ end }}"><a href="{{ "/" | relLangURL }}">MUSE</a><span>/</span><span>{{ if .Params.originalWork }}{{ if eq .Lang "ar" }}عن ميوز{{ else }}About MUSE{{ end }}{{ else }}{{ if eq .Lang "ar" }}الخصوصية{{ else }}Privacy{{ end }}{{ end }}</span></nav>
+  <div class="gk-info-head"><p class="gk-kicker">MUSE · DUBAI</p><h1>{{ .Title }}</h1><p class="gk-intro">{{ .Params.intro }}</p></div>
+  {{ if .Params.originalWork }}{{ partial "gift-design-work.html" . }}{{ end }}
+  <div class="gk-reading"><aside class="gk-toc"><p>{{ if eq .Lang "ar" }}في هذه الصفحة{{ else }}On this page{{ end }}</p>{{ .TableOfContents }}</aside><div class="gk-body">{{ .Content }}</div></div>
+  {{ if not .Params.originalWork }}<p class="gk-byline">{{ if eq .Lang "ar" }}آخر تحديث{{ else }}Last updated{{ end }}: <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006/01/02" }}</time></p>{{ end }}
+</article>
+{{ end }}

@@ -8,7 +8,7 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{/* Real publication dates belong to articles, not arbitrary site pages. */}}
-  {{ if .IsPage }}
+  {{ if and .IsPage (eq .Type "knowledge") }}
   {{ with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
   {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
   {{ end }}
@@ -512,6 +512,7 @@
       <a href="{{ "guides/corporate-gift-customisation/" | relLangURL }}">{{ if eq .Lang "ar" }}قدراتنا{{ else }}Our capabilities{{ end }}</a>
       <a href="{{ "guides/" | relLangURL }}">{{ if eq .Lang "ar" }}دليل الشراء{{ else }}Buying guides{{ end }}</a>
       <a href="{{ "blog/" | relLangURL }}">{{ if eq .Lang "ar" }}المجلة{{ else }}Journal{{ end }}</a>
+      <a href="{{ "about/" | relLangURL }}">{{ if eq .Lang "ar" }}عن ميوز{{ else }}About MUSE{{ end }}</a>
       <a href="{{ $home }}#gift-brief">{{ if eq .Lang "ar" }}خطّط لمشروعك{{ else }}Plan a project{{ end }}</a>
       {{ if eq .Lang "en" }}
         {{ if .IsTranslated }}{{ range .Translations }}<a href="{{ .RelPermalink }}" lang="ar">العربية</a>{{ end }}{{ else }}<a href="{{ .Site.BaseURL }}ar/">العربية</a>{{ end }}
@@ -532,9 +533,10 @@
       <a href="mailto:{{ .Site.Params.email }}">Email</a>
     </p>
     <p style="font-size:.78rem;margin-top:.5rem;">
-      <a href="https://toys.aimuse.ae/{{ if eq .Lang "ar" }}ar/{{ end }}privacy/">{{ if eq .Lang "ar" }}سياسة الخصوصية{{ else }}Privacy{{ end }}</a> &middot;
-      <a href="https://toys.aimuse.ae/{{ if eq .Lang "ar" }}ar/{{ end }}terms/">{{ if eq .Lang "ar" }}شروط الخدمة{{ else }}Terms{{ end }}</a> &middot;
-      <a href="https://toys.aimuse.ae/{{ if eq .Lang "ar" }}ar/{{ end }}refund-policy/">{{ if eq .Lang "ar" }}الاسترجاع{{ else }}Refund Policy{{ end }}</a>
+      <a href="{{ "about/" | relLangURL }}">{{ if eq .Lang "ar" }}عن الشركة{{ else }}Company{{ end }}</a> &middot;
+      <a href="{{ "about/" | relLangURL }}#project-approval">{{ if eq .Lang "ar" }}اعتماد المشروع{{ else }}Project approval{{ end }}</a> &middot;
+      <a href="{{ "about/" | relLangURL }}#contact">{{ if eq .Lang "ar" }}التواصل والدعم{{ else }}Contact & support{{ end }}</a> &middot;
+      <a href="{{ "privacy/" | relLangURL }}">{{ if eq .Lang "ar" }}الخصوصية{{ else }}Privacy{{ end }}</a>
       {{ if and hugo.IsProduction .Site.Params.analyticsID }} &middot; <button class="analytics-settings" type="button" data-analytics-settings hidden>{{ if eq .Lang "ar" }}إعدادات ملفات الارتباط{{ else }}Cookie settings{{ end }}</button>{{ end }}
     </p>
   </footer>

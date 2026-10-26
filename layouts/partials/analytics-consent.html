@@ -15,6 +15,7 @@
     <p>We also measure WhatsApp contact-button clicks, the pages they occur on and their visit sources. We do not send your name, email, phone number, project brief or WhatsApp message content to Analytics. Advertising features and automatic form collection are disabled. Analytics does not load before you accept.</p>
     <p>We remember your choice in this browser for up to 180 days. You can withdraw consent for future visits through Cookie settings in the footer. Analytics cookies have a 180-day expiry without automatic renewal; your browser may expire them earlier. Questions: <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google privacy policy</a>.</p>
     {{ end }}
+    <p><a href="{{ "privacy/" | relLangURL }}">{{ if eq .Lang "ar" }}إشعار الخصوصية الكامل لهذا الموقع{{ else }}Full privacy notice for this site{{ end }}</a></p>
   </details>
   <div class="analytics-actions"><button type="button" data-analytics-choice="granted">{{ if eq .Lang "ar" }}السماح بالإحصاءات{{ else }}Allow analytics{{ end }}</button><button type="button" data-analytics-choice="denied">{{ if eq .Lang "ar" }}رفض{{ else }}Decline{{ end }}</button></div>
 </section>

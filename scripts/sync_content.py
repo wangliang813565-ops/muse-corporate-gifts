@@ -107,6 +107,7 @@ def synchronise():
     structured = {"site": BASE, "languages": ["en", "ar"], "company": "MUSE Information Services L.L.C-FZ",
                   "whatsapp": "+971525682660", "products": products, "occasions": occasions, "faqs": faqs}
     structured["categories"] = [c for c in catalogue["categories"] if c["id"] != "all"]
+    structured["company_pages"] = {l: {"about": url(l, "about"), "privacy": url(l, "privacy")} for l in ("en", "ar")}
     structured["capabilities"] = {l: {"description": catalogue["ui"][l]["craftText"], "routes": catalogue["ui"][l]["craftSteps"], "url": url(l, "guides", "corporate-gift-customisation")} for l in ("en", "ar")}
     structured["articles"] = [{"id": a["id"], "topic_key": a["topic_key"], "kind": a["kind"],
         "date": a.get("date"), "updated_at": a.get("updated_at"), "products": a["products"], "translations": {l: {"url": url(l, "blog" if a["kind"] == "blog" else "guides", a["slug"]),
@@ -119,6 +120,9 @@ def synchronise():
     full = ["# MUSE Corporate Gifts Dubai", "", "MUSE Information Services L.L.C-FZ, Dubai, UAE.",
         "WhatsApp: +971 52 568 2660. Email: musetrendytoy@gmail.com.",
         "Brand/model selection, permitted decoration, packaging, samples and delivery are agreed for each project."]
+    company_links = ["", "## Company and privacy", "- [About MUSE](" + url("en", "about") + ")", "- [عن ميوز](" + url("ar", "about") + ")", "- [Gift-site privacy](" + url("en", "privacy") + ")", "- [خصوصية موقع الهدايا](" + url("ar", "privacy") + ")"]
+    short[6:6] = company_links
+    full += company_links
     for a in articles:
         for l in ("en", "ar"):
             c = a["locales"][l]; link = url(l, "blog" if a["kind"] == "blog" else "guides", a["slug"])
