@@ -3,6 +3,10 @@
 <link rel="stylesheet" href="{{ $atelierStyle.RelPermalink }}">
 {{ $knowledgeStyle := resources.FromString "css/gift-knowledge.css" (readFile "static/css/gift-knowledge.css") | fingerprint }}
 <link rel="stylesheet" href="{{ $knowledgeStyle.RelPermalink }}">
+{{ if eq .Section "guides" }}
+{{ $hubStyle := resources.FromString "css/gift-guide-hub.css" (readFile "static/css/gift-guide-hub.css") | fingerprint }}
+<link rel="stylesheet" href="{{ $hubStyle.RelPermalink }}">
+{{ end }}
 {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ $.Title }}" href="{{ .Permalink }}">{{ end }}
 {{ end }}
 {{ define "main" }}
@@ -10,9 +14,21 @@
   <p class="gk-kicker">MUSE / {{ if eq .Lang "ar" }}اختيار مدروس{{ else }}A considered choice{{ end }}</p>
   <h1>{{ .Title }}</h1><p class="gk-intro">{{ .Description }}</p>
   <div class="gk-index-nav"><a href="{{ "guides/" | relLangURL }}">{{ if eq .Lang "ar" }}أدلة الشراء{{ else }}Buying guides{{ end }}</a><a href="{{ "blog/" | relLangURL }}">{{ if eq .Lang "ar" }}مجلة الهدايا{{ else }}Gift journal{{ end }}</a><a href="{{ "/" | relLangURL }}#gift-selection">{{ if eq .Lang "ar" }}استكشف الهدايا{{ else }}Explore the gifts{{ end }} ↗</a></div>
-  <div class="gk-grid">{{ range .RegularPages.ByDate.Reverse }}{{ partial "knowledge-card.html" . }}{{ end }}</div>
   {{ if eq .Section "guides" }}
+  <p class="gk-hub-answer">{{ .Params.answer }}</p>
+  <div class="gk-guide-routes">
+    {{ range $i, $route := .Params.guideRoutes }}
+    {{ with $.Site.GetPage (printf "guides/%s" $route.id) }}
+    <section class="gk-guide-route" id="choose-{{ $route.id }}">
+      <span class="gk-route-number" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+      <div><h2>{{ $route.question }}</h2><p>{{ $route.text }}</p><ul>{{ range $route.checks }}<li>{{ . }}</li>{{ end }}</ul><a class="gk-route-link" href="{{ .RelPermalink }}">{{ $route.link }} <span aria-hidden="true">↗</span></a></div>
+    </section>
+    {{ end }}
+    {{ end }}
+  </div>
   <section class="gk-occasion-index"><h2>{{ if eq .Lang "ar" }}ابدأ بالمناسبة{{ else }}Start with the occasion{{ end }}</h2><div class="gk-occasion-links">{{ $lang := .Lang }}{{ range hugo.Data.gift_occasions.guides }}<a href="{{ "/" | relLangURL }}#occasion-{{ .id }}">{{ index .title $lang }} <span>↗</span></a>{{ end }}</div></section>
+  {{ else }}
+  <div class="gk-grid">{{ range .RegularPages.ByDate.Reverse }}{{ partial "knowledge-card.html" . }}{{ end }}</div>
   {{ end }}
   <aside class="gk-contact"><h2>{{ if eq .Lang "ar" }}لنحوّل الفكرة إلى هدية{{ else }}Bring the idea to your project.{{ end }}</h2><p>{{ if eq .Lang "ar" }}أخبرنا بالمناسبة والمستلمين والكمية وتاريخ التسليم.{{ else }}Share your occasion, recipients, quantity and required delivery date.{{ end }}</p><a href="{{ "/" | relLangURL }}#gift-brief">{{ if eq .Lang "ar" }}خطّط لمشروعك{{ else }}Plan a gift project{{ end }} ↗</a></aside>
 </section>

@@ -106,7 +106,8 @@ def inspect(path):
             require(detail.p.get_text(strip=True) == entity["acceptedAnswer"]["text"], path + ": FAQ answer mismatch")
     if path in ("blog/", "ar/blog/", "guides/", "ar/guides/"):
         require(bool(soup.select_one(".gk-index")) and not soup.select_one(".gk-article"), path + ": wrong section template")
-        require(bool(soup.select(".gk-index .gk-card")), path + ": empty article list")
+        entries = soup.select('.gk-guide-route a[href]') if path.endswith('guides/') else soup.select('.gk-index .gk-card a[href]')
+        require(bool(entries), path + ": empty buying routes or article list")
     floating = soup.select_one("a.vg-whatsapp-float")
     require(floating and floating["href"] == "https://wa.me/971525682660", path + ": WhatsApp")
     privacy_path = '/' + ('ar/' if lang == 'ar' else '') + 'privacy/'
@@ -150,6 +151,8 @@ try:
         for loc in ET.fromstring(get(node.text.removeprefix(CANONICAL))).findall("{*}url/{*}loc"):
             paths.append(loc.text.removeprefix(CANONICAL))
     if not paths: paths = [loc.text.removeprefix(CANONICAL) for loc in index.findall("{*}url/{*}loc")]
+    require(len(paths) == len(set(paths)), "Duplicate canonical URLs in sitemap")
+    require(all(not urlsplit(p).scheme and not urlsplit(p).query and not urlsplit(p).fragment and (not p or p.endswith('/')) for p in paths), "Noncanonical URL variant in sitemap")
     known_paths.update(paths)
     sampled = list(paths)
     if args.live and len(paths) > 50:
@@ -173,6 +176,17 @@ try:
     require(bool(data.get("articles")), "Articles missing from machine index")
     full = get("llms-full.txt").decode("utf-8")
     short = get("llms.txt").decode("utf-8")
+    for lang, hub in data.get("guide_hub", {}).items():
+        hub_path = hub["url"].removeprefix(CANONICAL)
+        require(hub_path in known_paths and hub["url"] in short, lang + ': guide hub discovery')
+        require(hub["answer"] in full, lang + ': guide hub machine answer')
+        if hub_path in sampled:
+            hub_page = BeautifulSoup(get(hub_path), 'html.parser')
+            require(hub["answer"] in hub_page.get_text(), lang + ': guide hub visible answer')
+            for route in hub["routes"]:
+                article = next(a for a in data["articles"] if a["id"] == route["id"])
+                target = article["translations"][lang]["url"]
+                require(any(urljoin(CANONICAL, a['href']) == target for a in hub_page.select('.gk-guide-route a[href]')), lang + ': missing buyer route ' + route["id"])
     for lang, pages in data.get("company_pages", {}).items():
         for name, link in pages.items():
             require(link in short and link in full and link.removeprefix(CANONICAL) in known_paths, lang + name + ': company index consistency')

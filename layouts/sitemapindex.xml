@@ -1,0 +1,16 @@
+{{- /* A single root-level canonical URL set; retain Hugo language maps for existing submissions. */ -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>\n" | safeHTML -}}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{{- range hugo.Sites -}}
+  {{- range .Pages -}}
+    {{- if not .Sitemap.Disable }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}<lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>{{ end -}}
+    {{- range .AllTranslations }}<xhtml:link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}"/>{{ end -}}
+    {{- range .AllTranslations }}{{ if eq .Lang "en" }}<xhtml:link rel="alternate" hreflang="x-default" href="{{ .Permalink }}"/>{{ end }}{{ end }}
+  </url>
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+</urlset>

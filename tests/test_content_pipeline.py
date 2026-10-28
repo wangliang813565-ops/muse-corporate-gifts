@@ -47,6 +47,12 @@ class ContentGuards(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, "Duplicate buyer question"):
             builder.synchronise()
 
+    def test_unknown_guide_route_cannot_publish_a_dead_end(self):
+        self.data['guide_hub']['locales']['en']['routes'][0]['id'] = 'missing-guide'
+        self.save()
+        with self.assertRaisesRegex(AssertionError, 'existing guides'):
+            builder.synchronise()
+
     def test_second_theme_on_same_dubai_day_is_rejected(self):
         extra = copy.deepcopy(self.data["articles"][-1])
         extra.update(id="another-id", slug="another-url", topic_key="another-question")

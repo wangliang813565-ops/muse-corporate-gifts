@@ -12,6 +12,8 @@ Read output/2026-10-27-home-quality-review.md together with the earlier index-in
 
 ## One writer and existing release path
 
+2026-10-28 discovery follow-up: the root sitemap is now a direct bilingual canonical URL set; the existing /en/sitemap.xml and /ar/sitemap.xml remain available for previously submitted records. Do not sum duplicate URL discovery across these three maps. The English map's /en/ location was not a proven Google submission error. The buying-guide hub is generated from gift_knowledge.json guide_hub and has distinct decision routes rather than copied homepage cards. Keep all five route targets valid, both languages and machine text aligned, and the calendar/technology/customisation navigation reachable. Read output/2026-10-28-discovery-review.md for deployment and GSC receipt; do not resubmit the root map daily or repeat the accepted calendar indexing request.
+
 Use the native heartbeat attached to this chat; do not add a Windows task, GitHub article-writing schedule, or another content service.
 Before editing, inspect git status, remote main, the latest deploy run, today's articles, and any in-progress work in this chat. A dirty tree is not permission to reset, discard, stage, or publish another owner's work. Resume the same unfinished article/deployment after an unknown result; do not create another one.
 

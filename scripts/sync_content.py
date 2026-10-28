@@ -100,14 +100,23 @@ def synchronise():
                               "guides": "اختر الهدايا بحسب المستلمين والمناسبة والتخصيص الذي يحتاجه مشروعك."}}
             folder = ROOT / "content" / lang / section
             folder.mkdir(parents=True, exist_ok=True)
-            (folder / "_index.md").write_text(frontmatter({"title": titles[lang][section], "description": intros[lang][section],
-                "translationKey": "section-" + section, "type": "knowledge", "layout": "list", "image": "/images/corporate-gifts/v2/presentation-detail.webp"}), encoding="utf-8")
+            fields = {"title": titles[lang][section], "description": intros[lang][section],
+                "translationKey": "section-" + section, "type": "knowledge", "layout": "list", "image": "/images/corporate-gifts/v2/presentation-detail.webp"}
+            if section == "guides":
+                hub = knowledge["guide_hub"]["locales"][lang]
+                guide_ids = {a["id"] for a in articles if a["kind"] == "guide"}
+                assert {r["id"] for r in hub["routes"]} == guide_ids, "Guide hub must cover the existing guides"
+                assert len(hub["routes"]) == len(guide_ids), "Duplicate guide hub route"
+                fields.update(title=hub["title"], description=hub["description"], answer=hub["answer"],
+                              guideRoutes=hub["routes"], lastmod=knowledge["guide_hub"]["updated_at"])
+            (folder / "_index.md").write_text(frontmatter(fields), encoding="utf-8")
 
     # Keep existing product and occasion data in this same public index, adding articles.
     structured = {"site": BASE, "languages": ["en", "ar"], "company": "MUSE Information Services L.L.C-FZ",
                   "whatsapp": "+971525682660", "products": products, "occasions": occasions, "faqs": faqs}
     structured["categories"] = [c for c in catalogue["categories"] if c["id"] != "all"]
     structured["company_pages"] = {l: {"about": url(l, "about"), "privacy": url(l, "privacy")} for l in ("en", "ar")}
+    structured["guide_hub"] = {l: {**knowledge["guide_hub"]["locales"][l], "url": url(l, "guides")} for l in ("en", "ar")}
     structured["capabilities"] = {l: {"description": catalogue["ui"][l]["craftText"], "routes": catalogue["ui"][l]["craftSteps"], "url": url(l, "guides", "corporate-gift-customisation")} for l in ("en", "ar")}
     structured["articles"] = [{"id": a["id"], "topic_key": a["topic_key"], "kind": a["kind"],
         "date": a.get("date"), "updated_at": a.get("updated_at"), "products": a["products"], "translations": {l: {"url": url(l, "blog" if a["kind"] == "blog" else "guides", a["slug"]),
@@ -123,6 +132,12 @@ def synchronise():
     company_links = ["", "## Company and privacy", "- [About MUSE](" + url("en", "about") + ")", "- [عن ميوز](" + url("ar", "about") + ")", "- [Gift-site privacy](" + url("en", "privacy") + ")", "- [خصوصية موقع الهدايا](" + url("ar", "privacy") + ")"]
     short[6:6] = company_links
     full += company_links
+    for l, hub in structured["guide_hub"].items():
+        short.append(f'- [{hub["title"]}]({hub["url"]})')
+        full += ["", "## " + hub["title"], hub["url"], hub["answer"]]
+        for route in hub["routes"]:
+            article = next(a for a in articles if a["id"] == route["id"])
+            full += ["### " + route["question"], route["text"], *["- " + x for x in route["checks"]], url(l, "guides", article["slug"])]
     for a in articles:
         for l in ("en", "ar"):
             c = a["locales"][l]; link = url(l, "blog" if a["kind"] == "blog" else "guides", a["slug"])
