@@ -50,6 +50,8 @@ def require(condition, message):
 def inspect(path):
     raw = get(path).decode("utf-8")
     soup = BeautifulSoup(raw, "html.parser")
+    favicon = soup.select_one('link[rel="icon"]')
+    require(favicon and favicon.get('href') == '/favicon.ico', path + ': stable root favicon')
     require(len(soup.select("h1")) == 1, path + ": one H1 required")
     require(len(soup.select('link[rel="canonical"]')) == 1, path + ": canonical count")
     require(soup.select_one('link[rel="canonical"]')["href"] == CANONICAL + path, path + ": canonical target")
@@ -141,6 +143,9 @@ result = {"time_utc": datetime.now(timezone.utc).isoformat(), "mode": "live" if 
           "search_indexing": "unknown", "ai_citations": "unknown", "search_referrals": "unknown", "qualified_enquiries": "unknown"}
 try:
     robots = get("robots.txt").decode()
+    # Google requests the conventional root icon even when another icon is declared.
+    # A real ICO header avoids accepting a 200 HTML fallback as a valid asset.
+    require(get("favicon.ico").startswith(b'\x00\x00\x01\x00'), "Missing or invalid root favicon")
     verification = get("google30d7c935c23d8f9a.html").decode("utf-8").strip()
     require(verification == "google-site-verification: google30d7c935c23d8f9a.html", "Search Console ownership file missing or changed")
     require("Disallow: /\n" not in robots, "robots blocks all crawling")

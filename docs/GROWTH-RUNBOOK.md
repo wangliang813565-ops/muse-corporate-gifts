@@ -31,6 +31,18 @@ Search indexing, impressions, clicks, AI citations and enquiries require actual 
 
 ## Actual Search Console baseline and follow-up
 
+### 2026-10-31：把发现、实际抓取与索引版本分开核对
+
+本次人工深查纠正了仅依赖 URL Inspection 的结论，证据见 `output/2026-10-31-crawl-investigation.md`。Crawl Stats（更新至 10/29）的 HTML 示例明确记录首页在 **10/28 08:00、Googlebot Smartphone、HTTP 200、刷新**；URL Inspection 仍显示 10/22 22:16:32、已抓取未收录。不能再说“10/22 后没有抓取”。界面时区未核实，不能据此认定取到了 10/28 11:38 Dubai 发布的某一版本。抓取成功也不等于索引处理完成。
+
+英阿科技、日历及定制指南已出现在 **10/23 更新的“已发现—尚未编入索引”清单**；单页 URL Inspection 仍可能显示 Google 未知。保留两项的报告时间与原文，不将单页“未知”扩写成 Google 从未发现。10/31 科技指南 Google 智能手机版现场测试：HTTP 200、抓取和索引均允许、自指 canonical、正文可读、全部资源加载成功；这不等于常规抓取或已收录。其一次索引申请显示 reCAPTCHA 连接失败，已交本人接手；未确认受理前不记成功，若本人回复受理则保留该确认，不为补工具弹窗重复提交。
+
+原每日 08:00 流程应同时核对三条证据：①地图读取/类型/发现数和“已发现未索引”实际 URL 清单；②主机可用性、robots 与 Crawl Stats 中实际 HTML 请求示例的 URL、时间、Googlebot、响应码、目的和报告更新日；③URL Inspection 的索引状态、索引版上次抓取、canonical。抓取报告有更新或与单页检查矛盾时必须展开 HTML 示例，不能只看汇总比例；示例不是完整日志，未出现某网址不等于从未抓取。相同日期未更新时可复用已保存的原始证据，报告其日期。
+
+本轮抓取报告共 147 次请求、HTML 6 次，主机无可用性问题；404 共 6 次，展示的四个示例全为 `/favicon.ico`。原公共请求证实该资源 404，已增加真实方形多尺寸 ICO，并将所有页面的图标声明和检查器指向它。此缺陷与抓取队列/未收录原因分开，不能称为 Google 拒收全站的根因。根地图当前已处理 42 URL，保留原 sitemap 和核心一跳 HTML 内链，不为刷新日期重提地图或机械改写正文。
+
+每日仍按原要求报告实际收录、GA4/WhatsApp 与 GSC Web 数据；必要时明确纠正前次“未抓取/未发现”的过度结论。技术修复验收、常规 Google 重抓、实际收录、流量和询盘分别接纳。Google 未说明的调度/索引决策原因保持未知，不猜处罚、配额或质量拒收。
+
 Read the current GEO skill and its references/google-search-console.md before interpreting reports. The verified URL-prefix property is https://gifts.aimuse.ae/ (added 2026-10-16). The toys property is a different site. Keep static/google30d7c935c23d8f9a.html intact; the release checker verifies the exact public verification file.
 
 Actual onboarding findings on 2026-10-16: ownership verification succeeded; Search performance and indexing reports are processing, so queries, page impressions, clicks and rankings are unavailable, not zero. Google AI inclusion inherits aimuse.ae and is currently Include; no policy change is needed. Absence of a separate AI performance report is not evidence of zero AI impressions.
